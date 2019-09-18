@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`remark plantuml plugin fails the build when can't find Java and Graphviz 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "lang": "plantuml",
+      "position": Position {
+        "end": Object {
+          "column": 4,
+          "line": 10,
+          "offset": 203,
+        },
+        "indent": Array [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+        ],
+        "start": Object {
+          "column": 1,
+          "line": 2,
+          "offset": 1,
+        },
+      },
+      "type": "code",
+      "value": "@startuml
+Alice -> Bob: Authentication Request
+Bob --> Alice: Authentication Response
+
+Alice -> Bob: Another authentication Request
+Alice <-- Bob: Another authentication Response
+@enduml",
+    },
+  ],
+  "position": Object {
+    "end": Object {
+      "column": 1,
+      "line": 11,
+      "offset": 204,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "root",
+}
+`;
+
+exports[`remark plantuml plugin ignores codeblocks that are not plantuml with lang='' 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "lang": null,
+      "position": Position {
+        "end": Object {
+          "column": 4,
+          "line": 3,
+          "offset": 15,
+        },
+        "indent": Array [
+          1,
+          1,
+        ],
+        "start": Object {
+          "column": 1,
+          "line": 1,
+          "offset": 0,
+        },
+      },
+      "type": "code",
+      "value": "// Fake",
+    },
+  ],
+  "position": Object {
+    "end": Object {
+      "column": 4,
+      "line": 3,
+      "offset": 15,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "root",
+}
+`;
+
+exports[`remark plantuml plugin ignores codeblocks that are not plantuml with lang='js' 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "lang": "js",
+      "position": Position {
+        "end": Object {
+          "column": 4,
+          "line": 3,
+          "offset": 17,
+        },
+        "indent": Array [
+          1,
+          1,
+        ],
+        "start": Object {
+          "column": 1,
+          "line": 1,
+          "offset": 0,
+        },
+      },
+      "type": "code",
+      "value": "// Fake",
+    },
+  ],
+  "position": Object {
+    "end": Object {
+      "column": 4,
+      "line": 3,
+      "offset": 17,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "root",
+}
+`;
