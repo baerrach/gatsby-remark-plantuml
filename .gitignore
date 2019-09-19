@@ -35,3 +35,6 @@ bin/published.js
 # lock files
 yarn.lock
 package-lock.json
+
+# visualized test files
+svg/

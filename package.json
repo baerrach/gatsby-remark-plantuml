@@ -28,7 +28,9 @@
     "test": "jest",
     "test:coverage": "jest --coverage",
     "test:update": "jest --updateSnapshot",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "visualize:tests": "node scripts/visualize-tests.js",
+    "v": "npm run visualize:tests"
   },
   "dependencies": {
     "@babel/runtime": "^7.6.0",
