@@ -72,5 +72,20 @@ Bob->L: Log transaction
         code,
       })
     })
+
+    it(`Example 3`, async () => {
+      const code = `
+\`\`\`plantuml
+@startuml
+participant Last order 30
+participant Middle order 20
+participant First order 10
+@enduml
+\`\`\`
+`
+      await testRemarkPlugin.testPlugin({
+        code,
+      })
+    })
   })
 })
