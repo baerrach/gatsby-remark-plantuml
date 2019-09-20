@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`remark plantuml plugin - sequence diagrams Basic examples 1`] = `
+exports[`Sequence Basic examples 1`] = `
 Object {
   "children": Array [
     Object {
@@ -56,6 +56,226 @@ Country: AU
       "column": 1,
       "line": 11,
       "offset": 204,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "root",
+}
+`;
+
+exports[`Sequence Declaring participant Example 1 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": undefined,
+      "lang": undefined,
+      "position": Position {
+        "end": Object {
+          "column": 4,
+          "line": 17,
+          "offset": 251,
+        },
+        "indent": Array [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+        ],
+        "start": Object {
+          "column": 1,
+          "line": 2,
+          "offset": 1,
+        },
+      },
+      "type": "html",
+      "value": "<?xml version=\\"1.0\\" encoding=\\"UTF-8\\" standalone=\\"no\\"?><svg xmlns=\\"http://www.w3.org/2000/svg\\" xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" contentScriptType=\\"application/ecmascript\\" contentStyleType=\\"text/css\\" height=\\"347px\\" preserveAspectRatio=\\"none\\" style=\\"width:366px;height:347px;\\" version=\\"1.1\\" viewBox=\\"0 0 366 347\\" width=\\"366px\\" zoomAndPan=\\"magnify\\"><defs><filter height=\\"300%\\" id=\\"f12w6r7cq439e9\\" width=\\"300%\\" x=\\"-1\\" y=\\"-1\\"><feGaussianBlur result=\\"blurOut\\" stdDeviation=\\"2.0\\"/><feColorMatrix in=\\"blurOut\\" result=\\"blurOut2\\" type=\\"matrix\\" values=\\"0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0\\"/><feOffset dx=\\"4.0\\" dy=\\"4.0\\" in=\\"blurOut2\\" result=\\"blurOut3\\"/><feBlend in=\\"SourceGraphic\\" in2=\\"blurOut3\\" mode=\\"normal\\"/></filter></defs><g><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"27\\" x2=\\"27\\" y1=\\"87.6094\\" y2=\\"259.3672\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"122\\" x2=\\"122\\" y1=\\"87.6094\\" y2=\\"259.3672\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"176\\" x2=\\"176\\" y1=\\"87.6094\\" y2=\\"259.3672\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"225\\" x2=\\"225\\" y1=\\"87.6094\\" y2=\\"259.3672\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"274\\" x2=\\"274\\" y1=\\"87.6094\\" y2=\\"259.3672\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"331\\" x2=\\"331\\" y1=\\"87.6094\\" y2=\\"259.3672\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"33\\" x=\\"8\\" y=\\"84.5332\\">Foo1</text><ellipse cx=\\"27.5\\" cy=\\"13\\" fill=\\"#FEFECE\\" filter=\\"url(#f12w6r7cq439e9)\\" rx=\\"8\\" ry=\\"8\\" style=\\"stroke: #A80036; stroke-width: 2.0;\\"/><path d=\\"M27.5,21 L27.5,48 M14.5,29 L40.5,29 M27.5,48 L14.5,63 M27.5,48 L40.5,63 \\" fill=\\"none\\" filter=\\"url(#f12w6r7cq439e9)\\" style=\\"stroke: #A80036; stroke-width: 2.0;\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"33\\" x=\\"8\\" y=\\"272.9004\\">Foo1</text><ellipse cx=\\"27.5\\" cy=\\"285.9766\\" fill=\\"#FEFECE\\" filter=\\"url(#f12w6r7cq439e9)\\" rx=\\"8\\" ry=\\"8\\" style=\\"stroke: #A80036; stroke-width: 2.0;\\"/><path d=\\"M27.5,293.9766 L27.5,320.9766 M14.5,301.9766 L40.5,301.9766 M27.5,320.9766 L14.5,335.9766 M27.5,320.9766 L40.5,335.9766 \\" fill=\\"none\\" filter=\\"url(#f12w6r7cq439e9)\\" style=\\"stroke: #A80036; stroke-width: 2.0;\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"33\\" x=\\"103\\" y=\\"84.5332\\">Foo2</text><path d=\\"M102,42 L102,66 M102,54 L119,54 \\" fill=\\"none\\" filter=\\"url(#f12w6r7cq439e9)\\" style=\\"stroke: #A80036; stroke-width: 2.0;\\"/><ellipse cx=\\"131\\" cy=\\"54\\" fill=\\"#FEFECE\\" filter=\\"url(#f12w6r7cq439e9)\\" rx=\\"12\\" ry=\\"12\\" style=\\"stroke: #A80036; stroke-width: 2.0;\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"33\\" x=\\"103\\" y=\\"272.9004\\">Foo2</text><path d=\\"M102,279.9766 L102,303.9766 M102,291.9766 L119,291.9766 \\" fill=\\"none\\" filter=\\"url(#f12w6r7cq439e9)\\" style=\\"stroke: #A80036; stroke-width: 2.0;\\"/><ellipse cx=\\"131\\" cy=\\"291.9766\\" fill=\\"#FEFECE\\" filter=\\"url(#f12w6r7cq439e9)\\" rx=\\"12\\" ry=\\"12\\" style=\\"stroke: #A80036; stroke-width: 2.0;\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"33\\" x=\\"157\\" y=\\"84.5332\\">Foo3</text><ellipse cx=\\"176.5\\" cy=\\"54\\" fill=\\"#FEFECE\\" filter=\\"url(#f12w6r7cq439e9)\\" rx=\\"12\\" ry=\\"12\\" style=\\"stroke: #A80036; stroke-width: 2.0;\\"/><polygon fill=\\"#A80036\\" points=\\"172.5,42,178.5,37,176.5,42,178.5,47,172.5,42\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"33\\" x=\\"157\\" y=\\"272.9004\\">Foo3</text><ellipse cx=\\"176.5\\" cy=\\"291.9766\\" fill=\\"#FEFECE\\" filter=\\"url(#f12w6r7cq439e9)\\" rx=\\"12\\" ry=\\"12\\" style=\\"stroke: #A80036; stroke-width: 2.0;\\"/><polygon fill=\\"#A80036\\" points=\\"172.5,279.9766,178.5,274.9766,176.5,279.9766,178.5,284.9766,172.5,279.9766\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"33\\" x=\\"206\\" y=\\"84.5332\\">Foo4</text><ellipse cx=\\"225.5\\" cy=\\"54\\" fill=\\"#FEFECE\\" filter=\\"url(#f12w6r7cq439e9)\\" rx=\\"12\\" ry=\\"12\\" style=\\"stroke: #A80036; stroke-width: 2.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 2.0;\\" x1=\\"213.5\\" x2=\\"237.5\\" y1=\\"68\\" y2=\\"68\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"33\\" x=\\"206\\" y=\\"272.9004\\">Foo4</text><ellipse cx=\\"225.5\\" cy=\\"291.9766\\" fill=\\"#FEFECE\\" filter=\\"url(#f12w6r7cq439e9)\\" rx=\\"12\\" ry=\\"12\\" style=\\"stroke: #A80036; stroke-width: 2.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 2.0;\\" x1=\\"213.5\\" x2=\\"237.5\\" y1=\\"305.9766\\" y2=\\"305.9766\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"33\\" x=\\"255\\" y=\\"84.5332\\">Foo5</text><path d=\\"M256.5,34 C256.5,24 274.5,24 274.5,24 C274.5,24 292.5,24 292.5,34 L292.5,60 C292.5,70 274.5,70 274.5,70 C274.5,70 256.5,70 256.5,60 L256.5,34 \\" fill=\\"#FEFECE\\" filter=\\"url(#f12w6r7cq439e9)\\" style=\\"stroke: #000000; stroke-width: 1.5;\\"/><path d=\\"M256.5,34 C256.5,44 274.5,44 274.5,44 C274.5,44 292.5,44 292.5,34 \\" fill=\\"none\\" style=\\"stroke: #000000; stroke-width: 1.5;\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"33\\" x=\\"255\\" y=\\"272.9004\\">Foo5</text><path d=\\"M256.5,285.9766 C256.5,275.9766 274.5,275.9766 274.5,275.9766 C274.5,275.9766 292.5,275.9766 292.5,285.9766 L292.5,311.9766 C292.5,321.9766 274.5,321.9766 274.5,321.9766 C274.5,321.9766 256.5,321.9766 256.5,311.9766 L256.5,285.9766 \\" fill=\\"#FEFECE\\" filter=\\"url(#f12w6r7cq439e9)\\" style=\\"stroke: #000000; stroke-width: 1.5;\\"/><path d=\\"M256.5,285.9766 C256.5,295.9766 274.5,295.9766 274.5,295.9766 C274.5,295.9766 292.5,295.9766 292.5,285.9766 \\" fill=\\"none\\" style=\\"stroke: #000000; stroke-width: 1.5;\\"/><rect fill=\\"#FEFECE\\" filter=\\"url(#f12w6r7cq439e9)\\" height=\\"31.6094\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"47\\" x=\\"308\\" y=\\"47\\"/><rect fill=\\"#FEFECE\\" filter=\\"url(#f12w6r7cq439e9)\\" height=\\"31.6094\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"47\\" x=\\"304\\" y=\\"51\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"33\\" x=\\"311\\" y=\\"72.5332\\">Foo6</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f12w6r7cq439e9)\\" height=\\"31.6094\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"47\\" x=\\"308\\" y=\\"258.3672\\"/><rect fill=\\"#FEFECE\\" filter=\\"url(#f12w6r7cq439e9)\\" height=\\"31.6094\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"47\\" x=\\"304\\" y=\\"262.3672\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"33\\" x=\\"311\\" y=\\"283.9004\\">Foo6</text><polygon fill=\\"#A80036\\" points=\\"110.5,115.9609,120.5,119.9609,110.5,123.9609,114.5,119.9609\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"27.5\\" x2=\\"116.5\\" y1=\\"119.9609\\" y2=\\"119.9609\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"71\\" x=\\"34.5\\" y=\\"115.1045\\">To boundary</text><polygon fill=\\"#A80036\\" points=\\"164.5,146.3125,174.5,150.3125,164.5,154.3125,168.5,150.3125\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"27.5\\" x2=\\"170.5\\" y1=\\"150.3125\\" y2=\\"150.3125\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"57\\" x=\\"34.5\\" y=\\"145.4561\\">To control</text><polygon fill=\\"#A80036\\" points=\\"213.5,176.6641,223.5,180.6641,213.5,184.6641,217.5,180.6641\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"27.5\\" x2=\\"219.5\\" y1=\\"180.6641\\" y2=\\"180.6641\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"50\\" x=\\"34.5\\" y=\\"175.8076\\">To entity</text><polygon fill=\\"#A80036\\" points=\\"262.5,207.0156,272.5,211.0156,262.5,215.0156,266.5,211.0156\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"27.5\\" x2=\\"268.5\\" y1=\\"211.0156\\" y2=\\"211.0156\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"71\\" x=\\"34.5\\" y=\\"206.1592\\">To database</text><polygon fill=\\"#A80036\\" points=\\"319.5,237.3672,329.5,241.3672,319.5,245.3672,323.5,241.3672\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"27.5\\" x2=\\"325.5\\" y1=\\"241.3672\\" y2=\\"241.3672\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"80\\" x=\\"34.5\\" y=\\"236.5107\\">To collections</text><!--
+@startuml
+actor Foo1
+boundary Foo2
+control Foo3
+entity Foo4
+database Foo5
+collections Foo6
+Foo1 -> Foo2 : To boundary
+Foo1 -> Foo3 : To control
+Foo1 -> Foo4 : To entity
+Foo1 -> Foo5 : To database
+Foo1 -> Foo6 : To collections
+
+@enduml
+
+PlantUML version 1.2019.09(Tue Aug 27 01:49:51 ACST 2019)
+(MIT source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_221-b11
+Operating System: Windows 10
+OS Version: 10.0
+Default Encoding: Cp1252
+Language: en
+Country: AU
+--></g></svg>",
+    },
+  ],
+  "position": Object {
+    "end": Object {
+      "column": 1,
+      "line": 18,
+      "offset": 252,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "root",
+}
+`;
+
+exports[`Sequence Declaring participant Example 2 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": undefined,
+      "lang": undefined,
+      "position": Position {
+        "end": Object {
+          "column": 4,
+          "line": 17,
+          "offset": 373,
+        },
+        "indent": Array [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+        ],
+        "start": Object {
+          "column": 1,
+          "line": 2,
+          "offset": 1,
+        },
+      },
+      "type": "html",
+      "value": "<?xml version=\\"1.0\\" encoding=\\"UTF-8\\" standalone=\\"no\\"?><svg xmlns=\\"http://www.w3.org/2000/svg\\" xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" contentScriptType=\\"application/ecmascript\\" contentStyleType=\\"text/css\\" height=\\"287px\\" preserveAspectRatio=\\"none\\" style=\\"width:339px;height:287px;\\" version=\\"1.1\\" viewBox=\\"0 0 339 287\\" width=\\"339px\\" zoomAndPan=\\"magnify\\"><defs><filter height=\\"300%\\" id=\\"f86piaijiism8\\" width=\\"300%\\" x=\\"-1\\" y=\\"-1\\"><feGaussianBlur result=\\"blurOut\\" stdDeviation=\\"2.0\\"/><feColorMatrix in=\\"blurOut\\" result=\\"blurOut2\\" type=\\"matrix\\" values=\\"0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0\\"/><feOffset dx=\\"4.0\\" dy=\\"4.0\\" in=\\"blurOut2\\" result=\\"blurOut3\\"/><feBlend in=\\"SourceGraphic\\" in2=\\"blurOut3\\" mode=\\"normal\\"/></filter></defs><g><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"23\\" x2=\\"23\\" y1=\\"87.6094\\" y2=\\"198.6641\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"192.5\\" x2=\\"192.5\\" y1=\\"87.6094\\" y2=\\"198.6641\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"279.5\\" x2=\\"279.5\\" y1=\\"87.6094\\" y2=\\"198.6641\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"25\\" x=\\"8\\" y=\\"84.5332\\">Bob</text><ellipse cx=\\"23.5\\" cy=\\"13\\" fill=\\"#FF0000\\" filter=\\"url(#f86piaijiism8)\\" rx=\\"8\\" ry=\\"8\\" style=\\"stroke: #A80036; stroke-width: 2.0;\\"/><path d=\\"M23.5,21 L23.5,48 M10.5,29 L36.5,29 M23.5,48 L10.5,63 M23.5,48 L36.5,63 \\" fill=\\"none\\" filter=\\"url(#f86piaijiism8)\\" style=\\"stroke: #A80036; stroke-width: 2.0;\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"25\\" x=\\"8\\" y=\\"212.1973\\">Bob</text><ellipse cx=\\"23.5\\" cy=\\"225.2734\\" fill=\\"#FF0000\\" filter=\\"url(#f86piaijiism8)\\" rx=\\"8\\" ry=\\"8\\" style=\\"stroke: #A80036; stroke-width: 2.0;\\"/><path d=\\"M23.5,233.2734 L23.5,260.2734 M10.5,241.2734 L36.5,241.2734 M23.5,260.2734 L10.5,275.2734 M23.5,260.2734 L36.5,275.2734 \\" fill=\\"none\\" filter=\\"url(#f86piaijiism8)\\" style=\\"stroke: #A80036; stroke-width: 2.0;\\"/><rect fill=\\"#FEFECE\\" filter=\\"url(#f86piaijiism8)\\" height=\\"31.6094\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"44\\" x=\\"168.5\\" y=\\"51\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"30\\" x=\\"175.5\\" y=\\"72.5332\\">Alice</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f86piaijiism8)\\" height=\\"31.6094\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"44\\" x=\\"168.5\\" y=\\"197.6641\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"30\\" x=\\"175.5\\" y=\\"219.1973\\">Alice</text><rect fill=\\"#99FF99\\" filter=\\"url(#f86piaijiism8)\\" height=\\"49.2188\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"102\\" x=\\"226.5\\" y=\\"33.3906\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"88\\" x=\\"233.5\\" y=\\"54.9238\\">I have a really</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"66\\" x=\\"244.5\\" y=\\"72.5332\\">long name</text><rect fill=\\"#99FF99\\" filter=\\"url(#f86piaijiism8)\\" height=\\"49.2188\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"102\\" x=\\"226.5\\" y=\\"197.6641\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"88\\" x=\\"233.5\\" y=\\"219.1973\\">I have a really</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"66\\" x=\\"244.5\\" y=\\"236.8066\\">long name</text><polygon fill=\\"#A80036\\" points=\\"34.5,115.9609,24.5,119.9609,34.5,123.9609,30.5,119.9609\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"28.5\\" x2=\\"191.5\\" y1=\\"119.9609\\" y2=\\"119.9609\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"135\\" x=\\"40.5\\" y=\\"115.1045\\">Authentication Request</text><polygon fill=\\"#A80036\\" points=\\"180.5,146.3125,190.5,150.3125,180.5,154.3125,184.5,150.3125\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"23.5\\" x2=\\"186.5\\" y1=\\"150.3125\\" y2=\\"150.3125\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"145\\" x=\\"30.5\\" y=\\"145.4561\\">Authentication Response</text><polygon fill=\\"#A80036\\" points=\\"267.5,176.6641,277.5,180.6641,267.5,184.6641,271.5,180.6641\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"23.5\\" x2=\\"273.5\\" y1=\\"180.6641\\" y2=\\"180.6641\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"89\\" x=\\"30.5\\" y=\\"175.8076\\">Log transaction</text><!--
+@startuml
+actor Bob #red
+participant Alice
+participant \\"I have a really\\\\nlong name\\" as L #99FF99
+
+Alice->Bob: Authentication Request
+Bob->Alice: Authentication Response
+Bob->L: Log transaction
+@enduml
+
+PlantUML version 1.2019.09(Tue Aug 27 01:49:51 ACST 2019)
+(MIT source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_221-b11
+Operating System: Windows 10
+OS Version: 10.0
+Default Encoding: Cp1252
+Language: en
+Country: AU
+--></g></svg>",
+    },
+  ],
+  "position": Object {
+    "end": Object {
+      "column": 1,
+      "line": 18,
+      "offset": 374,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "root",
+}
+`;
+
+exports[`Sequence Declaring participant Example 3 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": undefined,
+      "lang": undefined,
+      "position": Position {
+        "end": Object {
+          "column": 4,
+          "line": 8,
+          "offset": 115,
+        },
+        "indent": Array [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+        ],
+        "start": Object {
+          "column": 1,
+          "line": 2,
+          "offset": 1,
+        },
+      },
+      "type": "html",
+      "value": "<?xml version=\\"1.0\\" encoding=\\"UTF-8\\" standalone=\\"no\\"?><svg xmlns=\\"http://www.w3.org/2000/svg\\" xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" contentScriptType=\\"application/ecmascript\\" contentStyleType=\\"text/css\\" height=\\"101px\\" preserveAspectRatio=\\"none\\" style=\\"width:185px;height:101px;\\" version=\\"1.1\\" viewBox=\\"0 0 185 101\\" width=\\"185px\\" zoomAndPan=\\"magnify\\"><defs><filter height=\\"300%\\" id=\\"f6hawauzsrcv\\" width=\\"300%\\" x=\\"-1\\" y=\\"-1\\"><feGaussianBlur result=\\"blurOut\\" stdDeviation=\\"2.0\\"/><feColorMatrix in=\\"blurOut\\" result=\\"blurOut2\\" type=\\"matrix\\" values=\\"0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0\\"/><feOffset dx=\\"4.0\\" dy=\\"4.0\\" in=\\"blurOut2\\" result=\\"blurOut3\\"/><feBlend in=\\"SourceGraphic\\" in2=\\"blurOut3\\" mode=\\"normal\\"/></filter></defs><g><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"31\\" x2=\\"31\\" y1=\\"39.6094\\" y2=\\"59.6094\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"93\\" x2=\\"93\\" y1=\\"39.6094\\" y2=\\"59.6094\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"155\\" x2=\\"155\\" y1=\\"39.6094\\" y2=\\"59.6094\\"/><rect fill=\\"#FEFECE\\" filter=\\"url(#f6hawauzsrcv)\\" height=\\"31.6094\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"42\\" x=\\"8\\" y=\\"3\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"28\\" x=\\"15\\" y=\\"24.5332\\">First</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f6hawauzsrcv)\\" height=\\"31.6094\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"42\\" x=\\"8\\" y=\\"58.6094\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"28\\" x=\\"15\\" y=\\"80.1426\\">First</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f6hawauzsrcv)\\" height=\\"31.6094\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"55\\" x=\\"64\\" y=\\"3\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"41\\" x=\\"71\\" y=\\"24.5332\\">Middle</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f6hawauzsrcv)\\" height=\\"31.6094\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"55\\" x=\\"64\\" y=\\"58.6094\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"41\\" x=\\"71\\" y=\\"80.1426\\">Middle</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f6hawauzsrcv)\\" height=\\"31.6094\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"41\\" x=\\"133\\" y=\\"3\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"27\\" x=\\"140\\" y=\\"24.5332\\">Last</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f6hawauzsrcv)\\" height=\\"31.6094\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"41\\" x=\\"133\\" y=\\"58.6094\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"27\\" x=\\"140\\" y=\\"80.1426\\">Last</text><!--
+@startuml
+participant Last order 30
+participant Middle order 20
+participant First order 10
+@enduml
+
+PlantUML version 1.2019.09(Tue Aug 27 01:49:51 ACST 2019)
+(MIT source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 1.8.0_221-b11
+Operating System: Windows 10
+OS Version: 10.0
+Default Encoding: Cp1252
+Language: en
+Country: AU
+--></g></svg>",
+    },
+  ],
+  "position": Object {
+    "end": Object {
+      "column": 1,
+      "line": 9,
+      "offset": 116,
     },
     "start": Object {
       "column": 1,
