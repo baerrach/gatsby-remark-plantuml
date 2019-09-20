@@ -45,7 +45,6 @@ const extractSvg = data => {
 
 const visualizeSnapshotFile = snapshotFilename => {
   const snapshot = require(snapshotFilename)
-  const basename = path.basename(snapshotFilename, `.js.snap`)
 
   /*
     Jest Snapshot v1, https://goo.gl/fbAQLP
@@ -64,12 +63,10 @@ const visualizeSnapshotFile = snapshotFilename => {
 
   _.forEach(testSnapshotPairs, ([testName, data]) => {
     const svg = extractSvg(data)
+
     if (svg) {
       const sanitizedTestName = _.kebabCase(testName)
-      const htmlFilename = path.join(
-        svgdir,
-        `${basename}-${sanitizedTestName}.html`
-      )
+      const htmlFilename = path.join(svgdir, `${sanitizedTestName}.html`)
 
       writeVisualizedTest(htmlFilename, svg)
     }
