@@ -105,4 +105,17 @@ Long --> "Bob()" : ok
         code,
       })
   })
+
+  it(`Message to Self`, async () => {
+      const code = `
+\`\`\`plantuml
+@startuml
+Alice->Alice: This is a signal to self.\\nIt also demonstrates\\nmultiline \\ntext
+@enduml
+\`\`\`
+`
+      await testRemarkPlugin.testPlugin({
+        code,
+      })
+  })
 })
