@@ -251,5 +251,24 @@ Bob <- Alice : Yet another authentication Response
     })
   })
 
+  it(`Page Title, Header and Footer`, async () => {
+    const code = `
+\`\`\`plantuml
+@startuml
+
+header Page Header
+footer Page %page% of %lastpage%
+
+title Example Title
+
+Alice -> Bob : message 1
+Alice -> Bob : message 2
+
+@enduml
+\`\`\`
+`
+    await testRemarkPlugin.testPlugin({
+      code,
+    })
   })
 })
