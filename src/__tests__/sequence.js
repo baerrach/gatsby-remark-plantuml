@@ -90,7 +90,7 @@ participant First order 10
   })
 
   it(`Use non-letters in participants`, async () => {
-      const code = `
+    const code = `
 \`\`\`plantuml
 @startuml
 Alice -> "Bob()" : Hello
@@ -101,26 +101,26 @@ Long --> "Bob()" : ok
 @enduml
 \`\`\`
 `
-      await testRemarkPlugin.testPlugin({
-        code,
-      })
+    await testRemarkPlugin.testPlugin({
+      code,
+    })
   })
 
   it(`Message to Self`, async () => {
-      const code = `
+    const code = `
 \`\`\`plantuml
 @startuml
 Alice->Alice: This is a signal to self.\\nIt also demonstrates\\nmultiline \\ntext
 @enduml
 \`\`\`
 `
-      await testRemarkPlugin.testPlugin({
-        code,
-      })
+    await testRemarkPlugin.testPlugin({
+      code,
+    })
   })
 
   it(`Change arrow style`, async () => {
-      const code = `
+    const code = `
 \`\`\`plantuml
 @startuml
 Bob ->x Alice
