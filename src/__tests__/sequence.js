@@ -118,4 +118,28 @@ Alice->Alice: This is a signal to self.\\nIt also demonstrates\\nmultiline \\nte
         code,
       })
   })
+
+  it(`Change arrow style`, async () => {
+      const code = `
+\`\`\`plantuml
+@startuml
+Bob ->x Alice
+Bob -> Alice
+Bob ->> Alice
+Bob -\\ Alice
+Bob \\\\- Alice
+Bob //-- Alice
+
+Bob ->o Alice
+Bob o\\\\-- Alice
+
+Bob <-> Alice
+Bob <->o Alice
+@enduml
+\`\`\`
+`
+      await testRemarkPlugin.testPlugin({
+        code,
+      })
+  })
 })
