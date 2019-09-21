@@ -37,7 +37,17 @@ const testPlugin = ({
 
   const markdownAST = remark.parse(code)
   return plugin({ markdownAST, reporter }).then(() => {
-    expect(markdownAST).toMatchSnapshot()
+    // Hack the AST to remove the untestable variable bit of the generated svg
+    // Its the comment block at the bottom that includes the PlantUML runtime information.
+    if (markdownAST.children && markdownAST.children.length) {
+      const svg = markdownAST.children[0].value
+      markdownAST.children[0].value = svg.replace(
+        /PlantUML [\s\S]*Country: [\S]*/m,
+        ``
+      )
+    }
+
+    expect(markdownAST).toMatchSnapshot({})
     expect(reporter.info).toReport(info)
     expect(reporter.warn).toReport(warn)
     expect(reporter.error).toReport(error)

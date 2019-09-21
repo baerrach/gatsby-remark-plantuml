@@ -21,7 +21,7 @@ describe(`remark plantuml plugin`, () => {
       })
     })
 
-    it.only(`fails the build when can't find Java and Graphviz`, async () => {
+    it(`fails the build when can't find Java and Graphviz`, async () => {
       const path = process.env.PATH
       process.env.PATH = `` // an empty PATH won't find any files
       const code = `

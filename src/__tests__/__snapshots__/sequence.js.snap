@@ -38,16 +38,7 @@ Alice -> Bob: Another authentication Request
 Alice <- - Bob: Another authentication Response
 @enduml
 
-PlantUML version 1.2019.09(Tue Aug 27 01:49:51 ACST 2019)
-(MIT source distribution)
-Java Runtime: Java(TM) SE Runtime Environment
-JVM: Java HotSpot(TM) 64-Bit Server VM
-Java Version: 1.8.0_221-b11
-Operating System: Windows 10
-OS Version: 10.0
-Default Encoding: Cp1252
-Language: en
-Country: AU
+
 --></g></svg>",
     },
   ],
@@ -119,16 +110,7 @@ Foo1 -> Foo6 : To collections
 
 @enduml
 
-PlantUML version 1.2019.09(Tue Aug 27 01:49:51 ACST 2019)
-(MIT source distribution)
-Java Runtime: Java(TM) SE Runtime Environment
-JVM: Java HotSpot(TM) 64-Bit Server VM
-Java Version: 1.8.0_221-b11
-Operating System: Windows 10
-OS Version: 10.0
-Default Encoding: Cp1252
-Language: en
-Country: AU
+
 --></g></svg>",
     },
   ],
@@ -195,16 +177,7 @@ Bob->Alice: Authentication Response
 Bob->L: Log transaction
 @enduml
 
-PlantUML version 1.2019.09(Tue Aug 27 01:49:51 ACST 2019)
-(MIT source distribution)
-Java Runtime: Java(TM) SE Runtime Environment
-JVM: Java HotSpot(TM) 64-Bit Server VM
-Java Version: 1.8.0_221-b11
-Operating System: Windows 10
-OS Version: 10.0
-Default Encoding: Cp1252
-Language: en
-Country: AU
+
 --></g></svg>",
     },
   ],
@@ -258,16 +231,7 @@ participant Middle order 20
 participant First order 10
 @enduml
 
-PlantUML version 1.2019.09(Tue Aug 27 01:49:51 ACST 2019)
-(MIT source distribution)
-Java Runtime: Java(TM) SE Runtime Environment
-JVM: Java HotSpot(TM) 64-Bit Server VM
-Java Version: 1.8.0_221-b11
-Operating System: Windows 10
-OS Version: 10.0
-Default Encoding: Cp1252
-Language: en
-Country: AU
+
 --></g></svg>",
     },
   ],
