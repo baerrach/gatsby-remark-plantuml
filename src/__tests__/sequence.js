@@ -88,4 +88,21 @@ participant First order 10
       })
     })
   })
+
+  it(`Use non-letters in participants`, async () => {
+      const code = `
+\`\`\`plantuml
+@startuml
+Alice -> "Bob()" : Hello
+"Bob()" -> "This is very\\nlong" as Long
+' You can also declare:
+' "Bob()" -> Long as "This is very\\nlong"
+Long --> "Bob()" : ok
+@enduml
+\`\`\`
+`
+      await testRemarkPlugin.testPlugin({
+        code,
+      })
+  })
 })
