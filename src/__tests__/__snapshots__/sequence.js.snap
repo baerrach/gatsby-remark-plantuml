@@ -323,6 +323,286 @@ participant First order 10
 }
 `;
 
+exports[`Sequence Message sequence numbering Example 1 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": undefined,
+      "lang": undefined,
+      "position": Position {
+        "end": Object {
+          "column": 4,
+          "line": 8,
+          "offset": 122,
+        },
+        "indent": Array [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+        ],
+        "start": Object {
+          "column": 1,
+          "line": 2,
+          "offset": 1,
+        },
+      },
+      "type": "html",
+      "value": "<?xml version=\\"1.0\\" encoding=\\"UTF-8\\" standalone=\\"no\\"?><svg xmlns=\\"http://www.w3.org/2000/svg\\" xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" contentScriptType=\\"application/ecmascript\\" contentStyleType=\\"text/css\\" height=\\"161px\\" preserveAspectRatio=\\"none\\" style=\\"width:240px;height:161px;\\" version=\\"1.1\\" viewBox=\\"0 0 240 161\\" width=\\"240px\\" zoomAndPan=\\"magnify\\"><defs><filter height=\\"300%\\" id=\\"fb8yjvssu1xhn\\" width=\\"300%\\" x=\\"-1\\" y=\\"-1\\"><feGaussianBlur result=\\"blurOut\\" stdDeviation=\\"2.0\\"/><feColorMatrix in=\\"blurOut\\" result=\\"blurOut2\\" type=\\"matrix\\" values=\\"0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0\\"/><feOffset dx=\\"4.0\\" dy=\\"4.0\\" in=\\"blurOut2\\" result=\\"blurOut3\\"/><feBlend in=\\"SourceGraphic\\" in2=\\"blurOut3\\" mode=\\"normal\\"/></filter></defs><g><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"29\\" x2=\\"29\\" y1=\\"39.6094\\" y2=\\"120.3125\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"209.5\\" x2=\\"209.5\\" y1=\\"39.6094\\" y2=\\"120.3125\\"/><rect fill=\\"#FEFECE\\" filter=\\"url(#fb8yjvssu1xhn)\\" height=\\"31.6094\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"39\\" x=\\"8\\" y=\\"3\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"25\\" x=\\"15\\" y=\\"24.5332\\">Bob</text><rect fill=\\"#FEFECE\\" filter=\\"url(#fb8yjvssu1xhn)\\" height=\\"31.6094\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"39\\" x=\\"8\\" y=\\"119.3125\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"25\\" x=\\"15\\" y=\\"140.8457\\">Bob</text><rect fill=\\"#FEFECE\\" filter=\\"url(#fb8yjvssu1xhn)\\" height=\\"31.6094\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"44\\" x=\\"185.5\\" y=\\"3\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"30\\" x=\\"192.5\\" y=\\"24.5332\\">Alice</text><rect fill=\\"#FEFECE\\" filter=\\"url(#fb8yjvssu1xhn)\\" height=\\"31.6094\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"44\\" x=\\"185.5\\" y=\\"119.3125\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"30\\" x=\\"192.5\\" y=\\"140.8457\\">Alice</text><polygon fill=\\"#A80036\\" points=\\"197.5,67.9609,207.5,71.9609,197.5,75.9609,201.5,71.9609\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"29.5\\" x2=\\"203.5\\" y1=\\"71.9609\\" y2=\\"71.9609\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" font-weight=\\"bold\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"7\\" x=\\"36.5\\" y=\\"67.1045\\">1</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"135\\" x=\\"47.5\\" y=\\"67.1045\\">Authentication Request</text><polygon fill=\\"#A80036\\" points=\\"40.5,98.3125,30.5,102.3125,40.5,106.3125,36.5,102.3125\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"34.5\\" x2=\\"208.5\\" y1=\\"102.3125\\" y2=\\"102.3125\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" font-weight=\\"bold\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"7\\" x=\\"46.5\\" y=\\"97.4561\\">2</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"145\\" x=\\"57.5\\" y=\\"97.4561\\">Authentication Response</text><!--
+@startuml
+autonumber
+Bob -> Alice : Authentication Request
+Bob <- Alice : Authentication Response
+@enduml
+
+
+--></g></svg>",
+    },
+  ],
+  "position": Object {
+    "end": Object {
+      "column": 1,
+      "line": 9,
+      "offset": 123,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "root",
+}
+`;
+
+exports[`Sequence Message sequence numbering Example 2 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": undefined,
+      "lang": undefined,
+      "position": Position {
+        "end": Object {
+          "column": 4,
+          "line": 17,
+          "offset": 350,
+        },
+        "indent": Array [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+        ],
+        "start": Object {
+          "column": 1,
+          "line": 2,
+          "offset": 1,
+        },
+      },
+      "type": "html",
+      "value": "<?xml version=\\"1.0\\" encoding=\\"UTF-8\\" standalone=\\"no\\"?><svg xmlns=\\"http://www.w3.org/2000/svg\\" xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" contentScriptType=\\"application/ecmascript\\" contentStyleType=\\"text/css\\" height=\\"283px\\" preserveAspectRatio=\\"none\\" style=\\"width:316px;height:283px;\\" version=\\"1.1\\" viewBox=\\"0 0 316 283\\" width=\\"316px\\" zoomAndPan=\\"magnify\\"><defs><filter height=\\"300%\\" id=\\"f1b0sbshplkr8t\\" width=\\"300%\\" x=\\"-1\\" y=\\"-1\\"><feGaussianBlur result=\\"blurOut\\" stdDeviation=\\"2.0\\"/><feColorMatrix in=\\"blurOut\\" result=\\"blurOut2\\" type=\\"matrix\\" values=\\"0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0\\"/><feOffset dx=\\"4.0\\" dy=\\"4.0\\" in=\\"blurOut2\\" result=\\"blurOut3\\"/><feBlend in=\\"SourceGraphic\\" in2=\\"blurOut3\\" mode=\\"normal\\"/></filter></defs><g><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"29\\" x2=\\"29\\" y1=\\"39.6094\\" y2=\\"241.7188\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"285.5\\" x2=\\"285.5\\" y1=\\"39.6094\\" y2=\\"241.7188\\"/><rect fill=\\"#FEFECE\\" filter=\\"url(#f1b0sbshplkr8t)\\" height=\\"31.6094\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"39\\" x=\\"8\\" y=\\"3\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"25\\" x=\\"15\\" y=\\"24.5332\\">Bob</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f1b0sbshplkr8t)\\" height=\\"31.6094\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"39\\" x=\\"8\\" y=\\"240.7188\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"25\\" x=\\"15\\" y=\\"262.252\\">Bob</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f1b0sbshplkr8t)\\" height=\\"31.6094\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"44\\" x=\\"261.5\\" y=\\"3\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"30\\" x=\\"268.5\\" y=\\"24.5332\\">Alice</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f1b0sbshplkr8t)\\" height=\\"31.6094\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"44\\" x=\\"261.5\\" y=\\"240.7188\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"30\\" x=\\"268.5\\" y=\\"262.252\\">Alice</text><polygon fill=\\"#A80036\\" points=\\"273.5,67.9609,283.5,71.9609,273.5,75.9609,277.5,71.9609\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"29.5\\" x2=\\"279.5\\" y1=\\"71.9609\\" y2=\\"71.9609\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" font-weight=\\"bold\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"7\\" x=\\"36.5\\" y=\\"67.1045\\">1</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"135\\" x=\\"47.5\\" y=\\"67.1045\\">Authentication Request</text><polygon fill=\\"#A80036\\" points=\\"40.5,98.3125,30.5,102.3125,40.5,106.3125,36.5,102.3125\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"34.5\\" x2=\\"284.5\\" y1=\\"102.3125\\" y2=\\"102.3125\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" font-weight=\\"bold\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"7\\" x=\\"46.5\\" y=\\"97.4561\\">2</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"145\\" x=\\"57.5\\" y=\\"97.4561\\">Authentication Response</text><polygon fill=\\"#A80036\\" points=\\"273.5,128.6641,283.5,132.6641,273.5,136.6641,277.5,132.6641\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"29.5\\" x2=\\"279.5\\" y1=\\"132.6641\\" y2=\\"132.6641\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" font-weight=\\"bold\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"14\\" x=\\"36.5\\" y=\\"127.8076\\">15</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"182\\" x=\\"54.5\\" y=\\"127.8076\\">Another authentication Request</text><polygon fill=\\"#A80036\\" points=\\"40.5,159.0156,30.5,163.0156,40.5,167.0156,36.5,163.0156\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"34.5\\" x2=\\"284.5\\" y1=\\"163.0156\\" y2=\\"163.0156\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" font-weight=\\"bold\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"14\\" x=\\"46.5\\" y=\\"158.1592\\">16</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"192\\" x=\\"64.5\\" y=\\"158.1592\\">Another authentication Response</text><polygon fill=\\"#A80036\\" points=\\"273.5,189.3672,283.5,193.3672,273.5,197.3672,277.5,193.3672\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"29.5\\" x2=\\"279.5\\" y1=\\"193.3672\\" y2=\\"193.3672\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" font-weight=\\"bold\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"14\\" x=\\"36.5\\" y=\\"188.5107\\">40</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"204\\" x=\\"54.5\\" y=\\"188.5107\\">Yet another authentication Request</text><polygon fill=\\"#A80036\\" points=\\"40.5,219.7188,30.5,223.7188,40.5,227.7188,36.5,223.7188\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"34.5\\" x2=\\"284.5\\" y1=\\"223.7188\\" y2=\\"223.7188\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" font-weight=\\"bold\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"14\\" x=\\"46.5\\" y=\\"218.8623\\">50</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"214\\" x=\\"64.5\\" y=\\"218.8623\\">Yet another authentication Response</text><!--
+@startuml
+autonumber
+Bob -> Alice : Authentication Request
+Bob <- Alice : Authentication Response
+
+autonumber 15
+Bob -> Alice : Another authentication Request
+Bob <- Alice : Another authentication Response
+
+autonumber 40 10
+Bob -> Alice : Yet another authentication Request
+Bob <- Alice : Yet another authentication Response
+
+@enduml
+
+
+--></g></svg>",
+    },
+  ],
+  "position": Object {
+    "end": Object {
+      "column": 1,
+      "line": 18,
+      "offset": 351,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "root",
+}
+`;
+
+exports[`Sequence Message sequence numbering Example 3 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": undefined,
+      "lang": undefined,
+      "position": Position {
+        "end": Object {
+          "column": 4,
+          "line": 17,
+          "offset": 411,
+        },
+        "indent": Array [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+        ],
+        "start": Object {
+          "column": 1,
+          "line": 2,
+          "offset": 1,
+        },
+      },
+      "type": "html",
+      "value": "<?xml version=\\"1.0\\" encoding=\\"UTF-8\\" standalone=\\"no\\"?><svg xmlns=\\"http://www.w3.org/2000/svg\\" xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" contentScriptType=\\"application/ecmascript\\" contentStyleType=\\"text/css\\" height=\\"283px\\" preserveAspectRatio=\\"none\\" style=\\"width:383px;height:283px;\\" version=\\"1.1\\" viewBox=\\"0 0 383 283\\" width=\\"383px\\" zoomAndPan=\\"magnify\\"><defs><filter height=\\"300%\\" id=\\"fppdqiod7c25g\\" width=\\"300%\\" x=\\"-1\\" y=\\"-1\\"><feGaussianBlur result=\\"blurOut\\" stdDeviation=\\"2.0\\"/><feColorMatrix in=\\"blurOut\\" result=\\"blurOut2\\" type=\\"matrix\\" values=\\"0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0\\"/><feOffset dx=\\"4.0\\" dy=\\"4.0\\" in=\\"blurOut2\\" result=\\"blurOut3\\"/><feBlend in=\\"SourceGraphic\\" in2=\\"blurOut3\\" mode=\\"normal\\"/></filter></defs><g><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"29\\" x2=\\"29\\" y1=\\"39.6094\\" y2=\\"241.7188\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"352.5\\" x2=\\"352.5\\" y1=\\"39.6094\\" y2=\\"241.7188\\"/><rect fill=\\"#FEFECE\\" filter=\\"url(#fppdqiod7c25g)\\" height=\\"31.6094\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"39\\" x=\\"8\\" y=\\"3\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"25\\" x=\\"15\\" y=\\"24.5332\\">Bob</text><rect fill=\\"#FEFECE\\" filter=\\"url(#fppdqiod7c25g)\\" height=\\"31.6094\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"39\\" x=\\"8\\" y=\\"240.7188\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"25\\" x=\\"15\\" y=\\"262.252\\">Bob</text><rect fill=\\"#FEFECE\\" filter=\\"url(#fppdqiod7c25g)\\" height=\\"31.6094\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"44\\" x=\\"328.5\\" y=\\"3\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"30\\" x=\\"335.5\\" y=\\"24.5332\\">Alice</text><rect fill=\\"#FEFECE\\" filter=\\"url(#fppdqiod7c25g)\\" height=\\"31.6094\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"44\\" x=\\"328.5\\" y=\\"240.7188\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"30\\" x=\\"335.5\\" y=\\"262.252\\">Alice</text><polygon fill=\\"#A80036\\" points=\\"340.5,67.9609,350.5,71.9609,340.5,75.9609,344.5,71.9609\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"29.5\\" x2=\\"346.5\\" y1=\\"71.9609\\" y2=\\"71.9609\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" font-weight=\\"bold\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"29\\" x=\\"36.5\\" y=\\"67.1045\\">[001]</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"135\\" x=\\"69.5\\" y=\\"67.1045\\">Authentication Request</text><polygon fill=\\"#A80036\\" points=\\"40.5,98.3125,30.5,102.3125,40.5,106.3125,36.5,102.3125\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"34.5\\" x2=\\"351.5\\" y1=\\"102.3125\\" y2=\\"102.3125\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" font-weight=\\"bold\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"29\\" x=\\"46.5\\" y=\\"97.4561\\">[002]</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"145\\" x=\\"79.5\\" y=\\"97.4561\\">Authentication Response</text><polygon fill=\\"#A80036\\" points=\\"340.5,128.6641,350.5,132.6641,340.5,136.6641,344.5,132.6641\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"29.5\\" x2=\\"346.5\\" y1=\\"132.6641\\" y2=\\"132.6641\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" font-weight=\\"bold\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"4\\" x=\\"36.5\\" y=\\"127.8076\\">(</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" font-weight=\\"bold\\" lengthAdjust=\\"spacingAndGlyphs\\" text-decoration=\\"underline\\" textLength=\\"14\\" x=\\"40.5\\" y=\\"127.8076\\">15</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" font-weight=\\"bold\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"4\\" x=\\"54.5\\" y=\\"127.8076\\">)</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"182\\" x=\\"62.5\\" y=\\"127.8076\\">Another authentication Request</text><polygon fill=\\"#A80036\\" points=\\"40.5,159.0156,30.5,163.0156,40.5,167.0156,36.5,163.0156\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"34.5\\" x2=\\"351.5\\" y1=\\"163.0156\\" y2=\\"163.0156\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" font-weight=\\"bold\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"4\\" x=\\"46.5\\" y=\\"158.1592\\">(</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" font-weight=\\"bold\\" lengthAdjust=\\"spacingAndGlyphs\\" text-decoration=\\"underline\\" textLength=\\"14\\" x=\\"50.5\\" y=\\"158.1592\\">16</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" font-weight=\\"bold\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"4\\" x=\\"64.5\\" y=\\"158.1592\\">)</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"192\\" x=\\"72.5\\" y=\\"158.1592\\">Another authentication Response</text><polygon fill=\\"#A80036\\" points=\\"340.5,189.3672,350.5,193.3672,340.5,197.3672,344.5,193.3672\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"29.5\\" x2=\\"346.5\\" y1=\\"193.3672\\" y2=\\"193.3672\\"/><text fill=\\"#FF0000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" font-weight=\\"bold\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"73\\" x=\\"36.5\\" y=\\"188.5107\\">Message 40</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"204\\" x=\\"121.5\\" y=\\"188.5107\\">Yet another authentication Request</text><polygon fill=\\"#A80036\\" points=\\"40.5,219.7188,30.5,223.7188,40.5,227.7188,36.5,223.7188\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"34.5\\" x2=\\"351.5\\" y1=\\"223.7188\\" y2=\\"223.7188\\"/><text fill=\\"#FF0000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" font-weight=\\"bold\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"73\\" x=\\"46.5\\" y=\\"218.8623\\">Message 50</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"214\\" x=\\"131.5\\" y=\\"218.8623\\">Yet another authentication Response</text><!--
+@startuml
+autonumber \\"<b>[000]\\"
+Bob -> Alice : Authentication Request
+Bob <- Alice : Authentication Response
+
+autonumber 15 \\"<b>(<u>##</u>)\\"
+Bob -> Alice : Another authentication Request
+Bob <- Alice : Another authentication Response
+
+autonumber 40 10 \\"<font color=red><b>Message 0  \\"
+Bob -> Alice : Yet another authentication Request
+Bob <- Alice : Yet another authentication Response
+
+@enduml
+
+
+--></g></svg>",
+    },
+  ],
+  "position": Object {
+    "end": Object {
+      "column": 1,
+      "line": 18,
+      "offset": 412,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "root",
+}
+`;
+
+exports[`Sequence Message sequence numbering Example 4 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": undefined,
+      "lang": undefined,
+      "position": Position {
+        "end": Object {
+          "column": 4,
+          "line": 22,
+          "offset": 524,
+        },
+        "indent": Array [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+        ],
+        "start": Object {
+          "column": 1,
+          "line": 2,
+          "offset": 1,
+        },
+      },
+      "type": "html",
+      "value": "<?xml version=\\"1.0\\" encoding=\\"UTF-8\\" standalone=\\"no\\"?><svg xmlns=\\"http://www.w3.org/2000/svg\\" xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" contentScriptType=\\"application/ecmascript\\" contentStyleType=\\"text/css\\" height=\\"344px\\" preserveAspectRatio=\\"none\\" style=\\"width:383px;height:344px;\\" version=\\"1.1\\" viewBox=\\"0 0 383 344\\" width=\\"383px\\" zoomAndPan=\\"magnify\\"><defs><filter height=\\"300%\\" id=\\"fxsufpo9saw95\\" width=\\"300%\\" x=\\"-1\\" y=\\"-1\\"><feGaussianBlur result=\\"blurOut\\" stdDeviation=\\"2.0\\"/><feColorMatrix in=\\"blurOut\\" result=\\"blurOut2\\" type=\\"matrix\\" values=\\"0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0\\"/><feOffset dx=\\"4.0\\" dy=\\"4.0\\" in=\\"blurOut2\\" result=\\"blurOut3\\"/><feBlend in=\\"SourceGraphic\\" in2=\\"blurOut3\\" mode=\\"normal\\"/></filter></defs><g><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"29\\" x2=\\"29\\" y1=\\"39.6094\\" y2=\\"302.4219\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"352.5\\" x2=\\"352.5\\" y1=\\"39.6094\\" y2=\\"302.4219\\"/><rect fill=\\"#FEFECE\\" filter=\\"url(#fxsufpo9saw95)\\" height=\\"31.6094\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"39\\" x=\\"8\\" y=\\"3\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"25\\" x=\\"15\\" y=\\"24.5332\\">Bob</text><rect fill=\\"#FEFECE\\" filter=\\"url(#fxsufpo9saw95)\\" height=\\"31.6094\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"39\\" x=\\"8\\" y=\\"301.4219\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"25\\" x=\\"15\\" y=\\"322.9551\\">Bob</text><rect fill=\\"#FEFECE\\" filter=\\"url(#fxsufpo9saw95)\\" height=\\"31.6094\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"44\\" x=\\"328.5\\" y=\\"3\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"30\\" x=\\"335.5\\" y=\\"24.5332\\">Alice</text><rect fill=\\"#FEFECE\\" filter=\\"url(#fxsufpo9saw95)\\" height=\\"31.6094\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"44\\" x=\\"328.5\\" y=\\"301.4219\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"30\\" x=\\"335.5\\" y=\\"322.9551\\">Alice</text><polygon fill=\\"#A80036\\" points=\\"340.5,67.9609,350.5,71.9609,340.5,75.9609,344.5,71.9609\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"29.5\\" x2=\\"346.5\\" y1=\\"71.9609\\" y2=\\"71.9609\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" font-weight=\\"bold\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"29\\" x=\\"36.5\\" y=\\"67.1045\\">[010]</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"135\\" x=\\"69.5\\" y=\\"67.1045\\">Authentication Request</text><polygon fill=\\"#A80036\\" points=\\"40.5,98.3125,30.5,102.3125,40.5,106.3125,36.5,102.3125\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"34.5\\" x2=\\"351.5\\" y1=\\"102.3125\\" y2=\\"102.3125\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" font-weight=\\"bold\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"29\\" x=\\"46.5\\" y=\\"97.4561\\">[020]</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"145\\" x=\\"79.5\\" y=\\"97.4561\\">Authentication Response</text><polygon fill=\\"#A80036\\" points=\\"340.5,128.6641,350.5,132.6641,340.5,136.6641,344.5,132.6641\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"29.5\\" x2=\\"346.5\\" y1=\\"132.6641\\" y2=\\"132.6641\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"43\\" x=\\"36.5\\" y=\\"127.8076\\">dummy</text><polygon fill=\\"#A80036\\" points=\\"340.5,159.0156,350.5,163.0156,340.5,167.0156,344.5,163.0156\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"29.5\\" x2=\\"346.5\\" y1=\\"163.0156\\" y2=\\"163.0156\\"/><text fill=\\"#FF0000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" font-weight=\\"bold\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"73\\" x=\\"36.5\\" y=\\"158.1592\\">Message 30</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"204\\" x=\\"121.5\\" y=\\"158.1592\\">Yet another authentication Request</text><polygon fill=\\"#A80036\\" points=\\"40.5,189.3672,30.5,193.3672,40.5,197.3672,36.5,193.3672\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"34.5\\" x2=\\"351.5\\" y1=\\"193.3672\\" y2=\\"193.3672\\"/><text fill=\\"#FF0000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" font-weight=\\"bold\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"73\\" x=\\"46.5\\" y=\\"188.5107\\">Message 40</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"214\\" x=\\"131.5\\" y=\\"188.5107\\">Yet another authentication Response</text><polygon fill=\\"#A80036\\" points=\\"340.5,219.7188,350.5,223.7188,340.5,227.7188,344.5,223.7188\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"29.5\\" x2=\\"346.5\\" y1=\\"223.7188\\" y2=\\"223.7188\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"43\\" x=\\"36.5\\" y=\\"218.8623\\">dummy</text><polygon fill=\\"#A80036\\" points=\\"340.5,250.0703,350.5,254.0703,340.5,258.0703,344.5,254.0703\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"29.5\\" x2=\\"346.5\\" y1=\\"254.0703\\" y2=\\"254.0703\\"/><text fill=\\"#0000FF\\" font-family=\\"sans-serif\\" font-size=\\"13\\" font-weight=\\"bold\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"73\\" x=\\"36.5\\" y=\\"249.2139\\">Message 50</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"204\\" x=\\"121.5\\" y=\\"249.2139\\">Yet another authentication Request</text><polygon fill=\\"#A80036\\" points=\\"40.5,280.4219,30.5,284.4219,40.5,288.4219,36.5,284.4219\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"34.5\\" x2=\\"351.5\\" y1=\\"284.4219\\" y2=\\"284.4219\\"/><text fill=\\"#0000FF\\" font-family=\\"sans-serif\\" font-size=\\"13\\" font-weight=\\"bold\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"73\\" x=\\"46.5\\" y=\\"279.5654\\">Message 51</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"214\\" x=\\"131.5\\" y=\\"279.5654\\">Yet another authentication Response</text><!--
+@startuml
+autonumber 10 10 \\"<b>[000]\\"
+Bob -> Alice : Authentication Request
+Bob <- Alice : Authentication Response
+
+autonumber stop
+Bob -> Alice : dummy
+
+autonumber resume \\"<font color=red><b>Message 0  \\"
+Bob -> Alice : Yet another authentication Request
+Bob <- Alice : Yet another authentication Response
+
+autonumber stop
+Bob -> Alice : dummy
+
+autonumber resume 1 \\"<font color=blue><b>Message 0  \\"
+Bob -> Alice : Yet another authentication Request
+Bob <- Alice : Yet another authentication Response
+@enduml
+
+
+--></g></svg>",
+    },
+  ],
+  "position": Object {
+    "end": Object {
+      "column": 1,
+      "line": 23,
+      "offset": 525,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "root",
+}
+`;
+
 exports[`Sequence Message to Self 1`] = `
 Object {
   "children": Array [

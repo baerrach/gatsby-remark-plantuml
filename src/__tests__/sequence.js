@@ -137,9 +137,100 @@ Bob <-> Alice
 Bob <->o Alice
 @enduml
 \`\`\`
+
+  describe(`Message sequence numbering`, () => {
+    it(`Example 1`, async () => {
+      const code = `
+\`\`\`plantuml
+@startuml
+autonumber
+Bob -> Alice : Authentication Request
+Bob <- Alice : Authentication Response
+@enduml
+\`\`\`
 `
       await testRemarkPlugin.testPlugin({
         code,
       })
+    })
+
+    it(`Example 2`, async () => {
+      const code = `
+\`\`\`plantuml
+@startuml
+autonumber
+Bob -> Alice : Authentication Request
+Bob <- Alice : Authentication Response
+
+autonumber 15
+Bob -> Alice : Another authentication Request
+Bob <- Alice : Another authentication Response
+
+autonumber 40 10
+Bob -> Alice : Yet another authentication Request
+Bob <- Alice : Yet another authentication Response
+
+@enduml
+\`\`\`
+`
+      await testRemarkPlugin.testPlugin({
+        code,
+      })
+    })
+
+    it(`Example 3`, async () => {
+      const code = `
+\`\`\`plantuml
+@startuml
+autonumber "<b>[000]"
+Bob -> Alice : Authentication Request
+Bob <- Alice : Authentication Response
+
+autonumber 15 "<b>(<u>##</u>)"
+Bob -> Alice : Another authentication Request
+Bob <- Alice : Another authentication Response
+
+autonumber 40 10 "<font color=red><b>Message 0  "
+Bob -> Alice : Yet another authentication Request
+Bob <- Alice : Yet another authentication Response
+
+@enduml
+\`\`\`
+`
+      await testRemarkPlugin.testPlugin({
+        code,
+      })
+    })
+
+    it(`Example 4`, async () => {
+      const code = `
+\`\`\`plantuml
+@startuml
+autonumber 10 10 "<b>[000]"
+Bob -> Alice : Authentication Request
+Bob <- Alice : Authentication Response
+
+autonumber stop
+Bob -> Alice : dummy
+
+autonumber resume "<font color=red><b>Message 0  "
+Bob -> Alice : Yet another authentication Request
+Bob <- Alice : Yet another authentication Response
+
+autonumber stop
+Bob -> Alice : dummy
+
+autonumber resume 1 "<font color=blue><b>Message 0  "
+Bob -> Alice : Yet another authentication Request
+Bob <- Alice : Yet another authentication Response
+@enduml
+\`\`\`
+`
+      await testRemarkPlugin.testPlugin({
+        code,
+      })
+    })
+  })
+
   })
 })
