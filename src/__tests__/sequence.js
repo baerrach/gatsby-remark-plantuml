@@ -137,6 +137,25 @@ Bob <-> Alice
 Bob <->o Alice
 @enduml
 \`\`\`
+`
+    await testRemarkPlugin.testPlugin({
+      code,
+    })
+  })
+
+  it(`Change arrow color`, async () => {
+    const code = `
+\`\`\`plantuml
+@startuml
+Bob -[#red]> Alice : hello
+Alice -[#0000FF]->Bob : ok
+@enduml
+\`\`\`
+`
+    await testRemarkPlugin.testPlugin({
+      code,
+    })
+  })
 
   describe(`Message sequence numbering`, () => {
     it(`Example 1`, async () => {
