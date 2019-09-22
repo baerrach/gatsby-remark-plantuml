@@ -635,4 +635,24 @@ Alice --> Bob : ok
       code,
     })
   })
+
+  it(`Shortcut syntax for activation, deactivation, creation`, async () => {
+    const code = `
+\`\`\`plantuml
+@startuml
+alice -> bob ++ : hello
+bob -> bob ++ : self call
+bob -> bib ++  #005500 : hello
+bob -> george ** : create
+return done
+return rc
+bob -> george !! : delete
+return success
+@enduml
+\`\`\`
+`
+    await testRemarkPlugin.testPlugin({
+      code,
+    })
+  })
 })
