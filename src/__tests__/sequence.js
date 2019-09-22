@@ -384,4 +384,23 @@ end note
       code,
     })
   })
+
+  it(`Changing notes shape`, async () => {
+    const code = `
+\`\`\`plantuml
+@startuml
+caller -> server : conReq
+hnote over caller : idle
+caller <- server : conConf
+rnote over server
+ "r" as rectangle
+ "h" as hexagon
+endrnote
+@enduml
+\`\`\`
+`
+    await testRemarkPlugin.testPlugin({
+      code,
+    })
+  })
 })
