@@ -1465,6 +1465,76 @@ Alice -> Bob : message 2
 }
 `;
 
+exports[`Sequence Participant creation 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": undefined,
+      "lang": undefined,
+      "position": Position {
+        "end": Object {
+          "column": 4,
+          "line": 16,
+          "offset": 187,
+        },
+        "indent": Array [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+        ],
+        "start": Object {
+          "column": 1,
+          "line": 2,
+          "offset": 1,
+        },
+      },
+      "type": "html",
+      "value": "<?xml version=\\"1.0\\" encoding=\\"UTF-8\\" standalone=\\"no\\"?><svg xmlns=\\"http://www.w3.org/2000/svg\\" xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" contentScriptType=\\"application/ecmascript\\" contentStyleType=\\"text/css\\" height=\\"295px\\" preserveAspectRatio=\\"none\\" style=\\"width:413px;height:295px;\\" version=\\"1.1\\" viewBox=\\"0 0 413 295\\" width=\\"413px\\" zoomAndPan=\\"magnify\\"><defs><filter height=\\"300%\\" id=\\"f2zvabyao5rq8\\" width=\\"300%\\" x=\\"-1\\" y=\\"-1\\"><feGaussianBlur result=\\"blurOut\\" stdDeviation=\\"2.0\\"/><feColorMatrix in=\\"blurOut\\" result=\\"blurOut2\\" type=\\"matrix\\" values=\\"0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0\\"/><feOffset dx=\\"4.0\\" dy=\\"4.0\\" in=\\"blurOut2\\" result=\\"blurOut3\\"/><feBlend in=\\"SourceGraphic\\" in2=\\"blurOut3\\" mode=\\"normal\\"/></filter></defs><g><rect fill=\\"#FEFECE\\" filter=\\"url(#f2zvabyao5rq8)\\" height=\\"31.6094\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"50\\" x=\\"132\\" y=\\"92.9609\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"36\\" x=\\"139\\" y=\\"114.4941\\">Other</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"37\\" x=\\"196\\" y=\\"186.1035\\">String</text><ellipse cx=\\"217.5\\" cy=\\"155.5703\\" fill=\\"#FEFECE\\" filter=\\"url(#f2zvabyao5rq8)\\" rx=\\"12\\" ry=\\"12\\" style=\\"stroke: #A80036; stroke-width: 2.0;\\"/><polygon fill=\\"#A80036\\" points=\\"213.5,143.5703,219.5,138.5703,217.5,143.5703,219.5,148.5703,213.5,143.5703\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"29\\" x2=\\"29\\" y1=\\"52.6094\\" y2=\\"239.5313\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"85\\" x2=\\"85\\" y1=\\"52.6094\\" y2=\\"239.5313\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"159\\" x2=\\"159\\" y1=\\"126.2656\\" y2=\\"239.5313\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"217\\" x2=\\"217\\" y1=\\"179.375\\" y2=\\"239.5313\\"/><rect fill=\\"#FEFECE\\" filter=\\"url(#f2zvabyao5rq8)\\" height=\\"31.6094\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"39\\" x=\\"8\\" y=\\"16\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"25\\" x=\\"15\\" y=\\"37.5332\\">Bob</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f2zvabyao5rq8)\\" height=\\"31.6094\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"39\\" x=\\"8\\" y=\\"238.5313\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"25\\" x=\\"15\\" y=\\"260.0645\\">Bob</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f2zvabyao5rq8)\\" height=\\"31.6094\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"44\\" x=\\"61\\" y=\\"16\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"30\\" x=\\"68\\" y=\\"37.5332\\">Alice</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f2zvabyao5rq8)\\" height=\\"31.6094\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"44\\" x=\\"61\\" y=\\"238.5313\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"30\\" x=\\"68\\" y=\\"260.0645\\">Alice</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f2zvabyao5rq8)\\" height=\\"31.6094\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"50\\" x=\\"132\\" y=\\"238.5313\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"36\\" x=\\"139\\" y=\\"260.0645\\">Other</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"37\\" x=\\"196\\" y=\\"253.0645\\">String</text><ellipse cx=\\"217.5\\" cy=\\"272.1406\\" fill=\\"#FEFECE\\" filter=\\"url(#f2zvabyao5rq8)\\" rx=\\"12\\" ry=\\"12\\" style=\\"stroke: #A80036; stroke-width: 2.0;\\"/><polygon fill=\\"#A80036\\" points=\\"213.5,260.1406,219.5,255.1406,217.5,260.1406,219.5,265.1406,213.5,260.1406\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><polygon fill=\\"#A80036\\" points=\\"73,80.9609,83,84.9609,73,88.9609,77,84.9609\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"29.5\\" x2=\\"79\\" y1=\\"84.9609\\" y2=\\"84.9609\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"27\\" x=\\"36.5\\" y=\\"80.1045\\">hello</text><polygon fill=\\"#A80036\\" points=\\"120,111.3125,130,115.3125,120,119.3125,124,115.3125\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"85\\" x2=\\"126\\" y1=\\"115.3125\\" y2=\\"115.3125\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"23\\" x=\\"92\\" y=\\"110.4561\\">new</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f2zvabyao5rq8)\\" height=\\"31.6094\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"50\\" x=\\"132\\" y=\\"92.9609\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"36\\" x=\\"139\\" y=\\"114.4941\\">Other</text><polygon fill=\\"#A80036\\" points=\\"184,141.5703,194,145.5703,184,149.5703,188,145.5703\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"85\\" x2=\\"190\\" y1=\\"145.5703\\" y2=\\"145.5703\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"37\\" x=\\"196\\" y=\\"186.1035\\">String</text><ellipse cx=\\"217.5\\" cy=\\"155.5703\\" fill=\\"#FEFECE\\" filter=\\"url(#f2zvabyao5rq8)\\" rx=\\"12\\" ry=\\"12\\" style=\\"stroke: #A80036; stroke-width: 2.0;\\"/><polygon fill=\\"#A80036\\" points=\\"213.5,143.5703,219.5,138.5703,217.5,143.5703,219.5,148.5703,213.5,143.5703\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><path d=\\"M243.5,154.1992 L243.5,180.1992 L401.5,180.1992 L401.5,164.1992 L391.5,154.1992 L243.5,154.1992 \\" fill=\\"#FBFB77\\" filter=\\"url(#f2zvabyao5rq8)\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><path d=\\"M391.5,154.1992 L391.5,164.1992 L401.5,164.1992 L391.5,154.1992 \\" fill=\\"#FBFB77\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"137\\" x=\\"249.5\\" y=\\"172.6943\\">You can also put notes!</text><polygon fill=\\"#A80036\\" points=\\"40.5,217.5313,30.5,221.5313,40.5,225.5313,36.5,221.5313\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;\\" x1=\\"34.5\\" x2=\\"84\\" y1=\\"221.5313\\" y2=\\"221.5313\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"14\\" x=\\"46.5\\" y=\\"216.6748\\">ok</text><!--
+@startuml
+Bob -> Alice : hello
+
+create Other
+Alice -> Other : new
+
+create control String
+Alice -> String
+note right : You can also put notes!
+
+Alice - -> Bob : ok
+
+@enduml
+
+
+--></g></svg>",
+    },
+  ],
+  "position": Object {
+    "end": Object {
+      "column": 1,
+      "line": 17,
+      "offset": 188,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "root",
+}
+`;
+
 exports[`Sequence Reference 1`] = `
 Object {
   "children": Array [
