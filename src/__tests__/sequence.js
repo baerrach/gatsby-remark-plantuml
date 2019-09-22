@@ -488,4 +488,23 @@ end ref
       code,
     })
   })
+
+  it(`Delay`, async () => {
+    const code = `
+\`\`\`plantuml
+@startuml
+
+Alice -> Bob: Authentication Request
+...
+Bob --> Alice: Authentication Response
+...5 minutes later...
+Bob --> Alice: Bye !
+
+@enduml
+\`\`\`
+`
+    await testRemarkPlugin.testPlugin({
+      code,
+    })
+  })
 })
