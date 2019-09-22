@@ -1385,6 +1385,74 @@ end note
 }
 `;
 
+exports[`Sequence Space 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": undefined,
+      "lang": undefined,
+      "position": Position {
+        "end": Object {
+          "column": 4,
+          "line": 15,
+          "offset": 173,
+        },
+        "indent": Array [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+        ],
+        "start": Object {
+          "column": 1,
+          "line": 2,
+          "offset": 1,
+        },
+      },
+      "type": "html",
+      "value": "<?xml version=\\"1.0\\" encoding=\\"UTF-8\\" standalone=\\"no\\"?><svg xmlns=\\"http://www.w3.org/2000/svg\\" xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" contentScriptType=\\"application/ecmascript\\" contentStyleType=\\"text/css\\" height=\\"353px\\" preserveAspectRatio=\\"none\\" style=\\"width:148px;height:353px;\\" version=\\"1.1\\" viewBox=\\"0 0 148 353\\" width=\\"148px\\" zoomAndPan=\\"magnify\\"><defs><filter height=\\"300%\\" id=\\"f106cgy5esiva5\\" width=\\"300%\\" x=\\"-1\\" y=\\"-1\\"><feGaussianBlur result=\\"blurOut\\" stdDeviation=\\"2.0\\"/><feColorMatrix in=\\"blurOut\\" result=\\"blurOut2\\" type=\\"matrix\\" values=\\"0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0\\"/><feOffset dx=\\"4.0\\" dy=\\"4.0\\" in=\\"blurOut2\\" result=\\"blurOut3\\"/><feBlend in=\\"SourceGraphic\\" in2=\\"blurOut3\\" mode=\\"normal\\"/></filter></defs><g><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"32\\" x2=\\"32\\" y1=\\"39.6094\\" y2=\\"311.7188\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"119.5\\" x2=\\"119.5\\" y1=\\"39.6094\\" y2=\\"311.7188\\"/><rect fill=\\"#FEFECE\\" filter=\\"url(#f106cgy5esiva5)\\" height=\\"31.6094\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"44\\" x=\\"8\\" y=\\"3\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"30\\" x=\\"15\\" y=\\"24.5332\\">Alice</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f106cgy5esiva5)\\" height=\\"31.6094\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"44\\" x=\\"8\\" y=\\"310.7188\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"30\\" x=\\"15\\" y=\\"332.252\\">Alice</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f106cgy5esiva5)\\" height=\\"31.6094\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"39\\" x=\\"98.5\\" y=\\"3\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"25\\" x=\\"105.5\\" y=\\"24.5332\\">Bob</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f106cgy5esiva5)\\" height=\\"31.6094\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"39\\" x=\\"98.5\\" y=\\"310.7188\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"25\\" x=\\"105.5\\" y=\\"332.252\\">Bob</text><polygon fill=\\"#A80036\\" points=\\"108,67.9609,118,71.9609,108,75.9609,112,71.9609\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"32\\" x2=\\"114\\" y1=\\"71.9609\\" y2=\\"71.9609\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"64\\" x=\\"39\\" y=\\"67.1045\\">message 1</text><polygon fill=\\"#A80036\\" points=\\"43,98.3125,33,102.3125,43,106.3125,39,102.3125\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;\\" x1=\\"37\\" x2=\\"119\\" y1=\\"102.3125\\" y2=\\"102.3125\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"14\\" x=\\"49\\" y=\\"97.4561\\">ok</text><polygon fill=\\"#A80036\\" points=\\"108,153.6641,118,157.6641,108,161.6641,112,157.6641\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"32\\" x2=\\"114\\" y1=\\"157.6641\\" y2=\\"157.6641\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"64\\" x=\\"39\\" y=\\"152.8076\\">message 2</text><polygon fill=\\"#A80036\\" points=\\"43,184.0156,33,188.0156,43,192.0156,39,188.0156\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;\\" x1=\\"37\\" x2=\\"119\\" y1=\\"188.0156\\" y2=\\"188.0156\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"14\\" x=\\"49\\" y=\\"183.1592\\">ok</text><polygon fill=\\"#A80036\\" points=\\"108,259.3672,118,263.3672,108,267.3672,112,263.3672\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"32\\" x2=\\"114\\" y1=\\"263.3672\\" y2=\\"263.3672\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"64\\" x=\\"39\\" y=\\"258.5107\\">message 3</text><polygon fill=\\"#A80036\\" points=\\"43,289.7188,33,293.7188,43,297.7188,39,293.7188\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 2.0,2.0;\\" x1=\\"37\\" x2=\\"119\\" y1=\\"293.7188\\" y2=\\"293.7188\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"14\\" x=\\"49\\" y=\\"288.8623\\">ok</text><!--
+@startuml
+
+Alice -> Bob: message 1
+Bob - -> Alice: ok
+|||
+Alice -> Bob: message 2
+Bob - -> Alice: ok
+||45||
+Alice -> Bob: message 3
+Bob - -> Alice: ok
+
+@enduml
+
+
+--></g></svg>",
+    },
+  ],
+  "position": Object {
+    "end": Object {
+      "column": 1,
+      "line": 16,
+      "offset": 174,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "root",
+}
+`;
+
 exports[`Sequence Splitting diagrams 1`] = `
 Object {
   "children": Array [

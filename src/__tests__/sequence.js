@@ -507,4 +507,26 @@ Bob --> Alice: Bye !
       code,
     })
   })
+
+  it(`Space`, async () => {
+    const code = `
+\`\`\`plantuml
+@startuml
+
+Alice -> Bob: message 1
+Bob --> Alice: ok
+|||
+Alice -> Bob: message 2
+Bob --> Alice: ok
+||45||
+Alice -> Bob: message 3
+Bob --> Alice: ok
+
+@enduml
+\`\`\`
+`
+    await testRemarkPlugin.testPlugin({
+      code,
+    })
+  })
 })
