@@ -787,4 +787,26 @@ Bob->Alice: First message
       })
     })
   })
+
+  it(`Participants encompass`, async () => {
+    const code = `
+\`\`\`plantuml
+@startuml
+
+box "Internal Service" #LightBlue
+	participant Bob
+	participant Alice
+end box
+participant Other
+
+Bob -> Alice : hello
+Alice -> Other : hello
+
+@enduml
+\`\`\`
+`
+    await testRemarkPlugin.testPlugin({
+      code,
+    })
+  })
 })
