@@ -2113,6 +2113,188 @@ Alice -> Bob : message 6
 }
 `;
 
+exports[`Sequence Stereotypes and Spots Example 1 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": undefined,
+      "lang": undefined,
+      "position": Position {
+        "end": Object {
+          "column": 4,
+          "line": 11,
+          "offset": 156,
+        },
+        "indent": Array [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+        ],
+        "start": Object {
+          "column": 1,
+          "line": 2,
+          "offset": 1,
+        },
+      },
+      "type": "html",
+      "value": "<?xml version=\\"1.0\\" encoding=\\"UTF-8\\" standalone=\\"no\\"?><svg xmlns=\\"http://www.w3.org/2000/svg\\" xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" contentScriptType=\\"application/ecmascript\\" contentStyleType=\\"text/css\\" height=\\"166px\\" preserveAspectRatio=\\"none\\" style=\\"width:244px;height:166px;\\" version=\\"1.1\\" viewBox=\\"0 0 244 166\\" width=\\"244px\\" zoomAndPan=\\"magnify\\"><defs><filter height=\\"300%\\" id=\\"faifszp3o212g\\" width=\\"300%\\" x=\\"-1\\" y=\\"-1\\"><feGaussianBlur result=\\"blurOut\\" stdDeviation=\\"2.0\\"/><feColorMatrix in=\\"blurOut\\" result=\\"blurOut2\\" type=\\"matrix\\" values=\\"0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0\\"/><feOffset dx=\\"4.0\\" dy=\\"4.0\\" in=\\"blurOut2\\" result=\\"blurOut3\\"/><feBlend in=\\"SourceGraphic\\" in2=\\"blurOut3\\" mode=\\"normal\\"/></filter></defs><g><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"59\\" x2=\\"59\\" y1=\\"57.2188\\" y2=\\"107.5703\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"178\\" x2=\\"178\\" y1=\\"57.2188\\" y2=\\"107.5703\\"/><rect fill=\\"#FEFECE\\" filter=\\"url(#faifszp3o212g)\\" height=\\"49.2188\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"98\\" x=\\"8\\" y=\\"3\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" font-style=\\"italic\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"84\\" x=\\"15\\" y=\\"24\\">«Generated»</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"80\\" x=\\"17\\" y=\\"41.6094\\">Famous Bob</text><rect fill=\\"#FEFECE\\" filter=\\"url(#faifszp3o212g)\\" height=\\"49.2188\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"98\\" x=\\"8\\" y=\\"106.5703\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" font-style=\\"italic\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"84\\" x=\\"15\\" y=\\"127.5703\\">«Generated»</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"80\\" x=\\"17\\" y=\\"145.1797\\">Famous Bob</text><rect fill=\\"#FEFECE\\" filter=\\"url(#faifszp3o212g)\\" height=\\"49.2188\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"113\\" x=\\"120\\" y=\\"3\\"/><ellipse cx=\\"138\\" cy=\\"21\\" fill=\\"#ADD1B2\\" rx=\\"11\\" ry=\\"11\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><path d=\\"M140.7656,16.875 Q140.9219,16.6563 141.1094,16.5469 Q141.2969,16.4375 141.5156,16.4375 Q141.8906,16.4375 142.125,16.6953 Q142.3594,16.9531 142.3594,17.5625 L142.3594,19.0156 Q142.3594,19.625 142.125,19.8906 Q141.8906,20.1563 141.5156,20.1563 Q141.1719,20.1563 140.9688,19.9531 Q140.7656,19.7656 140.6563,19.25 Q140.6094,18.8906 140.4219,18.7031 Q140.0938,18.3281 139.4844,18.1094 Q138.875,17.8906 138.25,17.8906 Q137.4844,17.8906 136.8516,18.2188 Q136.2188,18.5469 135.7266,19.2969 Q135.2344,20.0469 135.2344,21.0781 L135.2344,22.1719 Q135.2344,23.4063 136.125,24.2266 Q137.0156,25.0469 138.6094,25.0469 Q139.5469,25.0469 140.2031,24.7969 Q140.5938,24.6406 141.0156,24.2031 Q141.2813,23.9375 141.4297,23.8594 Q141.5781,23.7813 141.7813,23.7813 Q142.1094,23.7813 142.3672,24.0391 Q142.625,24.2969 142.625,24.6406 Q142.625,24.9844 142.2813,25.3906 Q141.7813,25.9688 140.9844,26.2969 Q139.9063,26.75 138.6094,26.75 Q137.0938,26.75 135.8906,26.125 Q134.9063,25.625 134.2188,24.5547 Q133.5313,23.4844 133.5313,22.2031 L133.5313,21.0469 Q133.5313,19.7188 134.1484,18.5703 Q134.7656,17.4219 135.8594,16.8047 Q136.9531,16.1875 138.1875,16.1875 Q138.9219,16.1875 139.5703,16.3516 Q140.2188,16.5156 140.7656,16.875 Z \\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" font-style=\\"italic\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"71\\" x=\\"155\\" y=\\"24\\">«Testable»</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"30\\" x=\\"175.5\\" y=\\"41.6094\\">Alice</text><rect fill=\\"#FEFECE\\" filter=\\"url(#faifszp3o212g)\\" height=\\"49.2188\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"113\\" x=\\"120\\" y=\\"106.5703\\"/><ellipse cx=\\"138\\" cy=\\"124.5703\\" fill=\\"#ADD1B2\\" rx=\\"11\\" ry=\\"11\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><path d=\\"M140.7656,120.4453 Q140.9219,120.2266 141.1094,120.1172 Q141.2969,120.0078 141.5156,120.0078 Q141.8906,120.0078 142.125,120.2656 Q142.3594,120.5234 142.3594,121.1328 L142.3594,122.5859 Q142.3594,123.1953 142.125,123.4609 Q141.8906,123.7266 141.5156,123.7266 Q141.1719,123.7266 140.9688,123.5234 Q140.7656,123.3359 140.6563,122.8203 Q140.6094,122.4609 140.4219,122.2734 Q140.0938,121.8984 139.4844,121.6797 Q138.875,121.4609 138.25,121.4609 Q137.4844,121.4609 136.8516,121.7891 Q136.2188,122.1172 135.7266,122.8672 Q135.2344,123.6172 135.2344,124.6484 L135.2344,125.7422 Q135.2344,126.9766 136.125,127.7969 Q137.0156,128.6172 138.6094,128.6172 Q139.5469,128.6172 140.2031,128.3672 Q140.5938,128.2109 141.0156,127.7734 Q141.2813,127.5078 141.4297,127.4297 Q141.5781,127.3516 141.7813,127.3516 Q142.1094,127.3516 142.3672,127.6094 Q142.625,127.8672 142.625,128.2109 Q142.625,128.5547 142.2813,128.9609 Q141.7813,129.5391 140.9844,129.8672 Q139.9063,130.3203 138.6094,130.3203 Q137.0938,130.3203 135.8906,129.6953 Q134.9063,129.1953 134.2188,128.125 Q133.5313,127.0547 133.5313,125.7734 L133.5313,124.6172 Q133.5313,123.2891 134.1484,122.1406 Q134.7656,120.9922 135.8594,120.375 Q136.9531,119.7578 138.1875,119.7578 Q138.9219,119.7578 139.5703,119.9219 Q140.2188,120.0859 140.7656,120.4453 Z \\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" font-style=\\"italic\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"71\\" x=\\"155\\" y=\\"127.5703\\">«Testable»</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"30\\" x=\\"175.5\\" y=\\"145.1797\\">Alice</text><polygon fill=\\"#A80036\\" points=\\"166.5,85.5703,176.5,89.5703,166.5,93.5703,170.5,89.5703\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"59\\" x2=\\"172.5\\" y1=\\"89.5703\\" y2=\\"89.5703\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"83\\" x=\\"66\\" y=\\"84.7139\\">First message</text><!--
+@startuml
+
+participant \\"Famous Bob\\" as Bob << Generated >>
+participant Alice << (C,#ADD1B2) Testable >>
+
+Bob->Alice: First message
+
+@enduml
+
+
+--></g></svg>",
+    },
+  ],
+  "position": Object {
+    "end": Object {
+      "column": 1,
+      "line": 12,
+      "offset": 157,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "root",
+}
+`;
+
+exports[`Sequence Stereotypes and Spots Example 2 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": undefined,
+      "lang": undefined,
+      "position": Position {
+        "end": Object {
+          "column": 4,
+          "line": 12,
+          "offset": 182,
+        },
+        "indent": Array [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+        ],
+        "start": Object {
+          "column": 1,
+          "line": 2,
+          "offset": 1,
+        },
+      },
+      "type": "html",
+      "value": "<?xml version=\\"1.0\\" encoding=\\"UTF-8\\" standalone=\\"no\\"?><svg xmlns=\\"http://www.w3.org/2000/svg\\" xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" contentScriptType=\\"application/ecmascript\\" contentStyleType=\\"text/css\\" height=\\"166px\\" preserveAspectRatio=\\"none\\" style=\\"width:292px;height:166px;\\" version=\\"1.1\\" viewBox=\\"0 0 292 166\\" width=\\"292px\\" zoomAndPan=\\"magnify\\"><defs><filter height=\\"300%\\" id=\\"f1ibomk56mlnx0\\" width=\\"300%\\" x=\\"-1\\" y=\\"-1\\"><feGaussianBlur result=\\"blurOut\\" stdDeviation=\\"2.0\\"/><feColorMatrix in=\\"blurOut\\" result=\\"blurOut2\\" type=\\"matrix\\" values=\\"0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0\\"/><feOffset dx=\\"4.0\\" dy=\\"4.0\\" in=\\"blurOut2\\" result=\\"blurOut3\\"/><feBlend in=\\"SourceGraphic\\" in2=\\"blurOut3\\" mode=\\"normal\\"/></filter></defs><g><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"71\\" x2=\\"71\\" y1=\\"57.2188\\" y2=\\"107.5703\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"214\\" x2=\\"214\\" y1=\\"57.2188\\" y2=\\"107.5703\\"/><rect fill=\\"#FEFECE\\" filter=\\"url(#f1ibomk56mlnx0)\\" height=\\"49.2188\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"122\\" x=\\"8\\" y=\\"3\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" font-style=\\"italic\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"108\\" x=\\"15\\" y=\\"24\\">&lt;&lt; Generated &gt;&gt;</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"80\\" x=\\"29\\" y=\\"41.6094\\">Famous Bob</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f1ibomk56mlnx0)\\" height=\\"49.2188\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"122\\" x=\\"8\\" y=\\"106.5703\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" font-style=\\"italic\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"108\\" x=\\"15\\" y=\\"127.5703\\">&lt;&lt; Generated &gt;&gt;</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"80\\" x=\\"29\\" y=\\"145.1797\\">Famous Bob</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f1ibomk56mlnx0)\\" height=\\"49.2188\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"137\\" x=\\"144\\" y=\\"3\\"/><ellipse cx=\\"162\\" cy=\\"21\\" fill=\\"#ADD1B2\\" rx=\\"11\\" ry=\\"11\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><path d=\\"M164.7656,16.875 Q164.9219,16.6563 165.1094,16.5469 Q165.2969,16.4375 165.5156,16.4375 Q165.8906,16.4375 166.125,16.6953 Q166.3594,16.9531 166.3594,17.5625 L166.3594,19.0156 Q166.3594,19.625 166.125,19.8906 Q165.8906,20.1563 165.5156,20.1563 Q165.1719,20.1563 164.9688,19.9531 Q164.7656,19.7656 164.6563,19.25 Q164.6094,18.8906 164.4219,18.7031 Q164.0938,18.3281 163.4844,18.1094 Q162.875,17.8906 162.25,17.8906 Q161.4844,17.8906 160.8516,18.2188 Q160.2188,18.5469 159.7266,19.2969 Q159.2344,20.0469 159.2344,21.0781 L159.2344,22.1719 Q159.2344,23.4063 160.125,24.2266 Q161.0156,25.0469 162.6094,25.0469 Q163.5469,25.0469 164.2031,24.7969 Q164.5938,24.6406 165.0156,24.2031 Q165.2813,23.9375 165.4297,23.8594 Q165.5781,23.7813 165.7813,23.7813 Q166.1094,23.7813 166.3672,24.0391 Q166.625,24.2969 166.625,24.6406 Q166.625,24.9844 166.2813,25.3906 Q165.7813,25.9688 164.9844,26.2969 Q163.9063,26.75 162.6094,26.75 Q161.0938,26.75 159.8906,26.125 Q158.9063,25.625 158.2188,24.5547 Q157.5313,23.4844 157.5313,22.2031 L157.5313,21.0469 Q157.5313,19.7188 158.1484,18.5703 Q158.7656,17.4219 159.8594,16.8047 Q160.9531,16.1875 162.1875,16.1875 Q162.9219,16.1875 163.5703,16.3516 Q164.2188,16.5156 164.7656,16.875 Z \\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" font-style=\\"italic\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"95\\" x=\\"179\\" y=\\"24\\">&lt;&lt; Testable &gt;&gt;</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"30\\" x=\\"211.5\\" y=\\"41.6094\\">Alice</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f1ibomk56mlnx0)\\" height=\\"49.2188\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"137\\" x=\\"144\\" y=\\"106.5703\\"/><ellipse cx=\\"162\\" cy=\\"124.5703\\" fill=\\"#ADD1B2\\" rx=\\"11\\" ry=\\"11\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><path d=\\"M164.7656,120.4453 Q164.9219,120.2266 165.1094,120.1172 Q165.2969,120.0078 165.5156,120.0078 Q165.8906,120.0078 166.125,120.2656 Q166.3594,120.5234 166.3594,121.1328 L166.3594,122.5859 Q166.3594,123.1953 166.125,123.4609 Q165.8906,123.7266 165.5156,123.7266 Q165.1719,123.7266 164.9688,123.5234 Q164.7656,123.3359 164.6563,122.8203 Q164.6094,122.4609 164.4219,122.2734 Q164.0938,121.8984 163.4844,121.6797 Q162.875,121.4609 162.25,121.4609 Q161.4844,121.4609 160.8516,121.7891 Q160.2188,122.1172 159.7266,122.8672 Q159.2344,123.6172 159.2344,124.6484 L159.2344,125.7422 Q159.2344,126.9766 160.125,127.7969 Q161.0156,128.6172 162.6094,128.6172 Q163.5469,128.6172 164.2031,128.3672 Q164.5938,128.2109 165.0156,127.7734 Q165.2813,127.5078 165.4297,127.4297 Q165.5781,127.3516 165.7813,127.3516 Q166.1094,127.3516 166.3672,127.6094 Q166.625,127.8672 166.625,128.2109 Q166.625,128.5547 166.2813,128.9609 Q165.7813,129.5391 164.9844,129.8672 Q163.9063,130.3203 162.6094,130.3203 Q161.0938,130.3203 159.8906,129.6953 Q158.9063,129.1953 158.2188,128.125 Q157.5313,127.0547 157.5313,125.7734 L157.5313,124.6172 Q157.5313,123.2891 158.1484,122.1406 Q158.7656,120.9922 159.8594,120.375 Q160.9531,119.7578 162.1875,119.7578 Q162.9219,119.7578 163.5703,119.9219 Q164.2188,120.0859 164.7656,120.4453 Z \\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" font-style=\\"italic\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"95\\" x=\\"179\\" y=\\"127.5703\\">&lt;&lt; Testable &gt;&gt;</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"30\\" x=\\"211.5\\" y=\\"145.1797\\">Alice</text><polygon fill=\\"#A80036\\" points=\\"202.5,85.5703,212.5,89.5703,202.5,93.5703,206.5,89.5703\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"71\\" x2=\\"208.5\\" y1=\\"89.5703\\" y2=\\"89.5703\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"83\\" x=\\"78\\" y=\\"84.7139\\">First message</text><!--
+@startuml
+
+skinparam guillemet false
+participant \\"Famous Bob\\" as Bob << Generated >>
+participant Alice << (C,#ADD1B2) Testable >>
+
+Bob->Alice: First message
+
+@enduml
+
+
+--></g></svg>",
+    },
+  ],
+  "position": Object {
+    "end": Object {
+      "column": 1,
+      "line": 13,
+      "offset": 183,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "root",
+}
+`;
+
+exports[`Sequence Stereotypes and Spots Example 3 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": undefined,
+      "lang": undefined,
+      "position": Position {
+        "end": Object {
+          "column": 4,
+          "line": 11,
+          "offset": 133,
+        },
+        "indent": Array [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+        ],
+        "start": Object {
+          "column": 1,
+          "line": 2,
+          "offset": 1,
+        },
+      },
+      "type": "html",
+      "value": "<?xml version=\\"1.0\\" encoding=\\"UTF-8\\" standalone=\\"no\\"?><svg xmlns=\\"http://www.w3.org/2000/svg\\" xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" contentScriptType=\\"application/ecmascript\\" contentStyleType=\\"text/css\\" height=\\"140px\\" preserveAspectRatio=\\"none\\" style=\\"width:195px;height:140px;\\" version=\\"1.1\\" viewBox=\\"0 0 195 140\\" width=\\"195px\\" zoomAndPan=\\"magnify\\"><defs><filter height=\\"300%\\" id=\\"fcupdwgeivkhg\\" width=\\"300%\\" x=\\"-1\\" y=\\"-1\\"><feGaussianBlur result=\\"blurOut\\" stdDeviation=\\"2.0\\"/><feColorMatrix in=\\"blurOut\\" result=\\"blurOut2\\" type=\\"matrix\\" values=\\"0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0\\"/><feOffset dx=\\"4.0\\" dy=\\"4.0\\" in=\\"blurOut2\\" result=\\"blurOut3\\"/><feBlend in=\\"SourceGraphic\\" in2=\\"blurOut3\\" mode=\\"normal\\"/></filter></defs><g><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"43\\" x2=\\"43\\" y1=\\"44\\" y2=\\"94.3516\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"150.5\\" x2=\\"150.5\\" y1=\\"44\\" y2=\\"94.3516\\"/><rect fill=\\"#FEFECE\\" filter=\\"url(#fcupdwgeivkhg)\\" height=\\"36\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"67\\" x=\\"8\\" y=\\"3\\"/><ellipse cx=\\"26\\" cy=\\"21\\" fill=\\"#ADD1B2\\" rx=\\"11\\" ry=\\"11\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><path d=\\"M28.7656,16.875 Q28.9219,16.6563 29.1094,16.5469 Q29.2969,16.4375 29.5156,16.4375 Q29.8906,16.4375 30.125,16.6953 Q30.3594,16.9531 30.3594,17.5625 L30.3594,19.0156 Q30.3594,19.625 30.125,19.8906 Q29.8906,20.1563 29.5156,20.1563 Q29.1719,20.1563 28.9688,19.9531 Q28.7656,19.7656 28.6563,19.25 Q28.6094,18.8906 28.4219,18.7031 Q28.0938,18.3281 27.4844,18.1094 Q26.875,17.8906 26.25,17.8906 Q25.4844,17.8906 24.8516,18.2188 Q24.2188,18.5469 23.7266,19.2969 Q23.2344,20.0469 23.2344,21.0781 L23.2344,22.1719 Q23.2344,23.4063 24.125,24.2266 Q25.0156,25.0469 26.6094,25.0469 Q27.5469,25.0469 28.2031,24.7969 Q28.5938,24.6406 29.0156,24.2031 Q29.2813,23.9375 29.4297,23.8594 Q29.5781,23.7813 29.7813,23.7813 Q30.1094,23.7813 30.3672,24.0391 Q30.625,24.2969 30.625,24.6406 Q30.625,24.9844 30.2813,25.3906 Q29.7813,25.9688 28.9844,26.2969 Q27.9063,26.75 26.6094,26.75 Q25.0938,26.75 23.8906,26.125 Q22.9063,25.625 22.2188,24.5547 Q21.5313,23.4844 21.5313,22.2031 L21.5313,21.0469 Q21.5313,19.7188 22.1484,18.5703 Q22.7656,17.4219 23.8594,16.8047 Q24.9531,16.1875 26.1875,16.1875 Q26.9219,16.1875 27.5703,16.3516 Q28.2188,16.5156 28.7656,16.875 Z \\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"25\\" x=\\"43\\" y=\\"24\\">Bob</text><rect fill=\\"#FEFECE\\" filter=\\"url(#fcupdwgeivkhg)\\" height=\\"36\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"67\\" x=\\"8\\" y=\\"93.3516\\"/><ellipse cx=\\"26\\" cy=\\"111.3516\\" fill=\\"#ADD1B2\\" rx=\\"11\\" ry=\\"11\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><path d=\\"M28.7656,107.2266 Q28.9219,107.0078 29.1094,106.8984 Q29.2969,106.7891 29.5156,106.7891 Q29.8906,106.7891 30.125,107.0469 Q30.3594,107.3047 30.3594,107.9141 L30.3594,109.3672 Q30.3594,109.9766 30.125,110.2422 Q29.8906,110.5078 29.5156,110.5078 Q29.1719,110.5078 28.9688,110.3047 Q28.7656,110.1172 28.6563,109.6016 Q28.6094,109.2422 28.4219,109.0547 Q28.0938,108.6797 27.4844,108.4609 Q26.875,108.2422 26.25,108.2422 Q25.4844,108.2422 24.8516,108.5703 Q24.2188,108.8984 23.7266,109.6484 Q23.2344,110.3984 23.2344,111.4297 L23.2344,112.5234 Q23.2344,113.7578 24.125,114.5781 Q25.0156,115.3984 26.6094,115.3984 Q27.5469,115.3984 28.2031,115.1484 Q28.5938,114.9922 29.0156,114.5547 Q29.2813,114.2891 29.4297,114.2109 Q29.5781,114.1328 29.7813,114.1328 Q30.1094,114.1328 30.3672,114.3906 Q30.625,114.6484 30.625,114.9922 Q30.625,115.3359 30.2813,115.7422 Q29.7813,116.3203 28.9844,116.6484 Q27.9063,117.1016 26.6094,117.1016 Q25.0938,117.1016 23.8906,116.4766 Q22.9063,115.9766 22.2188,114.9063 Q21.5313,113.8359 21.5313,112.5547 L21.5313,111.3984 Q21.5313,110.0703 22.1484,108.9219 Q22.7656,107.7734 23.8594,107.1563 Q24.9531,106.5391 26.1875,106.5391 Q26.9219,106.5391 27.5703,106.7031 Q28.2188,106.8672 28.7656,107.2266 Z \\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"25\\" x=\\"43\\" y=\\"114.3516\\">Bob</text><rect fill=\\"#FEFECE\\" filter=\\"url(#fcupdwgeivkhg)\\" height=\\"36\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"72\\" x=\\"112.5\\" y=\\"3\\"/><ellipse cx=\\"130.5\\" cy=\\"21\\" fill=\\"#ADD1B2\\" rx=\\"11\\" ry=\\"11\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><path d=\\"M133.2656,16.875 Q133.4219,16.6563 133.6094,16.5469 Q133.7969,16.4375 134.0156,16.4375 Q134.3906,16.4375 134.625,16.6953 Q134.8594,16.9531 134.8594,17.5625 L134.8594,19.0156 Q134.8594,19.625 134.625,19.8906 Q134.3906,20.1563 134.0156,20.1563 Q133.6719,20.1563 133.4688,19.9531 Q133.2656,19.7656 133.1563,19.25 Q133.1094,18.8906 132.9219,18.7031 Q132.5938,18.3281 131.9844,18.1094 Q131.375,17.8906 130.75,17.8906 Q129.9844,17.8906 129.3516,18.2188 Q128.7188,18.5469 128.2266,19.2969 Q127.7344,20.0469 127.7344,21.0781 L127.7344,22.1719 Q127.7344,23.4063 128.625,24.2266 Q129.5156,25.0469 131.1094,25.0469 Q132.0469,25.0469 132.7031,24.7969 Q133.0938,24.6406 133.5156,24.2031 Q133.7813,23.9375 133.9297,23.8594 Q134.0781,23.7813 134.2813,23.7813 Q134.6094,23.7813 134.8672,24.0391 Q135.125,24.2969 135.125,24.6406 Q135.125,24.9844 134.7813,25.3906 Q134.2813,25.9688 133.4844,26.2969 Q132.4063,26.75 131.1094,26.75 Q129.5938,26.75 128.3906,26.125 Q127.4063,25.625 126.7188,24.5547 Q126.0313,23.4844 126.0313,22.2031 L126.0313,21.0469 Q126.0313,19.7188 126.6484,18.5703 Q127.2656,17.4219 128.3594,16.8047 Q129.4531,16.1875 130.6875,16.1875 Q131.4219,16.1875 132.0703,16.3516 Q132.7188,16.5156 133.2656,16.875 Z \\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"30\\" x=\\"147.5\\" y=\\"24\\">Alice</text><rect fill=\\"#FEFECE\\" filter=\\"url(#fcupdwgeivkhg)\\" height=\\"36\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"72\\" x=\\"112.5\\" y=\\"93.3516\\"/><ellipse cx=\\"130.5\\" cy=\\"111.3516\\" fill=\\"#ADD1B2\\" rx=\\"11\\" ry=\\"11\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><path d=\\"M133.2656,107.2266 Q133.4219,107.0078 133.6094,106.8984 Q133.7969,106.7891 134.0156,106.7891 Q134.3906,106.7891 134.625,107.0469 Q134.8594,107.3047 134.8594,107.9141 L134.8594,109.3672 Q134.8594,109.9766 134.625,110.2422 Q134.3906,110.5078 134.0156,110.5078 Q133.6719,110.5078 133.4688,110.3047 Q133.2656,110.1172 133.1563,109.6016 Q133.1094,109.2422 132.9219,109.0547 Q132.5938,108.6797 131.9844,108.4609 Q131.375,108.2422 130.75,108.2422 Q129.9844,108.2422 129.3516,108.5703 Q128.7188,108.8984 128.2266,109.6484 Q127.7344,110.3984 127.7344,111.4297 L127.7344,112.5234 Q127.7344,113.7578 128.625,114.5781 Q129.5156,115.3984 131.1094,115.3984 Q132.0469,115.3984 132.7031,115.1484 Q133.0938,114.9922 133.5156,114.5547 Q133.7813,114.2891 133.9297,114.2109 Q134.0781,114.1328 134.2813,114.1328 Q134.6094,114.1328 134.8672,114.3906 Q135.125,114.6484 135.125,114.9922 Q135.125,115.3359 134.7813,115.7422 Q134.2813,116.3203 133.4844,116.6484 Q132.4063,117.1016 131.1094,117.1016 Q129.5938,117.1016 128.3906,116.4766 Q127.4063,115.9766 126.7188,114.9063 Q126.0313,113.8359 126.0313,112.5547 L126.0313,111.3984 Q126.0313,110.0703 126.6484,108.9219 Q127.2656,107.7734 128.3594,107.1563 Q129.4531,106.5391 130.6875,106.5391 Q131.4219,106.5391 132.0703,106.7031 Q132.7188,106.8672 133.2656,107.2266 Z \\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"30\\" x=\\"147.5\\" y=\\"114.3516\\">Alice</text><polygon fill=\\"#A80036\\" points=\\"138.5,72.3516,148.5,76.3516,138.5,80.3516,142.5,76.3516\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"43.5\\" x2=\\"144.5\\" y1=\\"76.3516\\" y2=\\"76.3516\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"83\\" x=\\"50.5\\" y=\\"71.4951\\">First message</text><!--
+@startuml
+
+participant Bob << (C,#ADD1B2) >>
+participant Alice << (C,#ADD1B2) >>
+
+Bob->Alice: First message
+
+@enduml
+
+
+--></g></svg>",
+    },
+  ],
+  "position": Object {
+    "end": Object {
+      "column": 1,
+      "line": 12,
+      "offset": 134,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "root",
+}
+`;
+
 exports[`Sequence Use non-letters in participants 1`] = `
 Object {
   "children": Array [
