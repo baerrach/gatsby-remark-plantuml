@@ -655,4 +655,58 @@ return success
       code,
     })
   })
+
+  describe(`Incoming and outgoing messages`, () => {
+    it(`Example 1`, async () => {
+      const code = `
+\`\`\`plantuml
+@startuml
+[-> A: DoWork
+
+activate A
+
+A -> A: Internal call
+activate A
+
+A ->] : << createRequest >>
+
+A<--] : RequestCreated
+deactivate A
+[<- A: Done
+deactivate A
+@enduml
+\`\`\`
+`
+      await testRemarkPlugin.testPlugin({
+        code,
+      })
+    })
+
+    it(`Example 2`, async () => {
+      const code = `
+\`\`\`plantuml
+@startuml
+[-> Bob
+[o-> Bob
+[o->o Bob
+[x-> Bob
+
+[<- Bob
+[x<- Bob
+
+Bob ->]
+Bob ->o]
+Bob o->o]
+Bob ->x]
+
+Bob <-]
+Bob x<-]
+@enduml
+\`\`\`
+`
+      await testRemarkPlugin.testPlugin({
+        code,
+      })
+    })
+  })
 })
