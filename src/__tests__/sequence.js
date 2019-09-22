@@ -465,4 +465,27 @@ Alice <-- Bob: another authentication Response
       code,
     })
   })
+
+  it(`Reference`, async () => {
+    const code = `
+\`\`\`plantuml
+@startuml
+participant Alice
+actor Bob
+
+ref over Alice, Bob : init
+
+Alice -> Bob : hello
+
+ref over Bob
+  This can be on
+  several lines
+end ref
+@enduml
+\`\`\`
+`
+    await testRemarkPlugin.testPlugin({
+      code,
+    })
+  })
 })
