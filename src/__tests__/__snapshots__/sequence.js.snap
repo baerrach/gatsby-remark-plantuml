@@ -935,6 +935,90 @@ Alice -> Bob : message 2
 }
 `;
 
+exports[`Sequence Some other notes 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": undefined,
+      "lang": undefined,
+      "position": Position {
+        "end": Object {
+          "column": 4,
+          "line": 23,
+          "offset": 393,
+        },
+        "indent": Array [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+        ],
+        "start": Object {
+          "column": 1,
+          "line": 2,
+          "offset": 1,
+        },
+      },
+      "type": "html",
+      "value": "<?xml version=\\"1.0\\" encoding=\\"UTF-8\\" standalone=\\"no\\"?><svg xmlns=\\"http://www.w3.org/2000/svg\\" xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" contentScriptType=\\"application/ecmascript\\" contentStyleType=\\"text/css\\" height=\\"368px\\" preserveAspectRatio=\\"none\\" style=\\"width:354px;height:368px;\\" version=\\"1.1\\" viewBox=\\"0 0 354 368\\" width=\\"354px\\" zoomAndPan=\\"magnify\\"><defs><filter height=\\"300%\\" id=\\"f2wcxxzmo0fk9\\" width=\\"300%\\" x=\\"-1\\" y=\\"-1\\"><feGaussianBlur result=\\"blurOut\\" stdDeviation=\\"2.0\\"/><feColorMatrix in=\\"blurOut\\" result=\\"blurOut2\\" type=\\"matrix\\" values=\\"0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0\\"/><feOffset dx=\\"4.0\\" dy=\\"4.0\\" in=\\"blurOut2\\" result=\\"blurOut3\\"/><feBlend in=\\"SourceGraphic\\" in2=\\"blurOut3\\" mode=\\"normal\\"/></filter></defs><g><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"139\\" x2=\\"139\\" y1=\\"39.6094\\" y2=\\"326.7734\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"194\\" x2=\\"194\\" y1=\\"39.6094\\" y2=\\"326.7734\\"/><rect fill=\\"#FEFECE\\" filter=\\"url(#f2wcxxzmo0fk9)\\" height=\\"31.6094\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"44\\" x=\\"115\\" y=\\"3\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"30\\" x=\\"122\\" y=\\"24.5332\\">Alice</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f2wcxxzmo0fk9)\\" height=\\"31.6094\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"44\\" x=\\"115\\" y=\\"325.7734\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"30\\" x=\\"122\\" y=\\"347.3066\\">Alice</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f2wcxxzmo0fk9)\\" height=\\"31.6094\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"39\\" x=\\"173\\" y=\\"3\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"25\\" x=\\"180\\" y=\\"24.5332\\">Bob</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f2wcxxzmo0fk9)\\" height=\\"31.6094\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"39\\" x=\\"173\\" y=\\"325.7734\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"25\\" x=\\"180\\" y=\\"347.3066\\">Bob</text><path d=\\"M8,54.6094 L8,96.6094 L130,96.6094 L130,64.6094 L120,54.6094 L8,54.6094 \\" fill=\\"#00FFFF\\" filter=\\"url(#f2wcxxzmo0fk9)\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><path d=\\"M120,54.6094 L120,64.6094 L130,64.6094 L120,54.6094 \\" fill=\\"#00FFFF\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"97\\" x=\\"14\\" y=\\"73.1045\\">This is displayed</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"68\\" x=\\"14\\" y=\\"89.4561\\">left of Alice.</text><path d=\\"M144,111.3125 L144,137.3125 L342,137.3125 L342,121.3125 L332,111.3125 L144,111.3125 \\" fill=\\"#FBFB77\\" filter=\\"url(#f2wcxxzmo0fk9)\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><path d=\\"M332,111.3125 L332,121.3125 L342,121.3125 L332,111.3125 \\" fill=\\"#FBFB77\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"177\\" x=\\"150\\" y=\\"129.8076\\">This is displayed right of Alice.</text><path d=\\"M46,151.6641 L46,177.6641 L228,177.6641 L228,161.6641 L218,151.6641 L46,151.6641 \\" fill=\\"#FBFB77\\" filter=\\"url(#f2wcxxzmo0fk9)\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><path d=\\"M218,151.6641 L218,161.6641 L228,161.6641 L218,151.6641 \\" fill=\\"#FBFB77\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"161\\" x=\\"52\\" y=\\"170.1592\\">This is displayed over Alice.</text><path d=\\"M96,192.0156 L96,234.0156 L233,234.0156 L233,202.0156 L223,192.0156 L96,192.0156 \\" fill=\\"#FFAAAA\\" filter=\\"url(#f2wcxxzmo0fk9)\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><path d=\\"M223,192.0156 L223,202.0156 L233,202.0156 L223,192.0156 \\" fill=\\"#FFAAAA\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"97\\" x=\\"102\\" y=\\"210.5107\\">This is displayed</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"112\\" x=\\"106\\" y=\\"226.8623\\">over Bob and Alice.</text><path d=\\"M100,248.7188 L100,307.7188 L228,307.7188 L228,258.7188 L218,248.7188 L100,248.7188 \\" fill=\\"#FBFB77\\" filter=\\"url(#f2wcxxzmo0fk9)\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><path d=\\"M218,248.7188 L218,258.7188 L228,258.7188 L218,248.7188 \\" fill=\\"#FBFB77\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"107\\" x=\\"106\\" y=\\"267.2139\\">This is yet another</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"63\\" x=\\"106\\" y=\\"283.5654\\">example of</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"68\\" x=\\"106\\" y=\\"299.917\\">a long note.</text><!--
+@startuml
+participant Alice
+participant Bob
+note left of Alice #aqua
+	This is displayed 
+	left of Alice. 
+end note
+ 
+note right of Alice: This is displayed right of Alice.
+
+note over Alice: This is displayed over Alice.
+
+note over Alice, Bob #FFAAAA: This is displayed\\\\n over Bob and Alice.
+
+note over Bob, Alice
+	This is yet another
+	example of
+	a long note.
+end note
+@enduml
+
+
+--></g></svg>",
+    },
+  ],
+  "position": Object {
+    "end": Object {
+      "column": 1,
+      "line": 24,
+      "offset": 394,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "root",
+}
+`;
+
 exports[`Sequence Splitting diagrams 1`] = `
 Object {
   "children": Array [
