@@ -797,6 +797,78 @@ Alice->Alice: This is a signal to self.\\\\nIt also demonstrates\\\\nmultiline \
 }
 `;
 
+exports[`Sequence Notes on messages 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": undefined,
+      "lang": undefined,
+      "position": Position {
+        "end": Object {
+          "column": 4,
+          "line": 17,
+          "offset": 227,
+        },
+        "indent": Array [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+        ],
+        "start": Object {
+          "column": 1,
+          "line": 2,
+          "offset": 1,
+        },
+      },
+      "type": "html",
+      "value": "<?xml version=\\"1.0\\" encoding=\\"UTF-8\\" standalone=\\"no\\"?><svg xmlns=\\"http://www.w3.org/2000/svg\\" xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" contentScriptType=\\"application/ecmascript\\" contentStyleType=\\"text/css\\" height=\\"254px\\" preserveAspectRatio=\\"none\\" style=\\"width:342px;height:254px;\\" version=\\"1.1\\" viewBox=\\"0 0 342 254\\" width=\\"342px\\" zoomAndPan=\\"magnify\\"><defs><filter height=\\"300%\\" id=\\"f16l99i6fq7z22\\" width=\\"300%\\" x=\\"-1\\" y=\\"-1\\"><feGaussianBlur result=\\"blurOut\\" stdDeviation=\\"2.0\\"/><feColorMatrix in=\\"blurOut\\" result=\\"blurOut2\\" type=\\"matrix\\" values=\\"0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0\\"/><feOffset dx=\\"4.0\\" dy=\\"4.0\\" in=\\"blurOut2\\" result=\\"blurOut3\\"/><feBlend in=\\"SourceGraphic\\" in2=\\"blurOut3\\" mode=\\"normal\\"/></filter></defs><g><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"138\\" x2=\\"138\\" y1=\\"39.6094\\" y2=\\"213.3672\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"193\\" x2=\\"193\\" y1=\\"39.6094\\" y2=\\"213.3672\\"/><rect fill=\\"#FEFECE\\" filter=\\"url(#f16l99i6fq7z22)\\" height=\\"31.6094\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"44\\" x=\\"114\\" y=\\"3\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"30\\" x=\\"121\\" y=\\"24.5332\\">Alice</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f16l99i6fq7z22)\\" height=\\"31.6094\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"44\\" x=\\"114\\" y=\\"212.3672\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"30\\" x=\\"121\\" y=\\"233.9004\\">Alice</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f16l99i6fq7z22)\\" height=\\"31.6094\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"39\\" x=\\"172\\" y=\\"3\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"25\\" x=\\"179\\" y=\\"24.5332\\">Bob</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f16l99i6fq7z22)\\" height=\\"31.6094\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"39\\" x=\\"172\\" y=\\"212.3672\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"25\\" x=\\"179\\" y=\\"233.9004\\">Bob</text><polygon fill=\\"#A80036\\" points=\\"181.5,72.9609,191.5,76.9609,181.5,80.9609,185.5,76.9609\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"138\\" x2=\\"187.5\\" y1=\\"76.9609\\" y2=\\"76.9609\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"27\\" x=\\"145\\" y=\\"72.1045\\">hello</text><path d=\\"M8,54.6094 L8,80.6094 L129,80.6094 L129,64.6094 L119,54.6094 L8,54.6094 \\" fill=\\"#FBFB77\\" filter=\\"url(#f16l99i6fq7z22)\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><path d=\\"M119,54.6094 L119,64.6094 L129,64.6094 L119,54.6094 \\" fill=\\"#FBFB77\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"100\\" x=\\"14\\" y=\\"73.1045\\">this is a first note</text><polygon fill=\\"#A80036\\" points=\\"149,113.3125,139,117.3125,149,121.3125,145,117.3125\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"143\\" x2=\\"192.5\\" y1=\\"117.3125\\" y2=\\"117.3125\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"14\\" x=\\"155\\" y=\\"112.4561\\">ok</text><path d=\\"M198,94.9609 L198,120.9609 L330,120.9609 L330,104.9609 L320,94.9609 L198,94.9609 \\" fill=\\"#FBFB77\\" filter=\\"url(#f16l99i6fq7z22)\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><path d=\\"M320,94.9609 L320,104.9609 L330,104.9609 L320,94.9609 \\" fill=\\"#FBFB77\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"111\\" x=\\"204\\" y=\\"113.4561\\">this is another note</text><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"193.5\\" x2=\\"235.5\\" y1=\\"167.5156\\" y2=\\"167.5156\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"235.5\\" x2=\\"235.5\\" y1=\\"167.5156\\" y2=\\"180.5156\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"194.5\\" x2=\\"235.5\\" y1=\\"180.5156\\" y2=\\"180.5156\\"/><polygon fill=\\"#A80036\\" points=\\"204.5,176.5156,194.5,180.5156,204.5,184.5156,200.5,180.5156\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"74\\" x=\\"200.5\\" y=\\"162.6592\\">I am thinking</text><path d=\\"M51,135.3125 L51,194.3125 L184,194.3125 L184,145.3125 L174,135.3125 L51,135.3125 \\" fill=\\"#FBFB77\\" filter=\\"url(#f16l99i6fq7z22)\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><path d=\\"M174,135.3125 L174,145.3125 L184,145.3125 L174,135.3125 \\" fill=\\"#FBFB77\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"36\\" x=\\"57\\" y=\\"153.8076\\">a note</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"112\\" x=\\"57\\" y=\\"170.1592\\">can also be defined</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"89\\" x=\\"57\\" y=\\"186.5107\\">on several lines</text><!--
+@startuml
+Alice->Bob : hello
+note left: this is a first note
+
+Bob->Alice : ok
+note right: this is another note
+
+Bob->Bob : I am thinking
+note left
+	a note
+	can also be defined
+	on several lines
+end note
+@enduml
+
+
+--></g></svg>",
+    },
+  ],
+  "position": Object {
+    "end": Object {
+      "column": 1,
+      "line": 18,
+      "offset": 228,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "root",
+}
+`;
+
 exports[`Sequence Page Title, Header and Footer 1`] = `
 Object {
   "children": Array [

@@ -330,4 +330,28 @@ end
       code,
     })
   })
+
+  it(`Notes on messages`, async () => {
+    const code = `
+\`\`\`plantuml
+@startuml
+Alice->Bob : hello
+note left: this is a first note
+
+Bob->Alice : ok
+note right: this is another note
+
+Bob->Bob : I am thinking
+note left
+	a note
+	can also be defined
+	on several lines
+end note
+@enduml
+\`\`\`
+`
+    await testRemarkPlugin.testPlugin({
+      code,
+    })
+  })
 })
