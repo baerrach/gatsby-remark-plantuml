@@ -809,4 +809,23 @@ Alice -> Other : hello
       code,
     })
   })
+
+  it(`Removing Foot Boxes`, async () => {
+    const code = `
+\`\`\`plantuml
+@startuml
+
+hide footbox
+title Foot Box removed
+
+Alice -> Bob: Authentication Request
+Bob --> Alice: Authentication Response
+
+@enduml
+\`\`\`
+`
+    await testRemarkPlugin.testPlugin({
+      code,
+    })
+  })
 })
