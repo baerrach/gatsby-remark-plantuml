@@ -442,4 +442,27 @@ end note
       code,
     })
   })
+
+  it(`Divider`, async () => {
+    const code = `
+\`\`\`plantuml
+@startuml
+
+== Initialization ==
+
+Alice -> Bob: Authentication Request
+Bob --> Alice: Authentication Response
+
+== Repetition ==
+
+Alice -> Bob: Another authentication Request
+Alice <-- Bob: another authentication Response
+
+@enduml
+\`\`\`
+`
+    await testRemarkPlugin.testPlugin({
+      code,
+    })
+  })
 })
