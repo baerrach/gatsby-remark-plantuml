@@ -244,6 +244,108 @@ endrnote
 }
 `;
 
+exports[`Sequence Creole and HTML 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": undefined,
+      "lang": undefined,
+      "position": Position {
+        "end": Object {
+          "column": 4,
+          "line": 32,
+          "offset": 701,
+        },
+        "indent": Array [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+        ],
+        "start": Object {
+          "column": 1,
+          "line": 2,
+          "offset": 1,
+        },
+      },
+      "type": "html",
+      "value": "<?xml version=\\"1.0\\" encoding=\\"UTF-8\\" standalone=\\"no\\"?><svg xmlns=\\"http://www.w3.org/2000/svg\\" xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" contentScriptType=\\"application/ecmascript\\" contentStyleType=\\"text/css\\" height=\\"488px\\" preserveAspectRatio=\\"none\\" style=\\"width:648px;height:488px;\\" version=\\"1.1\\" viewBox=\\"0 0 648 488\\" width=\\"648px\\" zoomAndPan=\\"magnify\\"><defs><filter height=\\"300%\\" id=\\"fghtqyne9h9t5\\" width=\\"300%\\" x=\\"-1\\" y=\\"-1\\"><feGaussianBlur result=\\"blurOut\\" stdDeviation=\\"2.0\\"/><feColorMatrix in=\\"blurOut\\" result=\\"blurOut2\\" type=\\"matrix\\" values=\\"0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0\\"/><feOffset dx=\\"4.0\\" dy=\\"4.0\\" in=\\"blurOut2\\" result=\\"blurOut3\\"/><feBlend in=\\"SourceGraphic\\" in2=\\"blurOut3\\" mode=\\"normal\\"/></filter><filter height=\\"1\\" id=\\"bghtqyne9h9t50\\" width=\\"1\\" x=\\"0\\" y=\\"0\\"><feFlood flood-color=\\"#5F9EA0\\" result=\\"flood\\"/><feComposite in=\\"SourceGraphic\\" in2=\\"flood\\" operator=\\"over\\"/></filter></defs><g><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"237\\" x2=\\"237\\" y1=\\"39.6094\\" y2=\\"79.9609\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 1.0,4.0;\\" x1=\\"237\\" x2=\\"237\\" y1=\\"79.9609\\" y2=\\"121.7969\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"237\\" x2=\\"237\\" y1=\\"121.7969\\" y2=\\"446.8545\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"410.5\\" x2=\\"410.5\\" y1=\\"39.6094\\" y2=\\"79.9609\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 1.0,4.0;\\" x1=\\"410.5\\" x2=\\"410.5\\" y1=\\"79.9609\\" y2=\\"121.7969\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"410.5\\" x2=\\"410.5\\" y1=\\"121.7969\\" y2=\\"446.8545\\"/><rect fill=\\"#FEFECE\\" filter=\\"url(#fghtqyne9h9t5)\\" height=\\"31.6094\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"44\\" x=\\"213\\" y=\\"3\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"30\\" x=\\"220\\" y=\\"24.5332\\">Alice</text><rect fill=\\"#FEFECE\\" filter=\\"url(#fghtqyne9h9t5)\\" height=\\"31.6094\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"44\\" x=\\"213\\" y=\\"445.8545\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"30\\" x=\\"220\\" y=\\"467.3877\\">Alice</text><rect fill=\\"#FEFECE\\" filter=\\"url(#fghtqyne9h9t5)\\" height=\\"31.6094\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"127\\" x=\\"345.5\\" y=\\"3\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"25\\" x=\\"352.5\\" y=\\"24.5332\\">The</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" font-weight=\\"bold\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"55\\" x=\\"381.5\\" y=\\"24.5332\\">Famous</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"25\\" x=\\"440.5\\" y=\\"24.5332\\">Bob</text><rect fill=\\"#FEFECE\\" filter=\\"url(#fghtqyne9h9t5)\\" height=\\"31.6094\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"127\\" x=\\"345.5\\" y=\\"445.8545\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"25\\" x=\\"352.5\\" y=\\"467.3877\\">The</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" font-weight=\\"bold\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"55\\" x=\\"381.5\\" y=\\"467.3877\\">Famous</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"25\\" x=\\"440.5\\" y=\\"467.3877\\">Bob</text><polygon fill=\\"#A80036\\" points=\\"399,67.9609,409,71.9609,399,75.9609,403,71.9609\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"237\\" x2=\\"405\\" y1=\\"71.9609\\" y2=\\"71.9609\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"27\\" x=\\"244\\" y=\\"67.1045\\">hello</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" text-decoration=\\"line-through\\" textLength=\\"29\\" x=\\"275\\" y=\\"67.1045\\">there</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"11\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"27\\" x=\\"284.5\\" y=\\"105.3799\\">Some</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"11\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"49\\" x=\\"314.5\\" y=\\"105.3799\\">long delay</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"11\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"0\\" x=\\"366.5\\" y=\\"105.3799\\"/><polygon fill=\\"#A80036\\" points=\\"248,186.3384,238,190.3384,248,194.3384,244,190.3384\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"242\\" x2=\\"410\\" y1=\\"190.3384\\" y2=\\"190.3384\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"14\\" x=\\"254\\" y=\\"185.4819\\">ok</text><path d=\\"M85,126.7969 L85,234.7969 L228,234.7969 L228,136.7969 L218,126.7969 L85,126.7969 \\" fill=\\"#FBFB77\\" filter=\\"url(#fghtqyne9h9t5)\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><path d=\\"M218,126.7969 L218,136.7969 L228,136.7969 L218,126.7969 \\" fill=\\"#FBFB77\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"38\\" x=\\"91\\" y=\\"145.292\\">This is</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" font-weight=\\"bold\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"28\\" x=\\"133\\" y=\\"145.292\\">bold</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"38\\" x=\\"91\\" y=\\"161.6436\\">This is</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" font-style=\\"italic\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"34\\" x=\\"133\\" y=\\"161.6436\\">italics</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"38\\" x=\\"91\\" y=\\"178.6172\\">This is</text><text fill=\\"#000000\\" font-family=\\"monospace\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"80\\" x=\\"133\\" y=\\"177.5698\\">monospaced</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"38\\" x=\\"91\\" y=\\"194.9688\\">This is</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" text-decoration=\\"line-through\\" textLength=\\"43\\" x=\\"133\\" y=\\"194.9688\\">stroked</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"38\\" x=\\"91\\" y=\\"211.3203\\">This is</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" text-decoration=\\"underline\\" textLength=\\"59\\" x=\\"133\\" y=\\"211.3203\\">underlined</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"38\\" x=\\"91\\" y=\\"227.6719\\">This is</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"35\\" x=\\"133\\" y=\\"227.6719\\">waved</text><polygon fill=\\"#A80036\\" points=\\"399,262.8799,409,266.8799,399,270.8799,403,266.8799\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"237\\" x2=\\"405\\" y1=\\"266.8799\\" y2=\\"266.8799\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"9\\" x=\\"244\\" y=\\"262.0234\\">A</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" font-style=\\"italic\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"80\\" x=\\"257\\" y=\\"262.0234\\">well formatted</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"53\\" x=\\"341\\" y=\\"262.0234\\">message</text><path d=\\"M242,279.8799 L242,327.8799 L381,327.8799 L381,289.8799 L371,279.8799 L242,279.8799 \\" fill=\\"#FBFB77\\" filter=\\"url(#fghtqyne9h9t5)\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><path d=\\"M371,279.8799 L371,289.8799 L381,289.8799 L371,279.8799 \\" fill=\\"#FBFB77\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"38\\" x=\\"248\\" y=\\"304.6641\\">This is</text><text fill=\\"#000000\\" filter=\\"url(#bghtqyne9h9t50)\\" font-family=\\"sans-serif\\" font-size=\\"18\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"76\\" x=\\"290\\" y=\\"303.5654\\">displayed</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" text-decoration=\\"underline\\" textLength=\\"31\\" x=\\"248\\" y=\\"321.0156\\">left of</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"33\\" x=\\"283\\" y=\\"321.0156\\">Alice.</text><path d=\\"M276,342.8721 L276,384.8721 L402,384.8721 L402,352.8721 L392,342.8721 L276,342.8721 \\" fill=\\"#FBFB77\\" filter=\\"url(#fghtqyne9h9t5)\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><path d=\\"M392,342.8721 L392,352.8721 L402,352.8721 L392,342.8721 \\" fill=\\"#FBFB77\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" text-decoration=\\"underline\\" textLength=\\"24\\" x=\\"282\\" y=\\"361.3672\\">This</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"10\\" x=\\"310\\" y=\\"361.3672\\">is</text><text fill=\\"#118888\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"55\\" x=\\"324\\" y=\\"361.3672\\">displayed</text><text fill=\\"#800080\\" font-family=\\"sans-serif\\" font-size=\\"13\\" font-weight=\\"bold\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"36\\" x=\\"282\\" y=\\"377.7188\\">left of</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" font-weight=\\"bold\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"0\\" x=\\"322\\" y=\\"377.7188\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" font-weight=\\"bold\\" lengthAdjust=\\"spacingAndGlyphs\\" text-decoration=\\"line-through\\" textLength=\\"32\\" x=\\"322\\" y=\\"377.7188\\">Alice</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" font-weight=\\"bold\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"25\\" x=\\"358\\" y=\\"377.7188\\">Bob</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"4\\" x=\\"383\\" y=\\"377.7188\\">.</text><path d=\\"M8,399.5752 L8,427.5752 L636,427.5752 L636,409.5752 L626,399.5752 L8,399.5752 \\" fill=\\"#FBFB77\\" filter=\\"url(#fghtqyne9h9t5)\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><path d=\\"M626,399.5752 L626,409.5752 L636,409.5752 L626,399.5752 \\" fill=\\"#FBFB77\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"81\\" x=\\"14\\" y=\\"419.998\\">This is hosted</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"14\\" x=\\"99\\" y=\\"419.998\\">by</text><text fill=\\"#000000\\" font-family=\\"monospace\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"504\\" x=\\"117\\" y=\\"418.6504\\">(File not found: C:\\\\ide\\\\gatsby-remark-plantuml\\\\sourceforge.jpg)</text><!--
+@startuml
+participant Alice
+participant \\"The **Famous** Bob\\" as Bob
+
+Alice -> Bob : hello - -there- -
+... Some ~~long delay~~ ...
+Bob -> Alice : ok
+note left
+  This is **bold**
+  This is //italics//
+  This is \\"\\"monospaced\\"\\"
+  This is - -stroked- -
+  This is __underlined__
+  This is ~~waved~~
+end note
+
+Alice -> Bob : A //well formatted// message
+note right of Alice
+ This is <back:cadetblue><size:18>displayed</size></back>
+ __left of__ Alice.
+end note
+note left of Bob
+ <u:red>This</u> is <color #118888>displayed</color>
+ **<color purple>left of</color> <s:red>Alice</strike> Bob**.
+end note
+note over Alice, Bob
+ <w:#FF33FF>This is hosted</w> by <img sourceforge.jpg>
+end note
+@enduml
+
+
+--></g></svg>",
+    },
+  ],
+  "position": Object {
+    "end": Object {
+      "column": 1,
+      "line": 33,
+      "offset": 702,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "root",
+}
+`;
+
 exports[`Sequence Declaring participant Example 1 1`] = `
 Object {
   "children": Array [
