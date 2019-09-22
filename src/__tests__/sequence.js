@@ -709,4 +709,25 @@ Bob x<-]
       })
     })
   })
+
+  it(`Anchors and Duration`, async () => {
+    const code = `
+\`\`\`plantuml
+@startuml
+!pragma teoz true
+
+{start} Alice -> Bob : start doing things during duration
+Bob -> Max : something
+Max -> Bob : something else
+{end} Bob -> Alice : finish
+
+{start} <-> {end} : some time
+
+@enduml
+\`\`\`
+`
+    await testRemarkPlugin.testPlugin({
+      code,
+    })
+  })
 })
