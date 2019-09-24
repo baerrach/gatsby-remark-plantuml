@@ -120,6 +120,166 @@ User - -> (Use the application) : A small label
 }
 `;
 
+exports[`Use Case Changing arrows direction Example 1 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": undefined,
+      "lang": undefined,
+      "position": Position {
+        "end": Object {
+          "column": 4,
+          "line": 7,
+          "offset": 81,
+        },
+        "indent": Array [
+          1,
+          1,
+          1,
+          1,
+          1,
+        ],
+        "start": Object {
+          "column": 1,
+          "line": 2,
+          "offset": 1,
+        },
+      },
+      "type": "html",
+      "value": "<?xml version=\\"1.0\\" encoding=\\"UTF-8\\" standalone=\\"no\\"?><svg xmlns=\\"http://www.w3.org/2000/svg\\" xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" contentScriptType=\\"application/ecmascript\\" contentStyleType=\\"text/css\\" height=\\"194px\\" preserveAspectRatio=\\"none\\" style=\\"width:224px;height:194px;\\" version=\\"1.1\\" viewBox=\\"0 0 224 194\\" width=\\"224px\\" zoomAndPan=\\"magnify\\"><defs><filter height=\\"300%\\" id=\\"f1a3psxa30bkuw\\" width=\\"300%\\" x=\\"-1\\" y=\\"-1\\"><feGaussianBlur result=\\"blurOut\\" stdDeviation=\\"2.0\\"/><feColorMatrix in=\\"blurOut\\" result=\\"blurOut2\\" type=\\"matrix\\" values=\\"0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0\\"/><feOffset dx=\\"4.0\\" dy=\\"4.0\\" in=\\"blurOut2\\" result=\\"blurOut3\\"/><feBlend in=\\"SourceGraphic\\" in2=\\"blurOut3\\" mode=\\"normal\\"/></filter></defs><g><!--entity user--><ellipse cx=\\"58.5\\" cy=\\"18\\" fill=\\"#FEFECE\\" filter=\\"url(#f1a3psxa30bkuw)\\" rx=\\"8\\" ry=\\"8\\" style=\\"stroke: #A80036; stroke-width: 2.0;\\"/><path d=\\"M58.5,26 L58.5,53 M45.5,34 L71.5,34 M58.5,53 L45.5,68 M58.5,53 L71.5,68 \\" fill=\\"none\\" filter=\\"url(#f1a3psxa30bkuw)\\" style=\\"stroke: #A80036; stroke-width: 2.0;\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"28\\" x=\\"44.5\\" y=\\"89.5332\\">user</text><ellipse cx=\\"58.4975\\" cy=\\"168.4517\\" fill=\\"#FEFECE\\" filter=\\"url(#f1a3psxa30bkuw)\\" rx=\\"52.4975\\" ry=\\"15.4517\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"70\\" x=\\"23.4975\\" y=\\"173.7564\\">Use case 1</text><ellipse cx=\\"161.4975\\" cy=\\"50.4517\\" fill=\\"#FEFECE\\" filter=\\"url(#f1a3psxa30bkuw)\\" rx=\\"52.4975\\" ry=\\"15.4517\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"70\\" x=\\"126.4975\\" y=\\"55.7564\\">Use case 2</text><!--link user to Use case 1--><path d=\\"M58.5,93.051 C58.5,111.5788 58.5,132.5479 58.5,147.4996 \\" fill=\\"none\\" id=\\"user-&gt;Use case 1\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><polygon fill=\\"#A80036\\" points=\\"58.5,152.7202,62.5,143.7202,58.5,147.7202,54.5,143.7202,58.5,152.7202\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><!--link user to Use case 2--><path d=\\"M73.7891,50.5 C83.709,50.5 93.629,50.5 103.5489,50.5 \\" fill=\\"none\\" id=\\"user-&gt;Use case 2\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><polygon fill=\\"#A80036\\" points=\\"108.736,50.5,99.736,46.5,103.736,50.5,99.736,54.5,108.736,50.5\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><!--
+@startuml
+:user: - -> (Use case 1)
+:user: -> (Use case 2)
+@enduml
+
+
+--></g></svg>",
+    },
+  ],
+  "position": Object {
+    "end": Object {
+      "column": 1,
+      "line": 8,
+      "offset": 82,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "root",
+}
+`;
+
+exports[`Use Case Changing arrows direction Example 2 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": undefined,
+      "lang": undefined,
+      "position": Position {
+        "end": Object {
+          "column": 4,
+          "line": 7,
+          "offset": 81,
+        },
+        "indent": Array [
+          1,
+          1,
+          1,
+          1,
+          1,
+        ],
+        "start": Object {
+          "column": 1,
+          "line": 2,
+          "offset": 1,
+        },
+      },
+      "type": "html",
+      "value": "<?xml version=\\"1.0\\" encoding=\\"UTF-8\\" standalone=\\"no\\"?><svg xmlns=\\"http://www.w3.org/2000/svg\\" xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" contentScriptType=\\"application/ecmascript\\" contentStyleType=\\"text/css\\" height=\\"194px\\" preserveAspectRatio=\\"none\\" style=\\"width:224px;height:194px;\\" version=\\"1.1\\" viewBox=\\"0 0 224 194\\" width=\\"224px\\" zoomAndPan=\\"magnify\\"><defs><filter height=\\"300%\\" id=\\"fh0enda5fconq\\" width=\\"300%\\" x=\\"-1\\" y=\\"-1\\"><feGaussianBlur result=\\"blurOut\\" stdDeviation=\\"2.0\\"/><feColorMatrix in=\\"blurOut\\" result=\\"blurOut2\\" type=\\"matrix\\" values=\\"0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0\\"/><feOffset dx=\\"4.0\\" dy=\\"4.0\\" in=\\"blurOut2\\" result=\\"blurOut3\\"/><feBlend in=\\"SourceGraphic\\" in2=\\"blurOut3\\" mode=\\"normal\\"/></filter></defs><g><ellipse cx=\\"161.4975\\" cy=\\"23.4517\\" fill=\\"#FEFECE\\" filter=\\"url(#fh0enda5fconq)\\" rx=\\"52.4975\\" ry=\\"15.4517\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"70\\" x=\\"126.4975\\" y=\\"28.7564\\">Use case 1</text><!--entity user--><ellipse cx=\\"161.5\\" cy=\\"109\\" fill=\\"#FEFECE\\" filter=\\"url(#fh0enda5fconq)\\" rx=\\"8\\" ry=\\"8\\" style=\\"stroke: #A80036; stroke-width: 2.0;\\"/><path d=\\"M161.5,117 L161.5,144 M148.5,125 L174.5,125 M161.5,144 L148.5,159 M161.5,144 L174.5,159 \\" fill=\\"none\\" filter=\\"url(#fh0enda5fconq)\\" style=\\"stroke: #A80036; stroke-width: 2.0;\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"28\\" x=\\"147.5\\" y=\\"180.5332\\">user</text><ellipse cx=\\"58.4975\\" cy=\\"141.4517\\" fill=\\"#FEFECE\\" filter=\\"url(#fh0enda5fconq)\\" rx=\\"52.4975\\" ry=\\"15.4517\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"70\\" x=\\"23.4975\\" y=\\"146.7564\\">Use case 2</text><!--reverse link Use case 1 to user--><path d=\\"M161.5,44.396 C161.5,59.306 161.5,80.242 161.5,98.7686 \\" fill=\\"none\\" id=\\"Use case 1&lt;-user\\" style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;\\"/><polygon fill=\\"#A80036\\" points=\\"161.5,39.191,157.5,48.191,161.5,44.191,165.5,48.191,161.5,39.191\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><!--reverse link Use case 2 to user--><path d=\\"M116.398,141.5 C126.324,141.5 136.25,141.5 146.176,141.5 \\" fill=\\"none\\" id=\\"Use case 2&lt;-user\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><polygon fill=\\"#A80036\\" points=\\"111.207,141.5,120.207,145.5,116.207,141.5,120.207,137.5,111.207,141.5\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><!--
+@startuml
+(Use case 1) <.. :user:
+(Use case 2) <- :user:
+@enduml
+
+
+--></g></svg>",
+    },
+  ],
+  "position": Object {
+    "end": Object {
+      "column": 1,
+      "line": 8,
+      "offset": 82,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "root",
+}
+`;
+
+exports[`Use Case Changing arrows direction Example 3 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": undefined,
+      "lang": undefined,
+      "position": Position {
+        "end": Object {
+          "column": 4,
+          "line": 9,
+          "offset": 140,
+        },
+        "indent": Array [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+        ],
+        "start": Object {
+          "column": 1,
+          "line": 2,
+          "offset": 1,
+        },
+      },
+      "type": "html",
+      "value": "<?xml version=\\"1.0\\" encoding=\\"UTF-8\\" standalone=\\"no\\"?><svg xmlns=\\"http://www.w3.org/2000/svg\\" xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" contentScriptType=\\"application/ecmascript\\" contentStyleType=\\"text/css\\" height=\\"285px\\" preserveAspectRatio=\\"none\\" style=\\"width:337px;height:285px;\\" version=\\"1.1\\" viewBox=\\"0 0 337 285\\" width=\\"337px\\" zoomAndPan=\\"magnify\\"><defs><filter height=\\"300%\\" id=\\"fgk9x5go3mcn2\\" width=\\"300%\\" x=\\"-1\\" y=\\"-1\\"><feGaussianBlur result=\\"blurOut\\" stdDeviation=\\"2.0\\"/><feColorMatrix in=\\"blurOut\\" result=\\"blurOut2\\" type=\\"matrix\\" values=\\"0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0\\"/><feOffset dx=\\"4.0\\" dy=\\"4.0\\" in=\\"blurOut2\\" result=\\"blurOut3\\"/><feBlend in=\\"SourceGraphic\\" in2=\\"blurOut3\\" mode=\\"normal\\"/></filter></defs><g><!--entity user--><ellipse cx=\\"160\\" cy=\\"109\\" fill=\\"#FEFECE\\" filter=\\"url(#fgk9x5go3mcn2)\\" rx=\\"8\\" ry=\\"8\\" style=\\"stroke: #A80036; stroke-width: 2.0;\\"/><path d=\\"M160,117 L160,144 M147,125 L173,125 M160,144 L147,159 M160,144 L173,159 \\" fill=\\"none\\" filter=\\"url(#fgk9x5go3mcn2)\\" style=\\"stroke: #A80036; stroke-width: 2.0;\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"28\\" x=\\"146\\" y=\\"180.5332\\">user</text><ellipse cx=\\"57.7904\\" cy=\\"141.4517\\" fill=\\"#FEFECE\\" filter=\\"url(#fgk9x5go3mcn2)\\" rx=\\"51.7904\\" ry=\\"15.4517\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"69\\" x=\\"23.2904\\" y=\\"146.7564\\">dummyLeft</text><ellipse cx=\\"268.1543\\" cy=\\"141.4517\\" fill=\\"#FEFECE\\" filter=\\"url(#fgk9x5go3mcn2)\\" rx=\\"58.1543\\" ry=\\"15.4517\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"78\\" x=\\"229.1543\\" y=\\"146.7564\\">dummyRight</text><ellipse cx=\\"159.8406\\" cy=\\"23.4517\\" fill=\\"#FEFECE\\" filter=\\"url(#fgk9x5go3mcn2)\\" rx=\\"46.8406\\" ry=\\"15.4517\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"62\\" x=\\"128.8406\\" y=\\"28.7564\\">dummyUp</text><ellipse cx=\\"160.0685\\" cy=\\"259.4517\\" fill=\\"#FEFECE\\" filter=\\"url(#fgk9x5go3mcn2)\\" rx=\\"59.5685\\" ry=\\"15.4517\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"80\\" x=\\"120.0685\\" y=\\"264.7564\\">dummyDown</text><!--reverse link dummyLeft to user--><path d=\\"M115.336,141.5 C125.165,141.5 134.995,141.5 144.825,141.5 \\" fill=\\"none\\" id=\\"dummyLeft&lt;-user\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><polygon fill=\\"#A80036\\" points=\\"110.195,141.5,119.195,145.5,115.195,141.5,119.195,137.5,110.195,141.5\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><!--link user to dummyRight--><path d=\\"M175.188,141.5 C185.067,141.5 194.946,141.5 204.826,141.5 \\" fill=\\"none\\" id=\\"user-&gt;dummyRight\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><polygon fill=\\"#A80036\\" points=\\"209.992,141.5,200.992,137.5,204.992,141.5,200.992,145.5,209.992,141.5\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><!--reverse link dummyUp to user--><path d=\\"M160,44.396 C160,59.306 160,80.242 160,98.769 \\" fill=\\"none\\" id=\\"dummyUp&lt;-user\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><polygon fill=\\"#A80036\\" points=\\"160,39.191,156,48.191,160,44.191,164,48.191,160,39.191\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><!--link user to dummyDown--><path d=\\"M160,184.051 C160,202.5788 160,223.5479 160,238.4996 \\" fill=\\"none\\" id=\\"user-&gt;dummyDown\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><polygon fill=\\"#A80036\\" points=\\"160,243.7202,164,234.7202,160,238.7202,156,234.7202,160,243.7202\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><!--
+@startuml
+:user: -left-> (dummyLeft)
+:user: -right-> (dummyRight)
+:user: -up-> (dummyUp)
+:user: -down-> (dummyDown)
+@enduml
+
+
+--></g></svg>",
+    },
+  ],
+  "position": Object {
+    "end": Object {
+      "column": 1,
+      "line": 10,
+      "offset": 141,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "root",
+}
+`;
+
 exports[`Use Case Extension 1`] = `
 Object {
   "children": Array [

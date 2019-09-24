@@ -160,4 +160,53 @@ MySql --> (Use)
       code,
     })
   })
+
+  describe(`Changing arrows direction`, () => {
+    it(`Example 1`, async () => {
+      const code = `
+\`\`\`plantuml
+@startuml
+:user: --> (Use case 1)
+:user: -> (Use case 2)
+@enduml
+\`\`\`
+`
+
+      await testRemarkPlugin.testPlugin({
+        code,
+      })
+    })
+
+    it(`Example 2`, async () => {
+      const code = `
+\`\`\`plantuml
+@startuml
+(Use case 1) <.. :user:
+(Use case 2) <- :user:
+@enduml
+\`\`\`
+`
+
+      await testRemarkPlugin.testPlugin({
+        code,
+      })
+    })
+
+    it(`Example 3`, async () => {
+      const code = `
+\`\`\`plantuml
+@startuml
+:user: -left-> (dummyLeft)
+:user: -right-> (dummyRight)
+:user: -up-> (dummyUp)
+:user: -down-> (dummyDown)
+@enduml
+\`\`\`
+`
+
+      await testRemarkPlugin.testPlugin({
+        code,
+      })
+    })
+  })
 })
