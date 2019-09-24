@@ -137,4 +137,27 @@ N2 .. (Use)
       code,
     })
   })
+
+  it(`Stereotypes`, async () => {
+    const code = `
+\`\`\`plantuml
+@startuml
+User << Human >>
+:Main Database: as MySql << Application >>
+(Start) << One Shot >>
+(Use the application) as (Use) << Main >>
+
+User -> (Start)
+User --> (Use)
+
+MySql --> (Use)
+
+@enduml
+\`\`\`
+`
+
+    await testRemarkPlugin.testPlugin({
+      code,
+    })
+  })
 })
