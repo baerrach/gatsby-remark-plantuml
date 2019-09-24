@@ -44,4 +44,28 @@ actor :Last actor: as Men4
       code,
     })
   })
+
+  it(`Usecases description`, async () => {
+    const code = `
+\`\`\`plantuml
+@startuml
+
+usecase UC1 as "You can use
+several lines to define your usecase.
+You can also use separators.
+--
+Several separators are possible.
+==
+And you can add titles:
+..Conclusion..
+This allows large description."
+
+@enduml
+\`\`\`
+`
+
+    await testRemarkPlugin.testPlugin({
+      code,
+    })
+  })
 })
