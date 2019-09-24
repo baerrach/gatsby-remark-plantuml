@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Use Case Usecases 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": undefined,
+      "lang": undefined,
+      "position": Position {
+        "end": Object {
+          "column": 4,
+          "line": 11,
+          "offset": 122,
+        },
+        "indent": Array [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+        ],
+        "start": Object {
+          "column": 1,
+          "line": 2,
+          "offset": 1,
+        },
+      },
+      "type": "html",
+      "value": "<?xml version=\\"1.0\\" encoding=\\"UTF-8\\" standalone=\\"no\\"?><svg xmlns=\\"http://www.w3.org/2000/svg\\" xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" contentScriptType=\\"application/ecmascript\\" contentStyleType=\\"text/css\\" height=\\"164px\\" preserveAspectRatio=\\"none\\" style=\\"width:323px;height:164px;\\" version=\\"1.1\\" viewBox=\\"0 0 323 164\\" width=\\"323px\\" zoomAndPan=\\"magnify\\"><defs><filter height=\\"300%\\" id=\\"fjzl091g0j889\\" width=\\"300%\\" x=\\"-1\\" y=\\"-1\\"><feGaussianBlur result=\\"blurOut\\" stdDeviation=\\"2.0\\"/><feColorMatrix in=\\"blurOut\\" result=\\"blurOut2\\" type=\\"matrix\\" values=\\"0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0\\"/><feOffset dx=\\"4.0\\" dy=\\"4.0\\" in=\\"blurOut2\\" result=\\"blurOut3\\"/><feBlend in=\\"SourceGraphic\\" in2=\\"blurOut3\\" mode=\\"normal\\"/></filter></defs><g><ellipse cx=\\"69.1041\\" cy=\\"24.9517\\" fill=\\"#FEFECE\\" filter=\\"url(#fjzl091g0j889)\\" rx=\\"63.1041\\" ry=\\"15.4517\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"85\\" x=\\"26.6041\\" y=\\"30.2564\\">First usecase</text><ellipse cx=\\"239.7843\\" cy=\\"24.8569\\" fill=\\"#FEFECE\\" filter=\\"url(#fjzl091g0j889)\\" rx=\\"72.2843\\" ry=\\"16.8569\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"107\\" x=\\"186.2843\\" y=\\"30.1615\\">Another usecase</text><ellipse cx=\\"69.0919\\" cy=\\"127.4517\\" fill=\\"#FEFECE\\" filter=\\"url(#fjzl091g0j889)\\" rx=\\"22.0919\\" ry=\\"15.4517\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"27\\" x=\\"55.5919\\" y=\\"132.7564\\">UC3</text><ellipse cx=\\"163.1843\\" cy=\\"127.7156\\" fill=\\"#FEFECE\\" filter=\\"url(#fjzl091g0j889)\\" rx=\\"37.1843\\" ry=\\"25.7156\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"27\\" x=\\"149.6843\\" y=\\"120.9558\\">Last</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"53\\" x=\\"136.6843\\" y=\\"138.5652\\">usecase</text><!--link First usecase to UC2--><!--link First usecase to UC3--><!--link UC3 to UC4--><!--
+@startuml
+
+(First usecase)
+(Another usecase) as (UC2)
+usecase UC3
+usecase (Last\\\\nusecase) as UC4
+
+@enduml
+
+
+--></g></svg>",
+    },
+  ],
+  "position": Object {
+    "end": Object {
+      "column": 1,
+      "line": 12,
+      "offset": 123,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "root",
+}
+`;
