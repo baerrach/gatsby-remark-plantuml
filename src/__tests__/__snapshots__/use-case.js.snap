@@ -1,5 +1,65 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Use Case Actors 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": undefined,
+      "lang": undefined,
+      "position": Position {
+        "end": Object {
+          "column": 4,
+          "line": 11,
+          "offset": 113,
+        },
+        "indent": Array [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+        ],
+        "start": Object {
+          "column": 1,
+          "line": 2,
+          "offset": 1,
+        },
+      },
+      "type": "html",
+      "value": "<?xml version=\\"1.0\\" encoding=\\"UTF-8\\" standalone=\\"no\\"?><svg xmlns=\\"http://www.w3.org/2000/svg\\" xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" contentScriptType=\\"application/ecmascript\\" contentStyleType=\\"text/css\\" height=\\"265px\\" preserveAspectRatio=\\"none\\" style=\\"width:168px;height:265px;\\" version=\\"1.1\\" viewBox=\\"0 0 168 265\\" width=\\"168px\\" zoomAndPan=\\"magnify\\"><defs><filter height=\\"300%\\" id=\\"fvdb3ugr927tt\\" width=\\"300%\\" x=\\"-1\\" y=\\"-1\\"><feGaussianBlur result=\\"blurOut\\" stdDeviation=\\"2.0\\"/><feColorMatrix in=\\"blurOut\\" result=\\"blurOut2\\" type=\\"matrix\\" values=\\"0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0\\"/><feOffset dx=\\"4.0\\" dy=\\"4.0\\" in=\\"blurOut2\\" result=\\"blurOut3\\"/><feBlend in=\\"SourceGraphic\\" in2=\\"blurOut3\\" mode=\\"normal\\"/></filter></defs><g><!--entity First Actor--><ellipse cx=\\"38.5\\" cy=\\"26.5\\" fill=\\"#FEFECE\\" filter=\\"url(#fvdb3ugr927tt)\\" rx=\\"8\\" ry=\\"8\\" style=\\"stroke: #A80036; stroke-width: 2.0;\\"/><path d=\\"M38.5,34.5 L38.5,61.5 M25.5,42.5 L51.5,42.5 M38.5,61.5 L25.5,76.5 M38.5,61.5 L51.5,76.5 \\" fill=\\"none\\" filter=\\"url(#fvdb3ugr927tt)\\" style=\\"stroke: #A80036; stroke-width: 2.0;\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"65\\" x=\\"6\\" y=\\"98.0332\\">First Actor</text><!--entity Men2--><ellipse cx=\\"131.5\\" cy=\\"18\\" fill=\\"#FEFECE\\" filter=\\"url(#fvdb3ugr927tt)\\" rx=\\"8\\" ry=\\"8\\" style=\\"stroke: #A80036; stroke-width: 2.0;\\"/><path d=\\"M131.5,26 L131.5,53 M118.5,34 L144.5,34 M131.5,53 L118.5,68 M131.5,53 L144.5,68 \\" fill=\\"none\\" filter=\\"url(#fvdb3ugr927tt)\\" style=\\"stroke: #A80036; stroke-width: 2.0;\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"50\\" x=\\"106.5\\" y=\\"89.5332\\">Another</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"32\\" x=\\"106.5\\" y=\\"107.1426\\">actor</text><!--entity Men3--><ellipse cx=\\"38.5\\" cy=\\"180\\" fill=\\"#FEFECE\\" filter=\\"url(#fvdb3ugr927tt)\\" rx=\\"8\\" ry=\\"8\\" style=\\"stroke: #A80036; stroke-width: 2.0;\\"/><path d=\\"M38.5,188 L38.5,215 M25.5,196 L51.5,196 M38.5,215 L25.5,230 M38.5,215 L51.5,230 \\" fill=\\"none\\" filter=\\"url(#fvdb3ugr927tt)\\" style=\\"stroke: #A80036; stroke-width: 2.0;\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"35\\" x=\\"21\\" y=\\"251.5332\\">Men3</text><!--entity Men4--><ellipse cx=\\"122.5\\" cy=\\"180\\" fill=\\"#FEFECE\\" filter=\\"url(#fvdb3ugr927tt)\\" rx=\\"8\\" ry=\\"8\\" style=\\"stroke: #A80036; stroke-width: 2.0;\\"/><path d=\\"M122.5,188 L122.5,215 M109.5,196 L135.5,196 M122.5,215 L109.5,230 M122.5,215 L135.5,230 \\" fill=\\"none\\" filter=\\"url(#fvdb3ugr927tt)\\" style=\\"stroke: #A80036; stroke-width: 2.0;\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"63\\" x=\\"91\\" y=\\"251.5332\\">Last actor</text><!--link First Actor to Men2--><!--link First Actor to Men3--><!--link Men3 to Men4--><!--
+@startuml
+
+:First Actor:
+:Another\\\\nactor: as Men2
+actor Men3
+actor :Last actor: as Men4
+
+@enduml
+
+
+--></g></svg>",
+    },
+  ],
+  "position": Object {
+    "end": Object {
+      "column": 1,
+      "line": 12,
+      "offset": 114,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "root",
+}
+`;
+
 exports[`Use Case Usecases 1`] = `
 Object {
   "children": Array [

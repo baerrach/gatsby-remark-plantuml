@@ -25,4 +25,23 @@ usecase (Last\\nusecase) as UC4
       code,
     })
   })
+
+  it(`Actors`, async () => {
+    const code = `
+\`\`\`plantuml
+@startuml
+
+:First Actor:
+:Another\\nactor: as Men2
+actor Men3
+actor :Last actor: as Men4
+
+@enduml
+\`\`\`
+`
+
+    await testRemarkPlugin.testPlugin({
+      code,
+    })
+  })
 })
