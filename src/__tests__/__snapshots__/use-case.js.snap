@@ -60,6 +60,66 @@ actor :Last actor: as Men4
 }
 `;
 
+exports[`Use Case Basic example 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": undefined,
+      "lang": undefined,
+      "position": Position {
+        "end": Object {
+          "column": 4,
+          "line": 11,
+          "offset": 170,
+        },
+        "indent": Array [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+        ],
+        "start": Object {
+          "column": 1,
+          "line": 2,
+          "offset": 1,
+        },
+      },
+      "type": "html",
+      "value": "<?xml version=\\"1.0\\" encoding=\\"UTF-8\\" standalone=\\"no\\"?><svg xmlns=\\"http://www.w3.org/2000/svg\\" xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" contentScriptType=\\"application/ecmascript\\" contentStyleType=\\"text/css\\" height=\\"363px\\" preserveAspectRatio=\\"none\\" style=\\"width:271px;height:363px;\\" version=\\"1.1\\" viewBox=\\"0 0 271 363\\" width=\\"271px\\" zoomAndPan=\\"magnify\\"><defs><filter height=\\"300%\\" id=\\"fiuyh57qruca0\\" width=\\"300%\\" x=\\"-1\\" y=\\"-1\\"><feGaussianBlur result=\\"blurOut\\" stdDeviation=\\"2.0\\"/><feColorMatrix in=\\"blurOut\\" result=\\"blurOut2\\" type=\\"matrix\\" values=\\"0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0\\"/><feOffset dx=\\"4.0\\" dy=\\"4.0\\" in=\\"blurOut2\\" result=\\"blurOut3\\"/><feBlend in=\\"SourceGraphic\\" in2=\\"blurOut3\\" mode=\\"normal\\"/></filter></defs><g><!--entity User--><ellipse cx=\\"21\\" cy=\\"164\\" fill=\\"#FEFECE\\" filter=\\"url(#fiuyh57qruca0)\\" rx=\\"8\\" ry=\\"8\\" style=\\"stroke: #A80036; stroke-width: 2.0;\\"/><path d=\\"M21,172 L21,199 M8,180 L34,180 M21,199 L8,214 M21,199 L34,214 \\" fill=\\"none\\" filter=\\"url(#fiuyh57qruca0)\\" style=\\"stroke: #A80036; stroke-width: 2.0;\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"29\\" x=\\"6.5\\" y=\\"235.5332\\">User</text><ellipse cx=\\"95.2132\\" cy=\\"196.4517\\" fill=\\"#FEFECE\\" filter=\\"url(#fiuyh57qruca0)\\" rx=\\"24.2132\\" ry=\\"15.4517\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"30\\" x=\\"80.2132\\" y=\\"201.7564\\">Start</text><ellipse cx=\\"121.9182\\" cy=\\"334.8836\\" fill=\\"#FEFECE\\" filter=\\"url(#fiuyh57qruca0)\\" rx=\\"77.4182\\" ry=\\"17.8836\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"120\\" x=\\"61.9182\\" y=\\"340.1883\\">Use the application</text><!--entity Main Admin--><ellipse cx=\\"189\\" cy=\\"18\\" fill=\\"#FEFECE\\" filter=\\"url(#fiuyh57qruca0)\\" rx=\\"8\\" ry=\\"8\\" style=\\"stroke: #A80036; stroke-width: 2.0;\\"/><path d=\\"M189,26 L189,53 M176,34 L202,34 M189,53 L176,68 M189,53 L202,68 \\" fill=\\"none\\" filter=\\"url(#fiuyh57qruca0)\\" style=\\"stroke: #A80036; stroke-width: 2.0;\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"73\\" x=\\"152.5\\" y=\\"89.5332\\">Main Admin</text><!--link User to Start--><path d=\\"M36.0313,196.5 C45.839,196.5 55.6467,196.5 65.4544,196.5 \\" fill=\\"none\\" id=\\"User-&gt;Start\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><polygon fill=\\"#A80036\\" points=\\"70.5833,196.5,61.5833,192.5,65.5833,196.5,61.5833,200.5,70.5833,196.5\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><!--link User to Use the application--><path d=\\"M36.0844,218.588 C49.1631,236.795 68.6623,263.7565 86,287 C92.326,295.4808 99.3852,304.7405 105.5652,312.7815 \\" fill=\\"none\\" id=\\"User-&gt;Use the application\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><polygon fill=\\"#A80036\\" points=\\"108.898,317.1106,106.5784,307.5388,105.8483,313.1483,100.2388,312.4182,108.898,317.1106\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"75\\" x=\\"87\\" y=\\"283.4951\\">A small label</text><!--link Main Admin to Use the application--><path d=\\"M193.12,93.171 C196.18,141.949 195.744,224.061 167,287 C162.402,297.0671 154.733,306.3123 147.017,313.8903 \\" fill=\\"none\\" id=\\"Main Admin-&gt;Use the application\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><polygon fill=\\"#A80036\\" points=\\"143.239,317.4728,152.5224,314.1837,146.8676,314.0328,147.0184,308.378,143.239,317.4728\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"38\\" x=\\"207.5\\" y=\\"185.4951\\">This is</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"65\\" x=\\"194\\" y=\\"201.8467\\">yet another</text><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"27\\" x=\\"213\\" y=\\"218.1982\\">label</text><!--
+@startuml
+
+User -> (Start)
+User - -> (Use the application) : A small label
+
+:Main Admin: - - -> (Use the application) : This is\\\\nyet another\\\\nlabel
+
+@enduml
+
+
+--></g></svg>",
+    },
+  ],
+  "position": Object {
+    "end": Object {
+      "column": 1,
+      "line": 12,
+      "offset": 171,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "root",
+}
+`;
+
 exports[`Use Case Usecases 1`] = `
 Object {
   "children": Array [

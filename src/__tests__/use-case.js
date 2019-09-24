@@ -68,4 +68,23 @@ This allows large description."
       code,
     })
   })
+
+  it(`Basic example`, async () => {
+    const code = `
+\`\`\`plantuml
+@startuml
+
+User -> (Start)
+User --> (Use the application) : A small label
+
+:Main Admin: ---> (Use the application) : This is\\nyet another\\nlabel
+
+@enduml
+\`\`\`
+`
+
+    await testRemarkPlugin.testPlugin({
+      code,
+    })
+  })
 })
