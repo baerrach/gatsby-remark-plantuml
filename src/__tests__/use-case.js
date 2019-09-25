@@ -209,4 +209,20 @@ MySql --> (Use)
       })
     })
   })
+
+  it(`Splitting diagrams`, async () => {
+    const code = `
+\`\`\`plantuml
+@startuml
+:actor1: --> (Usecase1)
+newpage
+:actor2: --> (Usecase2)
+@enduml
+\`\`\`
+`
+
+    await testRemarkPlugin.testPlugin({
+      code,
+    })
+  })
 })

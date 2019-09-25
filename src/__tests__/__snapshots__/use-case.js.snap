@@ -340,6 +340,54 @@ User <|- - Admin
 }
 `;
 
+exports[`Use Case Splitting diagrams 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": undefined,
+      "lang": undefined,
+      "position": Position {
+        "end": Object {
+          "column": 4,
+          "line": 8,
+          "offset": 90,
+        },
+        "indent": Array [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+        ],
+        "start": Object {
+          "column": 1,
+          "line": 2,
+          "offset": 1,
+        },
+      },
+      "type": "html",
+      "value": "<?xml version=\\"1.0\\" encoding=\\"UTF-8\\" standalone=\\"no\\"?><svg xmlns=\\"http://www.w3.org/2000/svg\\" xmlns:xlink=\\"http://www.w3.org/1999/xlink\\" contentScriptType=\\"application/ecmascript\\" contentStyleType=\\"text/css\\" height=\\"194px\\" preserveAspectRatio=\\"none\\" style=\\"width:110px;height:194px;\\" version=\\"1.1\\" viewBox=\\"0 0 110 194\\" width=\\"110px\\" zoomAndPan=\\"magnify\\"><defs><filter height=\\"300%\\" id=\\"f16\\" width=\\"300%\\" x=\\"-1\\" y=\\"-1\\"><feGaussianBlur result=\\"blurOut\\" stdDeviation=\\"2.0\\"/><feColorMatrix in=\\"blurOut\\" result=\\"blurOut2\\" type=\\"matrix\\" values=\\"0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0\\"/><feOffset dx=\\"4.0\\" dy=\\"4.0\\" in=\\"blurOut2\\" result=\\"blurOut3\\"/><feBlend in=\\"SourceGraphic\\" in2=\\"blurOut3\\" mode=\\"normal\\"/></filter></defs><g><!--entity actor1--><ellipse cx=\\"53\\" cy=\\"18\\" fill=\\"#FEFECE\\" filter=\\"url(#f16)\\" rx=\\"8\\" ry=\\"8\\" style=\\"stroke: #A80036; stroke-width: 2.0;\\"/><path d=\\"M53,26 L53,53 M40,34 L66,34 M53,53 L40,68 M53,53 L66,68 \\" fill=\\"none\\" filter=\\"url(#f16)\\" style=\\"stroke: #A80036; stroke-width: 2.0;\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"40\\" x=\\"33\\" y=\\"89.5332\\">actor1</text><ellipse cx=\\"52.8406\\" cy=\\"168.4517\\" fill=\\"#FEFECE\\" filter=\\"url(#f16)\\" rx=\\"46.8406\\" ry=\\"15.4517\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"62\\" x=\\"21.8406\\" y=\\"173.7564\\">Usecase1</text><!--link actor1 to Usecase1--><path d=\\"M53,93.051 C53,111.5788 53,132.5479 53,147.4996 \\" fill=\\"none\\" id=\\"actor1-&gt;Usecase1\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><polygon fill=\\"#A80036\\" points=\\"53,152.7202,57,143.7202,53,147.7202,49,143.7202,53,152.7202\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><!--
+
+--></g></svg>",
+    },
+  ],
+  "position": Object {
+    "end": Object {
+      "column": 1,
+      "line": 9,
+      "offset": 91,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "root",
+}
+`;
+
 exports[`Use Case Stereotypes 1`] = `
 Object {
   "children": Array [
