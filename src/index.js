@@ -129,7 +129,7 @@ const plantuml = async (gatsbyNodeHelpers, pluginOptions = {}) => {
       node.children = undefined
       node.value = diagramAsSvg
     } catch (err) {
-      reporter.panic(`Could not generate plantuml diagram`, err)
+      reporter.error(`Could not generate plantuml diagram`, err)
     }
   }
 
