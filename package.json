@@ -14,7 +14,7 @@
     "plantuml"
   ],
   "license": "MIT",
-  "main": "index.js",
+  "main": "dist/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/baerrach/gatsby-remark-plantuml"

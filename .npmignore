@@ -25,10 +25,22 @@ build/Release
 # Dependency directory
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
 node_modules
+
 *.un~
 yarn.lock
 src
+test
 flow-typed
 coverage
 decls
 examples
+svg
+scripts
+
+# Configuration files
+.babelrc
+.eslintrc*
+.prettier*
+
+# Emacs files
+.dir-locals.el
