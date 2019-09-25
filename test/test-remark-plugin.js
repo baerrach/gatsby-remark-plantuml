@@ -33,7 +33,7 @@ const testPlugin = ({
   const remark = require(`remark`)
   const reporter = require(`gatsby-cli/lib/reporter`)
 
-  const plugin = require(`../src/index`)
+  const plugin = require(`../index`)
 
   const markdownAST = remark.parse(code)
   return plugin({ markdownAST, reporter }).then(() => {

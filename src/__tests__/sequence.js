@@ -1,6 +1,7 @@
 // See http://plantuml.com/sequence-diagram
 
 const testRemarkPlugin = require(`../../test/test-remark-plugin`)
+
 describe(`Sequence`, () => {
   beforeEach(() => {
     jest.resetModules()

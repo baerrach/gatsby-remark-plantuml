@@ -14,7 +14,7 @@ class Configuration {
     this.hasNotRun = true
     this.plantumljar = path.resolve(
       __dirname,
-      `../lib/plantuml-jar-mit-1.2019.9/plantuml.jar`
+      `./lib/plantuml-jar-mit-1.2019.9/plantuml.jar`
     )
   }
 
