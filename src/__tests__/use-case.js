@@ -263,4 +263,43 @@ user2 --> (Usecase 2)
       })
     })
   })
+
+  it(`Skinparam`, async () => {
+    const code = `
+\`\`\`plantuml
+@startuml
+skinparam handwritten true
+
+skinparam usecase {
+	BackgroundColor DarkSeaGreen
+	BorderColor DarkSlateGray
+
+	BackgroundColor<< Main >> YellowGreen
+	BorderColor<< Main >> YellowGreen
+
+	ArrowColor Olive
+	ActorBorderColor black
+	ActorFontName Courier
+
+	ActorBackgroundColor<< Human >> Gold
+}
+
+User << Human >>
+:Main Database: as MySql << Application >>
+(Start) << One Shot >>
+(Use the application) as (Use) << Main >>
+
+User -> (Start)
+User --> (Use)
+
+MySql --> (Use)
+
+@enduml
+\`\`\`
+`
+
+    await testRemarkPlugin.testPlugin({
+      code,
+    })
+  })
 })
