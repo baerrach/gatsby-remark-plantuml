@@ -225,4 +225,42 @@ newpage
       code,
     })
   })
+
+  describe(`Left to right direction`, () => {
+    it(`Example 1`, async () => {
+      const code = `
+\`\`\`plantuml
+@startuml
+'default
+top to bottom direction
+user1 --> (Usecase 1)
+user2 --> (Usecase 2)
+
+@enduml
+\`\`\`
+`
+
+      await testRemarkPlugin.testPlugin({
+        code,
+      })
+    })
+
+    it(`Example 2`, async () => {
+      const code = `
+\`\`\`plantuml
+@startuml
+
+left to right direction
+user1 --> (Usecase 1)
+user2 --> (Usecase 2)
+
+@enduml
+\`\`\`
+`
+
+      await testRemarkPlugin.testPlugin({
+        code,
+      })
+    })
+  })
 })
