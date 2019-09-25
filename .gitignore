@@ -21,7 +21,6 @@ build/Release
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
 node_modules
 *.un~
-dist
 bin/published.js
 
 # IDE specific
@@ -38,3 +37,7 @@ package-lock.json
 
 # visualized test files
 svg/
+
+# Babel Transpiled files
+# See https://github.com/gatsbyjs/gatsby/issues/5559 for why this can't go in dist/
+index.js
