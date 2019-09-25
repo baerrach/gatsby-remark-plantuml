@@ -1,7 +1,7 @@
 {
   "name": "gatsby-remark-plantuml",
   "description": "Gatsby Remark plugin to transform PlantUML code blocks into SVG images",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Barrie Treloar <baerrach@gmail.com>",
   "bugs": {
     "url": "https://github.com/baerrach/gatsby-remark-plantuml/issues"
