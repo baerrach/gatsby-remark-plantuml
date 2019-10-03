@@ -86,13 +86,12 @@ const plantuml = async (gatsbyNodeHelpers, pluginOptions = {}) => {
       readableToString(plantumlProcess.stdout),
       readableToString(plantumlProcess.stderr),
       diagramAsStream.pipe(plantumlProcess.stdin),
+      onExit(plantumlProcess),
     ])
 
     if (stderr.length) {
       throw new Error(stderr)
     }
-
-    await onExit(plantumlProcess)
 
     return stdout
   }
