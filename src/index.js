@@ -82,7 +82,8 @@ const plantuml = async (gatsbyNodeHelpers, pluginOptions = {}) => {
 
     const diagramAsStream = new StringStream(diagramAsText)
 
-    const [stdout, stderr] = await Promise.all([
+    const [_exit, stdout, stderr] = await Promise.all([
+      onExit(plantumlProcess),
       readableToString(plantumlProcess.stdout),
       readableToString(plantumlProcess.stderr),
       diagramAsStream.pipe(plantumlProcess.stdin),
@@ -91,8 +92,6 @@ const plantuml = async (gatsbyNodeHelpers, pluginOptions = {}) => {
     if (stderr.length) {
       throw new Error(stderr)
     }
-
-    await onExit(plantumlProcess)
 
     return stdout
   }
