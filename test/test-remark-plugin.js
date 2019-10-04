@@ -54,6 +54,7 @@ const testPlugin = ({
     expect(reporter.panicOnBuild).toReport(panicOnBuild)
     expect(markdownAST).toMatchSnapshot({})
 
+    return markdownAST
   })
 }
 
