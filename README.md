@@ -25,7 +25,7 @@ plugins: [
     options: {
       plugins: [
         {
-          // NOTE: As this plugin replaces the `platnuml` code blocks with an svg 
+          // NOTE: As this plugin replaces the `platnuml` code blocks with an svg
           // its order in the `gatsby-transformer-remark` plugins list is important.
           // * before `gatsby-remark-prismjs` so the code block has been transformed
           //   and `gatsby-remark-prismjs` will never see it as a code block
@@ -37,6 +37,13 @@ plugins: [
   },
 ]
 ```
+
+
+## Options
+
+| Name       | Default     | Description |
+| ---------- | ----------- | ----------- |
+| `maxWidth` | `undefined` | The `maxWidth` value to apply to the `width` attribute of the generated svg.<br /><br />When `undefined` the svg will default to the plantuml width and height which is the entire diagram.<br /><br />Otherwise set the `width` attribute of the svg to the provided value, use any valid values include `vh` and `%`s. Additionally sets the `height` attribute of the svg to `auto` to ensure the svg sizes correctly |
 
 ### Usage in Markdown ###
 

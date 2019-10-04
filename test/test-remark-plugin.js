@@ -19,6 +19,7 @@ expect.extend({
 const testPlugin = ({
   code,
   reporter: { info, warn, error, panic, panicOnBuild } = {},
+  options = {},
 } = {}) => {
   jest.mock(`gatsby-cli/lib/reporter`, () => {
     return {
@@ -36,7 +37,7 @@ const testPlugin = ({
   const plugin = require(`../index`)
 
   const markdownAST = remark.parse(code)
-  return plugin({ markdownAST, reporter }).then(() => {
+  return plugin({ markdownAST, reporter }, options).then(() => {
     // Hack the AST to remove the untestable variable bit of the generated svg
     // Its the comment block at the bottom that includes the PlantUML runtime information.
     if (markdownAST.children && markdownAST.children.length) {

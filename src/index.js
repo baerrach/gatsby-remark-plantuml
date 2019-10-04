@@ -6,6 +6,7 @@ const { spawn } = require(`child_process`)
 const hasbin = require(`hasbin`)
 const visit = require(`unist-util-visit`)
 const { StringStream, readableToString, onExit } = require(`@rauschma/stringio`)
+const { parseDOM, DomUtils } = require(`htmlparser2`)
 
 class Configuration {
   constructor() {
@@ -93,7 +94,9 @@ const plantuml = async (gatsbyNodeHelpers, pluginOptions = {}) => {
       throw new Error(stderr)
     }
 
-    return stdout
+    const svg = stdout.replace(/<\?xml [\s\S]*\?>/m, ``)
+
+    return svg
   }
 
   configuration.init({ pluginOptions, reporter })
@@ -121,7 +124,14 @@ const plantuml = async (gatsbyNodeHelpers, pluginOptions = {}) => {
   const generateUmlAndUpdateNode = async node => {
     try {
       const diagramAsPlantUml = node.value
-      const diagramAsSvg = await runplantuml(diagramAsPlantUml)
+      let diagramAsSvg = await runplantuml(diagramAsPlantUml)
+      if (pluginOptions.maxWidth) {
+        const dom = parseDOM(diagramAsSvg)
+        const svgElement = dom[0]
+        svgElement.attribs.width = pluginOptions.maxWidth
+        svgElement.attribs.height = `auto`
+        diagramAsSvg = DomUtils.getOuterHTML(svgElement)
+      }
 
       node.type = `html`
       node.lang = undefined
