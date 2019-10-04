@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.2.0](https://github.com/baerrach/gatsby-remark-plantuml/compare/v0.1.2...v0.2.0) (2019-10-04)
+
+
+### Bug Fixes
+
+* **plantuml:** fix race condition with process handling ([0e268b9](https://github.com/baerrach/gatsby-remark-plantuml/commit/0e268b9)), closes [#2](https://github.com/baerrach/gatsby-remark-plantuml/issues/2)
+* **plantuml:** use reporter.error instead of panic to avoid failing build ([f690ce6](https://github.com/baerrach/gatsby-remark-plantuml/commit/f690ce6))
+* **test:** move snapshot matching to end ([0c72e1f](https://github.com/baerrach/gatsby-remark-plantuml/commit/0c72e1f))
+
+
+### Features
+
+* **gatsby-remark-plantuml:** add maxWidth option ([8ff1b61](https://github.com/baerrach/gatsby-remark-plantuml/commit/8ff1b61)), closes [#1](https://github.com/baerrach/gatsby-remark-plantuml/issues/1)
+
 ### [0.1.2](https://github.com/baerrach/gatsby-remark-plantuml/compare/v0.1.1...v0.1.2) (2019-09-25)
 
 
