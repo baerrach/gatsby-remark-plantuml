@@ -47,12 +47,13 @@ const testPlugin = ({
       )
     }
 
-    expect(markdownAST).toMatchSnapshot({})
     expect(reporter.info).toReport(info)
     expect(reporter.warn).toReport(warn)
     expect(reporter.error).toReport(error)
     expect(reporter.panic).toReport(panic)
     expect(reporter.panicOnBuild).toReport(panicOnBuild)
+    expect(markdownAST).toMatchSnapshot({})
+
   })
 }
 
