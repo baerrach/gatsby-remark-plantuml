@@ -74,6 +74,7 @@ const plantuml = async (gatsbyNodeHelpers, pluginOptions = {}) => {
 
   const runplantuml = async diagramAsText => {
     const plantumlProcess = spawn(`java`, [
+      `-Djava.awt.headless=true`,
       `-jar`,
       configuration.plantumljar,
       `-Dfile.encoding=utf8`,
