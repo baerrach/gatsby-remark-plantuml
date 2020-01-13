@@ -25,17 +25,18 @@ the tests in a browser. The visualization writes the files into
 npm v
 ```
 
-# How to deploy to npm repository #
+# How to publish to npm repository #
 
 The source files need to be transpiled by babel before they can be published to
-the npm repository. Only the owner of the npm package can deploy.
+the npm repository. Only the owner of the npm package can [publish to the npm repository](https://docs.npmjs.com/creating-and-publishing-unscoped-public-packages).
 
 You don't need to run the build command to develop locally, you will only need
 to [run the tests](#how-to-test) and [visualize the tests](#how-to-visualize-the-tests).
 
 ```bash
 npm build
-npm deploy
+npm login
+npm publish
 ```
 
 # How to obtain souce code #
