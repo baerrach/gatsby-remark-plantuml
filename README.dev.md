@@ -27,14 +27,9 @@ npm v
 
 # How to publish to npm repository #
 
-The source files need to be transpiled by babel before they can be published to
-the npm repository. Only the owner of the npm package can [publish to the npm repository](https://docs.npmjs.com/creating-and-publishing-unscoped-public-packages).
-
-You don't need to run the build command to develop locally, you will only need
-to [run the tests](#how-to-test) and [visualize the tests](#how-to-visualize-the-tests).
+Only the owner of the npm package can [publish to the npm repository](https://docs.npmjs.com/creating-and-publishing-unscoped-public-packages).
 
 ```bash
-npm build
 npm login
 npm publish
 ```
@@ -49,14 +44,14 @@ The repository is located at https://github.com/baerrach/gatsby-remark-plantuml.
 
 The tests are built with [jest](https://jestjs.io).
 
-All test files are located in `src/__tests__/`
+All test files are located in `test/`
 
-* `src/__tests__/index.js` tests the plugin usage
-* `src/__tests__/max-width.js` tests the `max-width` feature
-* `src/__tests__/sequence.js` tests the `sequence` diagram capabilities
-* `src/__tests__/use-case.js` tests the `use-case` diagram capabilities
+* `test/index.spec.js` tests the plugin usage
+* `test/max-width.spec.js` tests the `max-width` feature
+* `test/sequence.spec.js` tests the `sequence` diagram capabilities
+* `test/use-case.spec.js` tests the `use-case` diagram capabilities
 
-All snapshots are located in `src/__tests__/__snapshots__/<test-file-name>.js.snap` and
+All snapshots are located in `test/__snapshots__/<test-file-name>.js.snap` and
 for each test block will contain a string for the snapshotted output. Reading
 the snapshot output can be a bit tricky, the most important bit is the `value`
 key which will contain the generated svg.
@@ -70,8 +65,7 @@ Object {
       "value": "<svg ...
 ```
 
-Manually reading the svg contents is also tricky, it is better to [visualize the
-tests](#how-to-visualize-the-tests) and open the resulting file in the browser
+Manually reading the svg contents is also tricky, it is better to [visualize the tests](#how-to-visualize-the-tests) and open the resulting file in the browser
 and check out the svg there.
 
 ## General boiler plate for a test file ##
@@ -79,7 +73,7 @@ and check out the svg there.
 ```
 // <Description of tests purpose>
 
-const testRemarkPlugin = require(`../../test/test-remark-plugin`)
+const testRemarkPlugin = require(`./test-remark-plugin`)
 
 describe(`<Describe block for test group>`, () => {
   beforeEach(() => {

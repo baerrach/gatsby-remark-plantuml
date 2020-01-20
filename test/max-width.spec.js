@@ -1,6 +1,6 @@
 const { parseDOM, DomUtils } = require(`htmlparser2`)
 
-const testRemarkPlugin = require(`../../test/test-remark-plugin`)
+const testRemarkPlugin = require(`./test-remark-plugin`)
 
 const code = `
 \`\`\`plantuml

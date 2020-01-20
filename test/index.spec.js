@@ -1,4 +1,4 @@
-const testRemarkPlugin = require(`../../test/test-remark-plugin`)
+const testRemarkPlugin = require(`./test-remark-plugin`)
 
 describe(`remark plantuml plugin`, () => {
   beforeEach(() => {

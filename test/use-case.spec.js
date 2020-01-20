@@ -1,6 +1,6 @@
 // See http://plantuml.com/use-case-diagram
 
-const testRemarkPlugin = require(`../../test/test-remark-plugin`)
+const testRemarkPlugin = require(`./test-remark-plugin`)
 
 describe(`Use Case`, () => {
   beforeEach(() => {
