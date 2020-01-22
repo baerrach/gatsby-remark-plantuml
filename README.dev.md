@@ -145,6 +145,62 @@ Paste, or create yourself, the plantuml code to be tested.
 If this is from the <https://plantuml.com/> examples then copy the code from the
 example.
 
+## Testing Errors ##
+
+`testRemarkPlugin.testPlugin` accepts another properter `reporter` which contains the expected Gatsby reporter outputs.
+
+Each reporter is passed an ordered array of expected values that the reporter should
+have received.
+
+In most cases this will be a single string, the value that should have been written to the reporter.
+
+```
+reporter: {
+  info: [
+    'First message sent to reporter',
+    'Second message sent to reporter',
+    ...
+  ],
+```
+
+If an Error is also required then an array is used to contain both the message and the error.
+
+```
+reporter: {
+  error: [
+    ['An error occured', new PlantUmlError('Cause of Error')],
+    'More error messages can come afterwards',
+  ],
+```
+
+As the values used are passed into `expect` you can also use jest matchers.
+
+```
+reporter: {
+  info: [
+    expect.stringContaining('apples'),
+  ],
+  error: [
+    ['An error occurred', expect.any(Error)]
+  ]
+}
+```
+
+When the reporter should not have any output leave it out. Only reporters that are expected to receive a report need to be declared.
+
+**Example shape of reporter**
+```
+reporter: {
+  info: [],
+  warn: [],
+  error: [],
+  panic: [],
+  panicOnBuild: [],
+}
+```
+
+Due to the nature of how to extend jest `expect` some context is lost, and the error reporting is not as great as it could be. Build your error tests up step by step to ensure that they are working as expected.
+
 # How to view the markdown files locally #
 
 Use [grip](https://github.com/joeyespo/grip)
