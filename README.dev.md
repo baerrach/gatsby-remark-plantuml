@@ -25,6 +25,18 @@ the tests in a browser. The visualization writes the files into
 npm v
 ```
 
+# How to release #
+
+We use [standard-release](https://github.com/conventional-changelog/standard-version#readme) to manage the release process.
+
+While we are still in beta phase need to manually specify release version to increment `y` as the default is to increment `z` when `x === 0`.
+
+```
+npm run release -- --release-as 0.Y.0
+```
+
+This will automatically update the `CHANGELOG.md` file.
+
 # How to publish to npm repository #
 
 Only the owner of the npm package can [publish to the npm repository](https://docs.npmjs.com/creating-and-publishing-unscoped-public-packages).
