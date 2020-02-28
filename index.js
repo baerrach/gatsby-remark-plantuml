@@ -93,6 +93,8 @@ const plantuml = async (gatsbyNodeHelpers, pluginOptions = {}) => {
       `-Djava.awt.headless=true`,
       `-jar`,
       configuration.plantumljar,
+      `-charset`,
+      `UTF-8`,
       `-Dfile.encoding=utf8`,
       `-pipe`,
       `-pipeNoStderr`,
