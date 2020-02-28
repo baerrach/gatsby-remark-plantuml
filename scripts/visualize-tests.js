@@ -3,7 +3,7 @@ const _ = require(`lodash`)
 const fs = require(`fs-extra`)
 const path = require(`path`)
 const basedir = __dirname
-const snapshotsdir = path.join(basedir, `../src/__tests__/__snapshots__`)
+const snapshotsdir = path.join(basedir, `../test/__snapshots__`)
 const svgdir = path.join(basedir, `../svg`)
 
 const snapshotFilenames = fs
