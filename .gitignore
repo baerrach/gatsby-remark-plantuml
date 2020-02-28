@@ -37,7 +37,3 @@ package-lock.json
 
 # visualized test files
 svg/
-
-# Babel Transpiled files
-# See https://github.com/gatsbyjs/gatsby/issues/5559 for why this can't go in dist/
-index.js
