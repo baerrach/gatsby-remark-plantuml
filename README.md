@@ -58,7 +58,7 @@ plugins: [
         {
             resolve: 'gatsby-remark-plantuml',
             options: {
-              maxWidth: 960,
+              maxWidth: '960',
               plantumljar: '/path/to/plantuml.jar'
             }
         },
