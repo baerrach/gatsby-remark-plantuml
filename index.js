@@ -39,7 +39,7 @@ class Configuration {
     this.reporter = reporter
     if (this.hasNotRun) {
       if (pluginOptions.plantumljar) {
-        this.planumljar = path.resolve(pluginOptions.plantumljar)
+        this.plantumljar = path.resolve(pluginOptions.plantumljar)
       }
 
       this.hasNotRun = false
