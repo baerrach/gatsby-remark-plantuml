@@ -14,37 +14,6 @@ export const NO_DIFF_MESSAGE = chalk.dim(
 )
 
 expect.extend({
-  toMatchPlantUmlError(actual, expected) {
-    let pass = true
-    let messageString
-
-    if (actual.message !== expected.message) {
-      pass = false
-      messageString = `'message's dont match actual='${actual.message}' !== expected='${expected.message}'`
-    } else if (actual.lineNumber !== expected.lineNumber) {
-      pass = false
-      messageString = `'lineNumber's dont match actual=${actual.lineNumber} !== expected=${expected.lineNumber}`
-    } else if (actual.generalError !== expected.generalError) {
-      pass = false
-      messageString = `'generalError's dont match actual='${actual.generalError}' !== expected='${expected.generalError}'`
-    }
-
-    if (!pass) {
-      // WORKAROUND: for FIXME below in toReport() on failed matchers
-      /* eslint-disable no-console */
-      console.log(`toMatchPlantUmlError`)
-      console.log(`actual`, actual)
-      console.log(`expected`, expected)
-      console.log(`reason = ${messageString}`)
-      /* eslint-enable no-console */
-    }
-
-    return {
-      pass: pass,
-      // FIXME: message isn't invoked properly by toReport's toHaveBeenNthCalledWith()
-      message: () => messageString,
-    }
-  },
   toReport(reporter, name, expected) {
     let pass = true
     let message = ``

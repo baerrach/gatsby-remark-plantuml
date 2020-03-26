@@ -160,10 +160,11 @@ example.
 
 ## Testing Errors ##
 
-`testRemarkPlugin.testPlugin` accepts another properter `reporter` which contains the expected Gatsby reporter outputs.
+`testRemarkPlugin.testPlugin` accepts another property `reporter` which contains
+the expected Gatsby reporter outputs.
 
-Each reporter is passed an ordered array of expected values that the reporter should
-have received.
+Each reporter is passed an ordered array of expected values that the reporter
+should have received.
 
 In most cases this will be a single string, the value that should have been written to the reporter.
 
@@ -186,20 +187,8 @@ reporter: {
   ],
 ```
 
-As the values used are passed into `expect` you can also use jest matchers.
-
-```
-reporter: {
-  info: [
-    expect.stringContaining('apples'),
-  ],
-  error: [
-    ['An error occurred', expect.any(Error)]
-  ]
-}
-```
-
-When the reporter should not have any output leave it out. Only reporters that are expected to receive a report need to be declared.
+When the reporter should not have any output do not specify that key. Only
+reporters that are expected to receive a report need to be provided.
 
 **Example shape of reporter**
 ```
@@ -211,8 +200,6 @@ reporter: {
   panicOnBuild: [],
 }
 ```
-
-Due to the nature of how to extend jest `expect` some context is lost, and the error reporting is not as great as it could be. Build your error tests up step by step to ensure that they are working as expected.
 
 # How to view the markdown files locally #
 
