@@ -6,6 +6,36 @@ describe(`Error Handling`, () => {
     jest.resetModules()
   })
 
+  it(`fails the build when can't find plantuml`, async () => {
+    const code = `
+\`\`\`plantuml
+@startuml
+Alice -> Bob: Authentication Request
+Bob --> Alice: Authentication Response
+
+Alice -> Bob: Another authentication Request
+Alice <-- Bob: Another authentication Response
+@enduml
+\`\`\`
+    `
+    await testRemarkPlugin.testPlugin({
+      code,
+      reporter: {
+        error: [
+          [
+            `Could not generate plantuml diagram:  `,
+            new Error(
+              `Error: Unable to access jarfile C:\\ide\\gatsby-remark-plantuml\\lib\\plantuml-does-not-exist.jar\r\n`
+            ),
+          ],
+        ],
+      },
+      options: {
+        plantumljar: `./lib/plantuml-does-not-exist.jar`,
+      },
+    })
+  })
+
   it(`reports line numbers`, async () => {
     const code = `
 \`\`\`plantuml

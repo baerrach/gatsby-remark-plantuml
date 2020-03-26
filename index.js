@@ -39,7 +39,7 @@ class Configuration {
     this.reporter = reporter
     if (this.hasNotRun) {
       if (pluginOptions.plantumljar) {
-        this.plantumljar = path.resolve(pluginOptions.plantumljar)
+        this.plantumljar = path.resolve(__dirname, pluginOptions.plantumljar)
       }
 
       this.hasNotRun = false
@@ -106,9 +106,11 @@ const plantuml = async (gatsbyNodeHelpers, pluginOptions = {}) => {
     // setup up sinks before piping data in
     const onExitPromise = onExit(plantumlProcess)
     const stdoutPromise = readableToString(plantumlProcess.stdout)
+    const stderrPromise = readableToString(plantumlProcess.stderr)
 
     await diagramAsStream.pipe(plantumlProcess.stdin)
     const stdout = await stdoutPromise
+    const stderr = await stderrPromise
 
     let executableFailed = false
     try {
@@ -118,6 +120,10 @@ const plantuml = async (gatsbyNodeHelpers, pluginOptions = {}) => {
     }
 
     if (executableFailed) {
+      if (stderr) {
+        throw new Error(stderr)
+      }
+
       /*
         PlantUML Error message format (undocumented)
 

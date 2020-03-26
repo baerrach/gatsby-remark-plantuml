@@ -59,6 +59,7 @@ The tests are built with [jest](https://jestjs.io).
 All test files are located in `test/`
 
 * `test/index.spec.js` tests the plugin usage
+* `test/errors.spec.js` tests error handling
 * `test/max-width.spec.js` tests the `max-width` feature
 * `test/sequence.spec.js` tests the `sequence` diagram capabilities
 * `test/use-case.spec.js` tests the `use-case` diagram capabilities
