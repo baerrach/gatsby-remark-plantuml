@@ -157,3 +157,55 @@ Syntax Error at line 1
   "type": "root",
 }
 `;
+
+exports[`Error Handling reports line numbers 2`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": undefined,
+      "lang": undefined,
+      "position": Position {
+        "end": Object {
+          "column": 4,
+          "line": 6,
+          "offset": 81,
+        },
+        "indent": Array [
+          1,
+          1,
+          1,
+          1,
+        ],
+        "start": Object {
+          "column": 1,
+          "line": 2,
+          "offset": 1,
+        },
+      },
+      "type": "html",
+      "value": "<p><b><span style=\\"color:red\\">PlantUmlError</span></b></p>
+<pre>
+    0 @startuml
+    1 error here // first line is #1 after @startuml
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Syntax Error at line 1 
+    2 @enduml
+</pre>
+",
+    },
+  ],
+  "position": Object {
+    "end": Object {
+      "column": 1,
+      "line": 7,
+      "offset": 82,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "root",
+}
+`;

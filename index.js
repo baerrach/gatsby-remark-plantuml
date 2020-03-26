@@ -120,7 +120,7 @@ const plantuml = async (gatsbyNodeHelpers, pluginOptions = {}) => {
     }
 
     if (executableFailed) {
-      if (stderr) {
+      if (stderr && !stdout) {
         throw new Error(stderr)
       }
 

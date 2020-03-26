@@ -51,9 +51,7 @@ error here // first line is #1 after @startuml
         error: [
           [
             `Could not generate plantuml diagram: Syntax Error at line 1  `,
-            expect.toMatchPlantUmlError(
-              new PlantUmlError(`Syntax Error`, 1, ``)
-            ),
+            new PlantUmlError(`Syntax Error`),
           ],
         ],
       },
