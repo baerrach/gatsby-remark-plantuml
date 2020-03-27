@@ -63,7 +63,7 @@
     "lodash": "^4.17.15",
     "prettier": "^1.19.1",
     "remark": "^9.0.0",
-    "standard-version": "^7.0.0"
+    "standard-version": "^7.1.0"
   },
   "engines": {
     "node": ">=8.0.0"
