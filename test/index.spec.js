@@ -20,34 +20,5 @@ describe(`remark plantuml plugin`, () => {
         code,
       })
     })
-
-    it(`fails the build when can't find Java and Graphviz`, async () => {
-      const path = process.env.PATH
-      process.env.PATH = `` // an empty PATH won't find any files
-      const code = `
-\`\`\`plantuml
-@startuml
-Alice -> Bob: Authentication Request
-Bob --> Alice: Authentication Response
-
-Alice -> Bob: Another authentication Request
-Alice <-- Bob: Another authentication Response
-@enduml
-\`\`\`
-    `
-      try {
-        await testRemarkPlugin.testPlugin({
-          code,
-          reporter: {
-            warn: [
-              `Executable 'java' not found on path`,
-              `Executable 'dot' not found on path`,
-            ],
-          },
-        })
-      } finally {
-        process.env.PATH = path
-      }
-    })
   })
 })
