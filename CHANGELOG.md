@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.6.0](https://github.com/baerrach/gatsby-remark-plantuml/compare/v0.5.0...v0.6.0) (2020-03-27)
+
+
+### Bug Fixes
+
+* **error-handling:** fix stderr and stdout issues ([ec7748e](https://github.com/baerrach/gatsby-remark-plantuml/commit/ec7748e512309c5a9f22ecb4569513abca47742e))
+* **plantuml:** fix to configuration of custom plantuml jar ([349e619](https://github.com/baerrach/gatsby-remark-plantuml/commit/349e619994f35a0e43bf38ad6c0b40fe202e3ac4)), closes [#10](https://github.com/baerrach/gatsby-remark-plantuml/issues/10)
+* **pluginOptions:** handle when plantumljar does not exist ([93bc546](https://github.com/baerrach/gatsby-remark-plantuml/commit/93bc54683da2ddbe778c5f1465b1489e2461a0f0))
+* **test-remark-plugin:** remove unused toMatchPlantUmlError matcher ([527c3c9](https://github.com/baerrach/gatsby-remark-plantuml/commit/527c3c931e10a625e10895fe37128c5ec8aa0b07))
+
 ## [0.5.0](https://github.com/baerrach/gatsby-remark-plantuml/compare/v0.4.0...v0.5.0) (2020-02-28)
 
 
