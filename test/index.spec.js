@@ -1,3 +1,5 @@
+const path = require(`path`)
+
 const testRemarkPlugin = require(`./test-remark-plugin`)
 
 describe(`remark plantuml plugin`, () => {
@@ -20,10 +22,10 @@ describe(`remark plantuml plugin`, () => {
         code,
       })
     })
+  })
 
-    it(`fails the build when can't find Java and Graphviz`, async () => {
-      const path = process.env.PATH
-      process.env.PATH = `` // an empty PATH won't find any files
+  describe(`configuration`, () => {
+    it(`plantumljar as absolute path`, async () => {
       const code = `
 \`\`\`plantuml
 @startuml
@@ -35,19 +37,37 @@ Alice <-- Bob: Another authentication Response
 @enduml
 \`\`\`
     `
-      try {
-        await testRemarkPlugin.testPlugin({
-          code,
-          reporter: {
-            warn: [
-              `Executable 'java' not found on path`,
-              `Executable 'dot' not found on path`,
-            ],
-          },
-        })
-      } finally {
-        process.env.PATH = path
-      }
+      await testRemarkPlugin.testPlugin({
+        code,
+        undefined,
+        options: {
+          plantumljar: path.resolve(
+            __dirname,
+            `../lib/plantuml-jar-mit-1.2019.9/plantuml.jar`
+          ),
+        },
+      })
+    })
+
+    it(`plantumljar as relative path`, async () => {
+      const code = `
+\`\`\`plantuml
+@startuml
+Alice -> Bob: Authentication Request
+Bob --> Alice: Authentication Response
+
+Alice -> Bob: Another authentication Request
+Alice <-- Bob: Another authentication Response
+@enduml
+\`\`\`
+    `
+      await testRemarkPlugin.testPlugin({
+        code,
+        undefined,
+        options: {
+          plantumljar: `./lib/plantuml-jar-mit-1.2019.9/plantuml.jar`,
+        },
+      })
     })
   })
 })

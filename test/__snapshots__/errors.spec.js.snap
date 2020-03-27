@@ -1,6 +1,166 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Error Handling reports line numbers 1`] = `
+exports[`Error Handling fails the build when can't find Java and Graphviz 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "lang": "plantuml",
+      "position": Position {
+        "end": Object {
+          "column": 4,
+          "line": 10,
+          "offset": 203,
+        },
+        "indent": Array [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+        ],
+        "start": Object {
+          "column": 1,
+          "line": 2,
+          "offset": 1,
+        },
+      },
+      "type": "code",
+      "value": "@startuml
+Alice -> Bob: Authentication Request
+Bob --> Alice: Authentication Response
+
+Alice -> Bob: Another authentication Request
+Alice <-- Bob: Another authentication Response
+@enduml",
+    },
+  ],
+  "position": Object {
+    "end": Object {
+      "column": 5,
+      "line": 11,
+      "offset": 208,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "root",
+}
+`;
+
+exports[`Error Handling fails the build when can't find plantuml 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "lang": "plantuml",
+      "position": Position {
+        "end": Object {
+          "column": 4,
+          "line": 10,
+          "offset": 203,
+        },
+        "indent": Array [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+        ],
+        "start": Object {
+          "column": 1,
+          "line": 2,
+          "offset": 1,
+        },
+      },
+      "type": "code",
+      "value": "@startuml
+Alice -> Bob: Authentication Request
+Bob --> Alice: Authentication Response
+
+Alice -> Bob: Another authentication Request
+Alice <-- Bob: Another authentication Response
+@enduml",
+    },
+  ],
+  "position": Object {
+    "end": Object {
+      "column": 5,
+      "line": 11,
+      "offset": 208,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "root",
+}
+`;
+
+exports[`Error Handling reports line numbers on missing closing quotes 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": undefined,
+      "lang": undefined,
+      "position": Position {
+        "end": Object {
+          "column": 4,
+          "line": 7,
+          "offset": 78,
+        },
+        "indent": Array [
+          1,
+          1,
+          1,
+          1,
+          1,
+        ],
+        "start": Object {
+          "column": 1,
+          "line": 2,
+          "offset": 1,
+        },
+      },
+      "type": "html",
+      "value": "<p><b><span style=\\"color:red\\">PlantUmlError</span></b></p>
+<pre>
+    0 @startuml
+    1 Alice -> Bob
+    2 Bob --> \\"missing closing quote
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Syntax Error at line 2 
+    3 @enduml
+</pre>
+",
+    },
+  ],
+  "position": Object {
+    "end": Object {
+      "column": 1,
+      "line": 8,
+      "offset": 79,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "root",
+}
+`;
+
+exports[`Error Handling reports line numbers on syntax errors 1`] = `
 Object {
   "children": Array [
     Object {

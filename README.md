@@ -44,6 +44,29 @@ plugins: [
 | Name       | Default     | Description |
 | ---------- | ----------- | ----------- |
 | `maxWidth` | `undefined` | The `maxWidth` value to apply to the `width` attribute of the generated svg.<br /><br />When `undefined` the svg will default to the plantuml width and height which is the entire diagram.<br /><br />Otherwise set the `width` attribute of the svg to the provided value, use any valid values include `vh` and `%`s. Additionally sets the `height` attribute of the svg to `auto` to ensure the svg sizes correctly |
+| `plantumljar` | use embedded jar | Path to an alternative PlantUML Jar file |
+
+You can specify these options in your `gatsby-config.js` file as follows:
+
+```javascript
+// In your gatsby-config.js
+plugins: [
+  {
+    resolve: `gatsby-transformer-remark`,
+    options: {
+      plugins: [
+        {
+            resolve: 'gatsby-remark-plantuml',
+            options: {
+              maxWidth: '960',
+              plantumljar: '/path/to/plantuml.jar'
+            }
+        },
+      ],
+    },
+  },
+]
+```
 
 ### Usage in Markdown ###
 
