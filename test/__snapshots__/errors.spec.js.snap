@@ -106,7 +106,7 @@ Alice <-- Bob: Another authentication Response
 }
 `;
 
-exports[`Error Handling reports line numbers 1`] = `
+exports[`Error Handling reports line numbers on missing closing quotes 1`] = `
 Object {
   "children": Array [
     Object {
@@ -115,10 +115,11 @@ Object {
       "position": Position {
         "end": Object {
           "column": 4,
-          "line": 6,
-          "offset": 81,
+          "line": 7,
+          "offset": 78,
         },
         "indent": Array [
+          1,
           1,
           1,
           1,
@@ -134,10 +135,11 @@ Object {
       "value": "<p><b><span style=\\"color:red\\">PlantUmlError</span></b></p>
 <pre>
     0 @startuml
-    1 error here // first line is #1 after @startuml
+    1 Alice -> Bob
+    2 Bob --> \\"missing closing quote
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Syntax Error at line 1 
-    2 @enduml
+Syntax Error at line 2 
+    3 @enduml
 </pre>
 ",
     },
@@ -145,8 +147,8 @@ Syntax Error at line 1
   "position": Object {
     "end": Object {
       "column": 1,
-      "line": 7,
-      "offset": 82,
+      "line": 8,
+      "offset": 79,
     },
     "start": Object {
       "column": 1,
@@ -158,7 +160,7 @@ Syntax Error at line 1
 }
 `;
 
-exports[`Error Handling reports line numbers 2`] = `
+exports[`Error Handling reports line numbers on syntax errors 1`] = `
 Object {
   "children": Array [
     Object {

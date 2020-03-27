@@ -65,8 +65,9 @@ Alice <-- Bob: Another authentication Response
     })
   })
 
-  it(`reports line numbers`, async () => {
-    const code = `
+  describe(`reports line numbers`, () => {
+    it(`on syntax errors`, async () => {
+      const code = `
 \`\`\`plantuml
 @startuml
 error here // first line is #1 after @startuml
@@ -74,16 +75,40 @@ error here // first line is #1 after @startuml
 \`\`\`
 `
 
-    await testRemarkPlugin.testPlugin({
-      code,
-      reporter: {
-        error: [
-          [
-            `Could not generate plantuml diagram: Syntax Error at line 1  `,
-            new PlantUmlError(`Syntax Error`),
+      await testRemarkPlugin.testPlugin({
+        code,
+        reporter: {
+          error: [
+            [
+              `Could not generate plantuml diagram: Syntax Error at line 1  `,
+              new PlantUmlError(`Syntax Error`),
+            ],
           ],
-        ],
-      },
+        },
+      })
+    })
+
+    it(`on missing closing quotes`, async () => {
+      const code = `
+\`\`\`plantuml
+@startuml
+Alice -> Bob
+Bob --> "missing closing quote
+@enduml
+\`\`\`
+`
+
+      await testRemarkPlugin.testPlugin({
+        code,
+        reporter: {
+          error: [
+            [
+              `Could not generate plantuml diagram: Syntax Error at line 2  `,
+              new PlantUmlError(`Syntax Error`),
+            ],
+          ],
+        },
+      })
     })
   })
 })
