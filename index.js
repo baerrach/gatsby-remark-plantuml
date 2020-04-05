@@ -6,7 +6,7 @@ const { spawn } = require(`child_process`)
 const hasbin = require(`hasbin`)
 const visit = require(`unist-util-visit`)
 const { StringStream, readableToString, onExit } = require(`@rauschma/stringio`)
-const { parseDOM, DomUtils } = require(`htmlparser2`)
+const cheerio = require(`cheerio`)
 
 class PlantUmlError extends Error {
   constructor(message, lineNumber, generalError) {
@@ -88,7 +88,7 @@ const plantuml = async (gatsbyNodeHelpers, pluginOptions = {}) => {
   const { markdownAST, reporter } = gatsbyNodeHelpers
   const plantUmlNodes = []
 
-  const runplantuml = async diagramAsText => {
+  const runplantuml = async (diagramAsText) => {
     const plantumlProcess = spawn(`java`, [
       `-Djava.awt.headless=true`,
       `-jar`,
@@ -148,15 +148,20 @@ const plantuml = async (gatsbyNodeHelpers, pluginOptions = {}) => {
 
   configuration.init({ pluginOptions, reporter })
 
-  visit(markdownAST, `code`, node => {
+  visit(markdownAST, `code`, (node) => {
+    const lang = node.lang
+    const attrString = node.meta
+
     // Visit must be SYNC
     // See https://www.huy.dev/2018-05-remark-gatsby-plugin-part-3/
     //
     // Gatsby Remark Images also shows how to do async code in transformers.
     // https://github.com/gatsbyjs/gatsby/blob/master/packages/gatsby-remark-images/src/index.js
-    if (node.lang === `plantuml`) {
-      plantUmlNodes.push(node)
+    if (lang === `plantuml`) {
+      plantUmlNodes.push({ node, attrString: attrString })
     }
+
+    return node
   })
 
   if (plantUmlNodes.length === 0) {
@@ -168,22 +173,35 @@ const plantuml = async (gatsbyNodeHelpers, pluginOptions = {}) => {
     return
   }
 
-  const generateUmlAndUpdateNode = async node => {
+  const generateUmlAndUpdateNode = async ({ node, attrString }) => {
     const diagramAsText = node.value
+
     try {
-      let diagramAsSvg = await runplantuml(diagramAsText)
+      const diagramAsSvg = await runplantuml(diagramAsText)
+      const $ = cheerio.load(diagramAsSvg)
+
+      // Set max width
       if (pluginOptions.maxWidth) {
-        const dom = parseDOM(diagramAsSvg)
-        const svgElement = dom[0]
-        svgElement.attribs.width = pluginOptions.maxWidth
-        svgElement.attribs.height = `auto`
-        diagramAsSvg = DomUtils.getOuterHTML(svgElement)
+        $(`svg`).attr(`width`, pluginOptions.maxWidth)
+        $(`svg`).attr(`height`, `auto`)
+      }
+
+      // Add default inline styling
+      $(`svg`).attr(`style`, `max-width: 100%; height: auto;`)
+
+      // Merge custom attributes if provided by pluginOptions or specific code fence
+      const elementAttributes = attrString || pluginOptions.attributes
+      if (elementAttributes) {
+        const attrElement = cheerio.load(
+          `<element ${elementAttributes}></element>`
+        )
+        $(`svg`).attr(attrElement(`element`).attr())
       }
 
       node.type = `html`
       node.lang = undefined
       node.children = undefined
-      node.value = diagramAsSvg
+      node.value = $.html(`svg`)
     } catch (err) {
       let specificReason = ``
       if (err instanceof PlantUmlError) {
@@ -232,7 +250,7 @@ ${context}
     }
   }
 
-  await Promise.each(plantUmlNodes, node => generateUmlAndUpdateNode(node))
+  await Promise.each(plantUmlNodes, generateUmlAndUpdateNode)
 }
 
 const plantumlModule = (module.exports = plantuml)

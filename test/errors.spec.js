@@ -1,5 +1,7 @@
 const testRemarkPlugin = require(`./test-remark-plugin`)
 const { PlantUmlError } = require(`../index`)
+const path = require(`path`)
+const EOL = require(`os`).EOL
 
 describe(`Error Handling`, () => {
   beforeEach(() => {
@@ -36,6 +38,8 @@ Alice <-- Bob: Another authentication Response
   })
 
   it(`fails the build when can't find plantuml`, async () => {
+    const plantumljar = `./lib/plantuml-does-not-exist.jar`
+    const jarFullPath = path.join(process.cwd(), plantumljar)
     const code = `
 \`\`\`plantuml
 @startuml
@@ -53,14 +57,12 @@ Alice <-- Bob: Another authentication Response
         error: [
           [
             `Could not generate plantuml diagram:  `,
-            new Error(
-              `Error: Unable to access jarfile C:\\ide\\gatsby-remark-plantuml\\lib\\plantuml-does-not-exist.jar\r\n`
-            ),
+            new Error(`Error: Unable to access jarfile ${jarFullPath}${EOL}`),
           ],
         ],
       },
       options: {
-        plantumljar: `./lib/plantuml-does-not-exist.jar`,
+        plantumljar,
       },
     })
   })

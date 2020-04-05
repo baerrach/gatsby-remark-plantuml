@@ -32,3 +32,8 @@ coverage
 
 # forestry files
 .forestry/**/*
+
+# other project files
+.babelrc
+*.md
+svg/

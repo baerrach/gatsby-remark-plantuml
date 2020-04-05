@@ -5,6 +5,7 @@ Object {
   "children": Array [
     Object {
       "lang": "plantuml",
+      "meta": null,
       "position": Position {
         "end": Object {
           "column": 4,
@@ -58,6 +59,7 @@ Object {
   "children": Array [
     Object {
       "lang": "plantuml",
+      "meta": null,
       "position": Position {
         "end": Object {
           "column": 4,
@@ -112,6 +114,7 @@ Object {
     Object {
       "children": undefined,
       "lang": undefined,
+      "meta": null,
       "position": Position {
         "end": Object {
           "column": 4,
@@ -166,6 +169,7 @@ Object {
     Object {
       "children": undefined,
       "lang": undefined,
+      "meta": null,
       "position": Position {
         "end": Object {
           "column": 4,

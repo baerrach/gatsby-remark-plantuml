@@ -1,4 +1,4 @@
-const { parseDOM, DomUtils } = require(`htmlparser2`)
+const cheerio = require(`cheerio`)
 
 const testRemarkPlugin = require(`./test-remark-plugin`)
 
@@ -56,17 +56,13 @@ describe(`maxWidth Option`, () => {
       code,
     })
 
-    const dom = parseDOM(ast.children[0].value)
-    const svgElement = dom[0]
-    expect(svgElement.name).toEqual(`svg`)
-    const [
-      _x,
-      _y,
-      viewboxWidth,
-      viewboxHeight,
-    ] = svgElement.attribs.viewbox.split(` `)
-    expect(`${viewboxWidth}px`).toBe(svgElement.attribs.width)
-    expect(`${viewboxHeight}px`).toBe(svgElement.attribs.height)
+    const $ = cheerio.load(ast.children[0].value)
+    expect($(`svg`).get(0).tagName).toEqual(`svg`)
+    const [_x, _y, viewboxWidth, viewboxHeight] = $(`svg`)
+      .attr(`viewBox`)
+      .split(` `)
+    expect(`${viewboxWidth}px`).toBe($(`svg`).attr(`width`))
+    expect(`${viewboxHeight}px`).toBe($(`svg`).attr(`height`))
   })
 
   it(`overrides svg.width and svg.height but viewbox is unaltered`, async () => {
@@ -77,19 +73,14 @@ describe(`maxWidth Option`, () => {
       },
     })
 
-    const dom = parseDOM(ast.children[0].value)
-
-    const svgElement = dom[0]
-    expect(svgElement.name).toEqual(`svg`)
-    const [
-      _x,
-      _y,
-      viewboxWidth,
-      viewboxHeight,
-    ] = svgElement.attribs.viewbox.split(` `)
-    expect(viewboxWidth).toBe(`1196`)
-    expect(viewboxHeight).toBe(`526`)
-    expect(svgElement.attribs.width).toBe(`90vw`)
-    expect(svgElement.attribs.height).toBe(`auto`)
+    const $ = cheerio.load(ast.children[0].value)
+    expect($(`svg`).get(0).tagName).toEqual(`svg`)
+    const [_x, _y, viewboxWidth, viewboxHeight] = $(`svg`)
+      .attr(`viewBox`)
+      .split(` `)
+    expect(viewboxWidth).toBe(`1250`)
+    expect(viewboxHeight).toBe(`509`)
+    expect($(`svg`).attr(`width`)).toBe(`90vw`)
+    expect($(`svg`).attr(`height`)).toBe(`auto`)
   })
 })

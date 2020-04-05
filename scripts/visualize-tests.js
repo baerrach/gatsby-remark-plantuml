@@ -8,8 +8,8 @@ const svgdir = path.join(basedir, `../svg`)
 
 const snapshotFilenames = fs
   .readdirSync(snapshotsdir)
-  .filter(file => path.extname(file) === `.snap`)
-  .map(file => path.join(snapshotsdir, file))
+  .filter((file) => path.extname(file) === `.snap`)
+  .map((file) => path.join(snapshotsdir, file))
 
 if (!fs.existsSync(svgdir)) {
   fs.mkdirSync(svgdir)
@@ -29,7 +29,7 @@ ${svg}
   fs.writeFileSync(htmlFilename, html)
 }
 
-const extractSvg = data => {
+const extractSvg = (data) => {
   const svgRegExp = /(<svg (?:[^\\"]|\\")*)/m
 
   const results = svgRegExp.exec(data)
@@ -43,7 +43,7 @@ const extractSvg = data => {
   return svg
 }
 
-const visualizeSnapshotFile = snapshotFilename => {
+const visualizeSnapshotFile = (snapshotFilename) => {
   const snapshot = require(snapshotFilename)
 
   /*
