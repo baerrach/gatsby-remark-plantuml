@@ -78,8 +78,9 @@ describe(`maxWidth Option`, () => {
     const [_x, _y, viewboxWidth, viewboxHeight] = $(`svg`)
       .attr(`viewBox`)
       .split(` `)
-    expect(viewboxWidth).toBe(`1250`)
-    expect(viewboxHeight).toBe(`509`)
+
+    expect(viewboxWidth).toBe(`1196`)
+    expect(viewboxHeight).toBe(`526`)
     expect($(`svg`).attr(`width`)).toBe(`90vw`)
     expect($(`svg`).attr(`height`)).toBe(`auto`)
   })
