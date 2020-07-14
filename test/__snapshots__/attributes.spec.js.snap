@@ -1,0 +1,616 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`svg attributes defaults to width: 100% and height: auto 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": undefined,
+      "lang": undefined,
+      "meta": null,
+      "position": Position {
+        "end": Object {
+          "column": 4,
+          "line": 42,
+          "offset": 1068,
+        },
+        "indent": Array [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+        ],
+        "start": Object {
+          "column": 1,
+          "line": 2,
+          "offset": 1,
+        },
+      },
+      "type": "html",
+      "value": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" xlink=\\"http://www.w3.org/1999/xlink\\" contentscripttype=\\"application/ecmascript\\" contentstyletype=\\"text/css\\" height=\\"509px\\" preserveAspectRatio=\\"none\\" style=\\"max-width: 100%; height: auto;\\" version=\\"1.1\\" viewBox=\\"0 0 1250 509\\" width=\\"1250px\\" zoomAndPan=\\"magnify\\"><defs><filter height=\\"300%\\" id=\\"f15st99riz14js\\" width=\\"300%\\" x=\\"-1\\" y=\\"-1\\"><feGaussianBlur result=\\"blurOut\\" stdDeviation=\\"2.0\\"/><feColorMatrix in=\\"blurOut\\" result=\\"blurOut2\\" type=\\"matrix\\" values=\\"0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0\\"/><feOffset dx=\\"4.0\\" dy=\\"4.0\\" in=\\"blurOut2\\" result=\\"blurOut3\\"/><feBlend in=\\"SourceGraphic\\" in2=\\"blurOut3\\" mode=\\"normal\\"/></filter></defs><g><rect fill=\\"#FFFFFF\\" height=\\"494.3242\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\" width=\\"342\\" x=\\"4\\" y=\\"4\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" font-weight=\\"bold\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"57\\" x=\\"146.5\\" y=\\"16.5684\\">Machine</text><rect fill=\\"#FFFFFF\\" height=\\"494.3242\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\" width=\\"166\\" x=\\"348\\" y=\\"4\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" font-weight=\\"bold\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"102\\" x=\\"380\\" y=\\"16.5684\\">some company</text><rect fill=\\"#00FF8C\\" height=\\"494.3242\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\" width=\\"506\\" x=\\"516\\" y=\\"4\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" font-weight=\\"bold\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"69\\" x=\\"734.5\\" y=\\"16.5684\\">Connector</text><rect fill=\\"#FFFFFF\\" height=\\"494.3242\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\" width=\\"215\\" x=\\"1024\\" y=\\"4\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" font-weight=\\"bold\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"38\\" x=\\"1112.5\\" y=\\"16.5684\\">IFTTT</text><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"40\\" x2=\\"40\\" y1=\\"58.7988\\" y2=\\"459.8359\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"142\\" x2=\\"142\\" y1=\\"58.7988\\" y2=\\"459.8359\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"276\\" x2=\\"276\\" y1=\\"58.7988\\" y2=\\"459.8359\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"431\\" x2=\\"431\\" y1=\\"58.7988\\" y2=\\"459.8359\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"563\\" x2=\\"563\\" y1=\\"58.7988\\" y2=\\"459.8359\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"728\\" x2=\\"728\\" y1=\\"58.7988\\" y2=\\"459.8359\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"933\\" x2=\\"933\\" y1=\\"58.7988\\" y2=\\"459.8359\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"1095\\" x2=\\"1095\\" y1=\\"58.7988\\" y2=\\"459.8359\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"1203\\" x2=\\"1203\\" y1=\\"58.7988\\" y2=\\"459.8359\\"/><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"61\\" x=\\"8\\" y=\\"23.3105\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"47\\" x=\\"15\\" y=\\"43.8457\\">Sensor</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"61\\" x=\\"8\\" y=\\"458.8359\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"47\\" x=\\"15\\" y=\\"479.3711\\">Sensor</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"114\\" x=\\"83\\" y=\\"23.3105\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"100\\" x=\\"90\\" y=\\"43.8457\\">OPC UA Server</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"114\\" x=\\"83\\" y=\\"458.8359\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"100\\" x=\\"90\\" y=\\"479.3711\\">OPC UA Server</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"127\\" x=\\"211\\" y=\\"23.3105\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"113\\" x=\\"218\\" y=\\"43.8457\\">CloudConnector</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"127\\" x=\\"211\\" y=\\"458.8359\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"113\\" x=\\"218\\" y=\\"479.3711\\">CloudConnector</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"154\\" x=\\"352\\" y=\\"23.3105\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"140\\" x=\\"359\\" y=\\"43.8457\\">some company Core</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"154\\" x=\\"352\\" y=\\"458.8359\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"140\\" x=\\"359\\" y=\\"479.3711\\">some company Core</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"83\\" x=\\"520\\" y=\\"23.3105\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"69\\" x=\\"527\\" y=\\"43.8457\\">Event Hub</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"83\\" x=\\"520\\" y=\\"458.8359\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"69\\" x=\\"527\\" y=\\"479.3711\\">Event Hub</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"218\\" x=\\"617\\" y=\\"23.3105\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"204\\" x=\\"624\\" y=\\"43.8457\\">Event Hub Processor Function</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"218\\" x=\\"617\\" y=\\"458.8359\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"204\\" x=\\"624\\" y=\\"479.3711\\">Event Hub Processor Function</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"165\\" x=\\"849\\" y=\\"23.3105\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"151\\" x=\\"856\\" y=\\"43.8457\\">IFTTT Event Processor</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"165\\" x=\\"849\\" y=\\"458.8359\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"151\\" x=\\"856\\" y=\\"479.3711\\">IFTTT Event Processor</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"130\\" x=\\"1028\\" y=\\"23.3105\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"116\\" x=\\"1035\\" y=\\"43.8457\\">Webhook Service</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"130\\" x=\\"1028\\" y=\\"458.8359\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"116\\" x=\\"1035\\" y=\\"479.3711\\">Webhook Service</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"59\\" x=\\"1172\\" y=\\"23.3105\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"45\\" x=\\"1179\\" y=\\"43.8457\\">Applet</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"59\\" x=\\"1172\\" y=\\"458.8359\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"45\\" x=\\"1179\\" y=\\"479.3711\\">Applet</text><polygon fill=\\"#A80036\\" points=\\"130,86.1094,140,90.1094,130,94.1094,134,90.1094\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"40.5\\" x2=\\"136\\" y1=\\"90.1094\\" y2=\\"90.1094\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"34\\" x=\\"47.5\\" y=\\"85.3672\\">Event</text><polygon fill=\\"#A80036\\" points=\\"264.5,115.4199,274.5,119.4199,264.5,123.4199,268.5,119.4199\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"142\\" x2=\\"270.5\\" y1=\\"119.4199\\" y2=\\"119.4199\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"61\\" x=\\"149\\" y=\\"114.6777\\">Item Data</text><polygon fill=\\"#A80036\\" points=\\"419,144.7305,429,148.7305,419,152.7305,423,148.7305\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"276.5\\" x2=\\"425\\" y1=\\"148.7305\\" y2=\\"148.7305\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"61\\" x=\\"283.5\\" y=\\"143.9883\\">Item Data</text><polygon fill=\\"#A80036\\" points=\\"551.5,174.041,561.5,178.041,551.5,182.041,555.5,178.041\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"431\\" x2=\\"557.5\\" y1=\\"178.041\\" y2=\\"178.041\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"34\\" x=\\"438\\" y=\\"173.2988\\">Event</text><polygon fill=\\"#A80036\\" points=\\"716,203.3516,726,207.3516,716,211.3516,720,207.3516\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"563.5\\" x2=\\"722\\" y1=\\"207.3516\\" y2=\\"207.3516\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"41\\" x=\\"570.5\\" y=\\"202.6094\\">Events</text><polygon fill=\\"#A80036\\" points=\\"1083,232.6621,1093,236.6621,1083,240.6621,1087,236.6621\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"728\\" x2=\\"1089\\" y1=\\"236.6621\\" y2=\\"236.6621\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"86\\" x=\\"735\\" y=\\"231.9199\\">POST Request</text><polygon fill=\\"#A80036\\" points=\\"1191.5,261.9727,1201.5,265.9727,1191.5,269.9727,1195.5,265.9727\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"1095\\" x2=\\"1197.5\\" y1=\\"265.9727\\" y2=\\"265.9727\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"45\\" x=\\"1102\\" y=\\"261.2305\\">Trigger</text><polygon fill=\\"#A80036\\" points=\\"1106,291.2832,1096,295.2832,1106,299.2832,1102,295.2832\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"1100\\" x2=\\"1202.5\\" y1=\\"295.2832\\" y2=\\"295.2832\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"41\\" x=\\"1112\\" y=\\"290.541\\">Action</text><polygon fill=\\"#A80036\\" points=\\"944.5,320.5938,934.5,324.5938,944.5,328.5938,940.5,324.5938\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"938.5\\" x2=\\"1094\\" y1=\\"324.5938\\" y2=\\"324.5938\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"86\\" x=\\"950.5\\" y=\\"319.8516\\">POST Request</text><polygon fill=\\"#A80036\\" points=\\"442,349.9043,432,353.9043,442,357.9043,438,353.9043\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"436\\" x2=\\"932.5\\" y1=\\"353.9043\\" y2=\\"353.9043\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"210\\" x=\\"448\\" y=\\"349.1621\\">Commanding Call (POST Request)</text><polygon fill=\\"#A80036\\" points=\\"287.5,379.2148,277.5,383.2148,287.5,387.2148,283.5,383.2148\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"281.5\\" x2=\\"430\\" y1=\\"383.2148\\" y2=\\"383.2148\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"64\\" x=\\"293.5\\" y=\\"378.4727\\">Command</text><polygon fill=\\"#A80036\\" points=\\"153,408.5254,143,412.5254,153,416.5254,149,412.5254\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"147\\" x2=\\"275.5\\" y1=\\"412.5254\\" y2=\\"412.5254\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"64\\" x=\\"159\\" y=\\"407.7832\\">Command</text><polygon fill=\\"#A80036\\" points=\\"51.5,437.8359,41.5,441.8359,51.5,445.8359,47.5,441.8359\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"45.5\\" x2=\\"141\\" y1=\\"441.8359\\" y2=\\"441.8359\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"34\\" x=\\"57.5\\" y=\\"437.0938\\">Event</text><!--
+@startuml
+
+box \\"Machine\\" #ffffff
+    participant Sensor
+    participant \\"OPC UA Server\\"
+    participant CloudConnector
+end box
+
+box \\"some company\\" #ffffff
+    participant \\"some company Core\\"
+end box
+
+box \\"Connector\\" #00ff8c
+    participant \\"Event Hub\\"
+    participant \\"Event Hub Processor Function\\"
+    participant \\"IFTTT Event Processor\\"
+end box
+
+box \\"IFTTT\\" #ffffff
+    participant \\"Webhook Service\\"
+    participant Applet
+end box
+
+Sensor->\\"OPC UA Server\\" : Event
+\\"OPC UA Server\\"->CloudConnector: Item Data
+CloudConnector->\\"some company Core\\" : Item Data
+\\"some company Core\\"->\\"Event Hub\\" : Event
+\\"Event Hub\\"->\\"Event Hub Processor Function\\" : Events
+\\"Event Hub Processor Function\\"->\\"Webhook Service\\" : POST Request
+\\"Webhook Service\\"->Applet : Trigger
+
+Applet->\\"Webhook Service\\": Action
+\\"Webhook Service\\"->\\"IFTTT Event Processor\\" : POST Request
+\\"IFTTT Event Processor\\"->\\"some company Core\\" : Commanding Call (POST Request)
+\\"some company Core\\"->CloudConnector : Command
+CloudConnector->\\"OPC UA Server\\" : Command
+\\"OPC UA Server\\"->Sensor : Event
+
+@enduml
+
+
+--></g></svg>",
+    },
+  ],
+  "position": Object {
+    "end": Object {
+      "column": 1,
+      "line": 43,
+      "offset": 1069,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "root",
+}
+`;
+
+exports[`svg attributes inline code fence attributes override pluginOptions.attributes 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": undefined,
+      "lang": undefined,
+      "meta": "style=\\"max-width: 50%; height: auto;\\"",
+      "position": Position {
+        "end": Object {
+          "column": 4,
+          "line": 42,
+          "offset": 1106,
+        },
+        "indent": Array [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+        ],
+        "start": Object {
+          "column": 1,
+          "line": 2,
+          "offset": 1,
+        },
+      },
+      "type": "html",
+      "value": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" xlink=\\"http://www.w3.org/1999/xlink\\" contentscripttype=\\"application/ecmascript\\" contentstyletype=\\"text/css\\" height=\\"509px\\" preserveAspectRatio=\\"none\\" style=\\"max-width: 50%; height: auto;\\" version=\\"1.1\\" viewBox=\\"0 0 1250 509\\" width=\\"1250px\\" zoomAndPan=\\"magnify\\"><defs><filter height=\\"300%\\" id=\\"f15st99riz14js\\" width=\\"300%\\" x=\\"-1\\" y=\\"-1\\"><feGaussianBlur result=\\"blurOut\\" stdDeviation=\\"2.0\\"/><feColorMatrix in=\\"blurOut\\" result=\\"blurOut2\\" type=\\"matrix\\" values=\\"0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0\\"/><feOffset dx=\\"4.0\\" dy=\\"4.0\\" in=\\"blurOut2\\" result=\\"blurOut3\\"/><feBlend in=\\"SourceGraphic\\" in2=\\"blurOut3\\" mode=\\"normal\\"/></filter></defs><g><rect fill=\\"#FFFFFF\\" height=\\"494.3242\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\" width=\\"342\\" x=\\"4\\" y=\\"4\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" font-weight=\\"bold\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"57\\" x=\\"146.5\\" y=\\"16.5684\\">Machine</text><rect fill=\\"#FFFFFF\\" height=\\"494.3242\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\" width=\\"166\\" x=\\"348\\" y=\\"4\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" font-weight=\\"bold\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"102\\" x=\\"380\\" y=\\"16.5684\\">some company</text><rect fill=\\"#00FF8C\\" height=\\"494.3242\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\" width=\\"506\\" x=\\"516\\" y=\\"4\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" font-weight=\\"bold\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"69\\" x=\\"734.5\\" y=\\"16.5684\\">Connector</text><rect fill=\\"#FFFFFF\\" height=\\"494.3242\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\" width=\\"215\\" x=\\"1024\\" y=\\"4\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" font-weight=\\"bold\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"38\\" x=\\"1112.5\\" y=\\"16.5684\\">IFTTT</text><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"40\\" x2=\\"40\\" y1=\\"58.7988\\" y2=\\"459.8359\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"142\\" x2=\\"142\\" y1=\\"58.7988\\" y2=\\"459.8359\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"276\\" x2=\\"276\\" y1=\\"58.7988\\" y2=\\"459.8359\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"431\\" x2=\\"431\\" y1=\\"58.7988\\" y2=\\"459.8359\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"563\\" x2=\\"563\\" y1=\\"58.7988\\" y2=\\"459.8359\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"728\\" x2=\\"728\\" y1=\\"58.7988\\" y2=\\"459.8359\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"933\\" x2=\\"933\\" y1=\\"58.7988\\" y2=\\"459.8359\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"1095\\" x2=\\"1095\\" y1=\\"58.7988\\" y2=\\"459.8359\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"1203\\" x2=\\"1203\\" y1=\\"58.7988\\" y2=\\"459.8359\\"/><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"61\\" x=\\"8\\" y=\\"23.3105\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"47\\" x=\\"15\\" y=\\"43.8457\\">Sensor</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"61\\" x=\\"8\\" y=\\"458.8359\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"47\\" x=\\"15\\" y=\\"479.3711\\">Sensor</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"114\\" x=\\"83\\" y=\\"23.3105\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"100\\" x=\\"90\\" y=\\"43.8457\\">OPC UA Server</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"114\\" x=\\"83\\" y=\\"458.8359\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"100\\" x=\\"90\\" y=\\"479.3711\\">OPC UA Server</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"127\\" x=\\"211\\" y=\\"23.3105\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"113\\" x=\\"218\\" y=\\"43.8457\\">CloudConnector</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"127\\" x=\\"211\\" y=\\"458.8359\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"113\\" x=\\"218\\" y=\\"479.3711\\">CloudConnector</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"154\\" x=\\"352\\" y=\\"23.3105\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"140\\" x=\\"359\\" y=\\"43.8457\\">some company Core</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"154\\" x=\\"352\\" y=\\"458.8359\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"140\\" x=\\"359\\" y=\\"479.3711\\">some company Core</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"83\\" x=\\"520\\" y=\\"23.3105\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"69\\" x=\\"527\\" y=\\"43.8457\\">Event Hub</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"83\\" x=\\"520\\" y=\\"458.8359\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"69\\" x=\\"527\\" y=\\"479.3711\\">Event Hub</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"218\\" x=\\"617\\" y=\\"23.3105\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"204\\" x=\\"624\\" y=\\"43.8457\\">Event Hub Processor Function</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"218\\" x=\\"617\\" y=\\"458.8359\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"204\\" x=\\"624\\" y=\\"479.3711\\">Event Hub Processor Function</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"165\\" x=\\"849\\" y=\\"23.3105\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"151\\" x=\\"856\\" y=\\"43.8457\\">IFTTT Event Processor</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"165\\" x=\\"849\\" y=\\"458.8359\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"151\\" x=\\"856\\" y=\\"479.3711\\">IFTTT Event Processor</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"130\\" x=\\"1028\\" y=\\"23.3105\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"116\\" x=\\"1035\\" y=\\"43.8457\\">Webhook Service</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"130\\" x=\\"1028\\" y=\\"458.8359\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"116\\" x=\\"1035\\" y=\\"479.3711\\">Webhook Service</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"59\\" x=\\"1172\\" y=\\"23.3105\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"45\\" x=\\"1179\\" y=\\"43.8457\\">Applet</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"59\\" x=\\"1172\\" y=\\"458.8359\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"45\\" x=\\"1179\\" y=\\"479.3711\\">Applet</text><polygon fill=\\"#A80036\\" points=\\"130,86.1094,140,90.1094,130,94.1094,134,90.1094\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"40.5\\" x2=\\"136\\" y1=\\"90.1094\\" y2=\\"90.1094\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"34\\" x=\\"47.5\\" y=\\"85.3672\\">Event</text><polygon fill=\\"#A80036\\" points=\\"264.5,115.4199,274.5,119.4199,264.5,123.4199,268.5,119.4199\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"142\\" x2=\\"270.5\\" y1=\\"119.4199\\" y2=\\"119.4199\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"61\\" x=\\"149\\" y=\\"114.6777\\">Item Data</text><polygon fill=\\"#A80036\\" points=\\"419,144.7305,429,148.7305,419,152.7305,423,148.7305\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"276.5\\" x2=\\"425\\" y1=\\"148.7305\\" y2=\\"148.7305\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"61\\" x=\\"283.5\\" y=\\"143.9883\\">Item Data</text><polygon fill=\\"#A80036\\" points=\\"551.5,174.041,561.5,178.041,551.5,182.041,555.5,178.041\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"431\\" x2=\\"557.5\\" y1=\\"178.041\\" y2=\\"178.041\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"34\\" x=\\"438\\" y=\\"173.2988\\">Event</text><polygon fill=\\"#A80036\\" points=\\"716,203.3516,726,207.3516,716,211.3516,720,207.3516\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"563.5\\" x2=\\"722\\" y1=\\"207.3516\\" y2=\\"207.3516\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"41\\" x=\\"570.5\\" y=\\"202.6094\\">Events</text><polygon fill=\\"#A80036\\" points=\\"1083,232.6621,1093,236.6621,1083,240.6621,1087,236.6621\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"728\\" x2=\\"1089\\" y1=\\"236.6621\\" y2=\\"236.6621\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"86\\" x=\\"735\\" y=\\"231.9199\\">POST Request</text><polygon fill=\\"#A80036\\" points=\\"1191.5,261.9727,1201.5,265.9727,1191.5,269.9727,1195.5,265.9727\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"1095\\" x2=\\"1197.5\\" y1=\\"265.9727\\" y2=\\"265.9727\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"45\\" x=\\"1102\\" y=\\"261.2305\\">Trigger</text><polygon fill=\\"#A80036\\" points=\\"1106,291.2832,1096,295.2832,1106,299.2832,1102,295.2832\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"1100\\" x2=\\"1202.5\\" y1=\\"295.2832\\" y2=\\"295.2832\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"41\\" x=\\"1112\\" y=\\"290.541\\">Action</text><polygon fill=\\"#A80036\\" points=\\"944.5,320.5938,934.5,324.5938,944.5,328.5938,940.5,324.5938\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"938.5\\" x2=\\"1094\\" y1=\\"324.5938\\" y2=\\"324.5938\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"86\\" x=\\"950.5\\" y=\\"319.8516\\">POST Request</text><polygon fill=\\"#A80036\\" points=\\"442,349.9043,432,353.9043,442,357.9043,438,353.9043\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"436\\" x2=\\"932.5\\" y1=\\"353.9043\\" y2=\\"353.9043\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"210\\" x=\\"448\\" y=\\"349.1621\\">Commanding Call (POST Request)</text><polygon fill=\\"#A80036\\" points=\\"287.5,379.2148,277.5,383.2148,287.5,387.2148,283.5,383.2148\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"281.5\\" x2=\\"430\\" y1=\\"383.2148\\" y2=\\"383.2148\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"64\\" x=\\"293.5\\" y=\\"378.4727\\">Command</text><polygon fill=\\"#A80036\\" points=\\"153,408.5254,143,412.5254,153,416.5254,149,412.5254\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"147\\" x2=\\"275.5\\" y1=\\"412.5254\\" y2=\\"412.5254\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"64\\" x=\\"159\\" y=\\"407.7832\\">Command</text><polygon fill=\\"#A80036\\" points=\\"51.5,437.8359,41.5,441.8359,51.5,445.8359,47.5,441.8359\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"45.5\\" x2=\\"141\\" y1=\\"441.8359\\" y2=\\"441.8359\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"34\\" x=\\"57.5\\" y=\\"437.0938\\">Event</text><!--
+@startuml
+
+box \\"Machine\\" #ffffff
+    participant Sensor
+    participant \\"OPC UA Server\\"
+    participant CloudConnector
+end box
+
+box \\"some company\\" #ffffff
+    participant \\"some company Core\\"
+end box
+
+box \\"Connector\\" #00ff8c
+    participant \\"Event Hub\\"
+    participant \\"Event Hub Processor Function\\"
+    participant \\"IFTTT Event Processor\\"
+end box
+
+box \\"IFTTT\\" #ffffff
+    participant \\"Webhook Service\\"
+    participant Applet
+end box
+
+Sensor->\\"OPC UA Server\\" : Event
+\\"OPC UA Server\\"->CloudConnector: Item Data
+CloudConnector->\\"some company Core\\" : Item Data
+\\"some company Core\\"->\\"Event Hub\\" : Event
+\\"Event Hub\\"->\\"Event Hub Processor Function\\" : Events
+\\"Event Hub Processor Function\\"->\\"Webhook Service\\" : POST Request
+\\"Webhook Service\\"->Applet : Trigger
+
+Applet->\\"Webhook Service\\": Action
+\\"Webhook Service\\"->\\"IFTTT Event Processor\\" : POST Request
+\\"IFTTT Event Processor\\"->\\"some company Core\\" : Commanding Call (POST Request)
+\\"some company Core\\"->CloudConnector : Command
+CloudConnector->\\"OPC UA Server\\" : Command
+\\"OPC UA Server\\"->Sensor : Event
+
+@enduml
+
+
+--></g></svg>",
+    },
+  ],
+  "position": Object {
+    "end": Object {
+      "column": 1,
+      "line": 43,
+      "offset": 1107,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "root",
+}
+`;
+
+exports[`svg attributes inline code fence can set css class 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": undefined,
+      "lang": undefined,
+      "meta": "class=\\"plantuml-diagram\\"",
+      "position": Position {
+        "end": Object {
+          "column": 4,
+          "line": 42,
+          "offset": 1093,
+        },
+        "indent": Array [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+        ],
+        "start": Object {
+          "column": 1,
+          "line": 2,
+          "offset": 1,
+        },
+      },
+      "type": "html",
+      "value": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" xlink=\\"http://www.w3.org/1999/xlink\\" contentscripttype=\\"application/ecmascript\\" contentstyletype=\\"text/css\\" height=\\"509px\\" preserveAspectRatio=\\"none\\" style=\\"max-width: 100%; height: auto;\\" version=\\"1.1\\" viewBox=\\"0 0 1250 509\\" width=\\"1250px\\" zoomAndPan=\\"magnify\\" class=\\"plantuml-diagram\\"><defs><filter height=\\"300%\\" id=\\"f15st99riz14js\\" width=\\"300%\\" x=\\"-1\\" y=\\"-1\\"><feGaussianBlur result=\\"blurOut\\" stdDeviation=\\"2.0\\"/><feColorMatrix in=\\"blurOut\\" result=\\"blurOut2\\" type=\\"matrix\\" values=\\"0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0\\"/><feOffset dx=\\"4.0\\" dy=\\"4.0\\" in=\\"blurOut2\\" result=\\"blurOut3\\"/><feBlend in=\\"SourceGraphic\\" in2=\\"blurOut3\\" mode=\\"normal\\"/></filter></defs><g><rect fill=\\"#FFFFFF\\" height=\\"494.3242\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\" width=\\"342\\" x=\\"4\\" y=\\"4\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" font-weight=\\"bold\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"57\\" x=\\"146.5\\" y=\\"16.5684\\">Machine</text><rect fill=\\"#FFFFFF\\" height=\\"494.3242\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\" width=\\"166\\" x=\\"348\\" y=\\"4\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" font-weight=\\"bold\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"102\\" x=\\"380\\" y=\\"16.5684\\">some company</text><rect fill=\\"#00FF8C\\" height=\\"494.3242\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\" width=\\"506\\" x=\\"516\\" y=\\"4\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" font-weight=\\"bold\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"69\\" x=\\"734.5\\" y=\\"16.5684\\">Connector</text><rect fill=\\"#FFFFFF\\" height=\\"494.3242\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\" width=\\"215\\" x=\\"1024\\" y=\\"4\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" font-weight=\\"bold\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"38\\" x=\\"1112.5\\" y=\\"16.5684\\">IFTTT</text><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"40\\" x2=\\"40\\" y1=\\"58.7988\\" y2=\\"459.8359\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"142\\" x2=\\"142\\" y1=\\"58.7988\\" y2=\\"459.8359\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"276\\" x2=\\"276\\" y1=\\"58.7988\\" y2=\\"459.8359\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"431\\" x2=\\"431\\" y1=\\"58.7988\\" y2=\\"459.8359\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"563\\" x2=\\"563\\" y1=\\"58.7988\\" y2=\\"459.8359\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"728\\" x2=\\"728\\" y1=\\"58.7988\\" y2=\\"459.8359\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"933\\" x2=\\"933\\" y1=\\"58.7988\\" y2=\\"459.8359\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"1095\\" x2=\\"1095\\" y1=\\"58.7988\\" y2=\\"459.8359\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"1203\\" x2=\\"1203\\" y1=\\"58.7988\\" y2=\\"459.8359\\"/><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"61\\" x=\\"8\\" y=\\"23.3105\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"47\\" x=\\"15\\" y=\\"43.8457\\">Sensor</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"61\\" x=\\"8\\" y=\\"458.8359\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"47\\" x=\\"15\\" y=\\"479.3711\\">Sensor</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"114\\" x=\\"83\\" y=\\"23.3105\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"100\\" x=\\"90\\" y=\\"43.8457\\">OPC UA Server</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"114\\" x=\\"83\\" y=\\"458.8359\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"100\\" x=\\"90\\" y=\\"479.3711\\">OPC UA Server</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"127\\" x=\\"211\\" y=\\"23.3105\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"113\\" x=\\"218\\" y=\\"43.8457\\">CloudConnector</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"127\\" x=\\"211\\" y=\\"458.8359\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"113\\" x=\\"218\\" y=\\"479.3711\\">CloudConnector</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"154\\" x=\\"352\\" y=\\"23.3105\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"140\\" x=\\"359\\" y=\\"43.8457\\">some company Core</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"154\\" x=\\"352\\" y=\\"458.8359\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"140\\" x=\\"359\\" y=\\"479.3711\\">some company Core</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"83\\" x=\\"520\\" y=\\"23.3105\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"69\\" x=\\"527\\" y=\\"43.8457\\">Event Hub</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"83\\" x=\\"520\\" y=\\"458.8359\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"69\\" x=\\"527\\" y=\\"479.3711\\">Event Hub</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"218\\" x=\\"617\\" y=\\"23.3105\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"204\\" x=\\"624\\" y=\\"43.8457\\">Event Hub Processor Function</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"218\\" x=\\"617\\" y=\\"458.8359\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"204\\" x=\\"624\\" y=\\"479.3711\\">Event Hub Processor Function</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"165\\" x=\\"849\\" y=\\"23.3105\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"151\\" x=\\"856\\" y=\\"43.8457\\">IFTTT Event Processor</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"165\\" x=\\"849\\" y=\\"458.8359\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"151\\" x=\\"856\\" y=\\"479.3711\\">IFTTT Event Processor</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"130\\" x=\\"1028\\" y=\\"23.3105\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"116\\" x=\\"1035\\" y=\\"43.8457\\">Webhook Service</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"130\\" x=\\"1028\\" y=\\"458.8359\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"116\\" x=\\"1035\\" y=\\"479.3711\\">Webhook Service</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"59\\" x=\\"1172\\" y=\\"23.3105\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"45\\" x=\\"1179\\" y=\\"43.8457\\">Applet</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"59\\" x=\\"1172\\" y=\\"458.8359\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"45\\" x=\\"1179\\" y=\\"479.3711\\">Applet</text><polygon fill=\\"#A80036\\" points=\\"130,86.1094,140,90.1094,130,94.1094,134,90.1094\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"40.5\\" x2=\\"136\\" y1=\\"90.1094\\" y2=\\"90.1094\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"34\\" x=\\"47.5\\" y=\\"85.3672\\">Event</text><polygon fill=\\"#A80036\\" points=\\"264.5,115.4199,274.5,119.4199,264.5,123.4199,268.5,119.4199\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"142\\" x2=\\"270.5\\" y1=\\"119.4199\\" y2=\\"119.4199\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"61\\" x=\\"149\\" y=\\"114.6777\\">Item Data</text><polygon fill=\\"#A80036\\" points=\\"419,144.7305,429,148.7305,419,152.7305,423,148.7305\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"276.5\\" x2=\\"425\\" y1=\\"148.7305\\" y2=\\"148.7305\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"61\\" x=\\"283.5\\" y=\\"143.9883\\">Item Data</text><polygon fill=\\"#A80036\\" points=\\"551.5,174.041,561.5,178.041,551.5,182.041,555.5,178.041\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"431\\" x2=\\"557.5\\" y1=\\"178.041\\" y2=\\"178.041\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"34\\" x=\\"438\\" y=\\"173.2988\\">Event</text><polygon fill=\\"#A80036\\" points=\\"716,203.3516,726,207.3516,716,211.3516,720,207.3516\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"563.5\\" x2=\\"722\\" y1=\\"207.3516\\" y2=\\"207.3516\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"41\\" x=\\"570.5\\" y=\\"202.6094\\">Events</text><polygon fill=\\"#A80036\\" points=\\"1083,232.6621,1093,236.6621,1083,240.6621,1087,236.6621\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"728\\" x2=\\"1089\\" y1=\\"236.6621\\" y2=\\"236.6621\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"86\\" x=\\"735\\" y=\\"231.9199\\">POST Request</text><polygon fill=\\"#A80036\\" points=\\"1191.5,261.9727,1201.5,265.9727,1191.5,269.9727,1195.5,265.9727\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"1095\\" x2=\\"1197.5\\" y1=\\"265.9727\\" y2=\\"265.9727\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"45\\" x=\\"1102\\" y=\\"261.2305\\">Trigger</text><polygon fill=\\"#A80036\\" points=\\"1106,291.2832,1096,295.2832,1106,299.2832,1102,295.2832\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"1100\\" x2=\\"1202.5\\" y1=\\"295.2832\\" y2=\\"295.2832\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"41\\" x=\\"1112\\" y=\\"290.541\\">Action</text><polygon fill=\\"#A80036\\" points=\\"944.5,320.5938,934.5,324.5938,944.5,328.5938,940.5,324.5938\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"938.5\\" x2=\\"1094\\" y1=\\"324.5938\\" y2=\\"324.5938\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"86\\" x=\\"950.5\\" y=\\"319.8516\\">POST Request</text><polygon fill=\\"#A80036\\" points=\\"442,349.9043,432,353.9043,442,357.9043,438,353.9043\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"436\\" x2=\\"932.5\\" y1=\\"353.9043\\" y2=\\"353.9043\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"210\\" x=\\"448\\" y=\\"349.1621\\">Commanding Call (POST Request)</text><polygon fill=\\"#A80036\\" points=\\"287.5,379.2148,277.5,383.2148,287.5,387.2148,283.5,383.2148\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"281.5\\" x2=\\"430\\" y1=\\"383.2148\\" y2=\\"383.2148\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"64\\" x=\\"293.5\\" y=\\"378.4727\\">Command</text><polygon fill=\\"#A80036\\" points=\\"153,408.5254,143,412.5254,153,416.5254,149,412.5254\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"147\\" x2=\\"275.5\\" y1=\\"412.5254\\" y2=\\"412.5254\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"64\\" x=\\"159\\" y=\\"407.7832\\">Command</text><polygon fill=\\"#A80036\\" points=\\"51.5,437.8359,41.5,441.8359,51.5,445.8359,47.5,441.8359\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"45.5\\" x2=\\"141\\" y1=\\"441.8359\\" y2=\\"441.8359\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"34\\" x=\\"57.5\\" y=\\"437.0938\\">Event</text><!--
+@startuml
+
+box \\"Machine\\" #ffffff
+    participant Sensor
+    participant \\"OPC UA Server\\"
+    participant CloudConnector
+end box
+
+box \\"some company\\" #ffffff
+    participant \\"some company Core\\"
+end box
+
+box \\"Connector\\" #00ff8c
+    participant \\"Event Hub\\"
+    participant \\"Event Hub Processor Function\\"
+    participant \\"IFTTT Event Processor\\"
+end box
+
+box \\"IFTTT\\" #ffffff
+    participant \\"Webhook Service\\"
+    participant Applet
+end box
+
+Sensor->\\"OPC UA Server\\" : Event
+\\"OPC UA Server\\"->CloudConnector: Item Data
+CloudConnector->\\"some company Core\\" : Item Data
+\\"some company Core\\"->\\"Event Hub\\" : Event
+\\"Event Hub\\"->\\"Event Hub Processor Function\\" : Events
+\\"Event Hub Processor Function\\"->\\"Webhook Service\\" : POST Request
+\\"Webhook Service\\"->Applet : Trigger
+
+Applet->\\"Webhook Service\\": Action
+\\"Webhook Service\\"->\\"IFTTT Event Processor\\" : POST Request
+\\"IFTTT Event Processor\\"->\\"some company Core\\" : Commanding Call (POST Request)
+\\"some company Core\\"->CloudConnector : Command
+CloudConnector->\\"OPC UA Server\\" : Command
+\\"OPC UA Server\\"->Sensor : Event
+
+@enduml
+
+
+--></g></svg>",
+    },
+  ],
+  "position": Object {
+    "end": Object {
+      "column": 1,
+      "line": 43,
+      "offset": 1094,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "root",
+}
+`;
+
+exports[`svg attributes uses code fence inline custom attributes 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": undefined,
+      "lang": undefined,
+      "meta": "style=\\"max-width: 50%; height: auto;\\"",
+      "position": Position {
+        "end": Object {
+          "column": 4,
+          "line": 42,
+          "offset": 1106,
+        },
+        "indent": Array [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+        ],
+        "start": Object {
+          "column": 1,
+          "line": 2,
+          "offset": 1,
+        },
+      },
+      "type": "html",
+      "value": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" xlink=\\"http://www.w3.org/1999/xlink\\" contentscripttype=\\"application/ecmascript\\" contentstyletype=\\"text/css\\" height=\\"509px\\" preserveAspectRatio=\\"none\\" style=\\"max-width: 50%; height: auto;\\" version=\\"1.1\\" viewBox=\\"0 0 1250 509\\" width=\\"1250px\\" zoomAndPan=\\"magnify\\"><defs><filter height=\\"300%\\" id=\\"f15st99riz14js\\" width=\\"300%\\" x=\\"-1\\" y=\\"-1\\"><feGaussianBlur result=\\"blurOut\\" stdDeviation=\\"2.0\\"/><feColorMatrix in=\\"blurOut\\" result=\\"blurOut2\\" type=\\"matrix\\" values=\\"0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0\\"/><feOffset dx=\\"4.0\\" dy=\\"4.0\\" in=\\"blurOut2\\" result=\\"blurOut3\\"/><feBlend in=\\"SourceGraphic\\" in2=\\"blurOut3\\" mode=\\"normal\\"/></filter></defs><g><rect fill=\\"#FFFFFF\\" height=\\"494.3242\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\" width=\\"342\\" x=\\"4\\" y=\\"4\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" font-weight=\\"bold\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"57\\" x=\\"146.5\\" y=\\"16.5684\\">Machine</text><rect fill=\\"#FFFFFF\\" height=\\"494.3242\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\" width=\\"166\\" x=\\"348\\" y=\\"4\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" font-weight=\\"bold\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"102\\" x=\\"380\\" y=\\"16.5684\\">some company</text><rect fill=\\"#00FF8C\\" height=\\"494.3242\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\" width=\\"506\\" x=\\"516\\" y=\\"4\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" font-weight=\\"bold\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"69\\" x=\\"734.5\\" y=\\"16.5684\\">Connector</text><rect fill=\\"#FFFFFF\\" height=\\"494.3242\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\" width=\\"215\\" x=\\"1024\\" y=\\"4\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" font-weight=\\"bold\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"38\\" x=\\"1112.5\\" y=\\"16.5684\\">IFTTT</text><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"40\\" x2=\\"40\\" y1=\\"58.7988\\" y2=\\"459.8359\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"142\\" x2=\\"142\\" y1=\\"58.7988\\" y2=\\"459.8359\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"276\\" x2=\\"276\\" y1=\\"58.7988\\" y2=\\"459.8359\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"431\\" x2=\\"431\\" y1=\\"58.7988\\" y2=\\"459.8359\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"563\\" x2=\\"563\\" y1=\\"58.7988\\" y2=\\"459.8359\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"728\\" x2=\\"728\\" y1=\\"58.7988\\" y2=\\"459.8359\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"933\\" x2=\\"933\\" y1=\\"58.7988\\" y2=\\"459.8359\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"1095\\" x2=\\"1095\\" y1=\\"58.7988\\" y2=\\"459.8359\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"1203\\" x2=\\"1203\\" y1=\\"58.7988\\" y2=\\"459.8359\\"/><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"61\\" x=\\"8\\" y=\\"23.3105\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"47\\" x=\\"15\\" y=\\"43.8457\\">Sensor</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"61\\" x=\\"8\\" y=\\"458.8359\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"47\\" x=\\"15\\" y=\\"479.3711\\">Sensor</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"114\\" x=\\"83\\" y=\\"23.3105\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"100\\" x=\\"90\\" y=\\"43.8457\\">OPC UA Server</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"114\\" x=\\"83\\" y=\\"458.8359\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"100\\" x=\\"90\\" y=\\"479.3711\\">OPC UA Server</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"127\\" x=\\"211\\" y=\\"23.3105\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"113\\" x=\\"218\\" y=\\"43.8457\\">CloudConnector</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"127\\" x=\\"211\\" y=\\"458.8359\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"113\\" x=\\"218\\" y=\\"479.3711\\">CloudConnector</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"154\\" x=\\"352\\" y=\\"23.3105\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"140\\" x=\\"359\\" y=\\"43.8457\\">some company Core</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"154\\" x=\\"352\\" y=\\"458.8359\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"140\\" x=\\"359\\" y=\\"479.3711\\">some company Core</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"83\\" x=\\"520\\" y=\\"23.3105\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"69\\" x=\\"527\\" y=\\"43.8457\\">Event Hub</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"83\\" x=\\"520\\" y=\\"458.8359\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"69\\" x=\\"527\\" y=\\"479.3711\\">Event Hub</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"218\\" x=\\"617\\" y=\\"23.3105\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"204\\" x=\\"624\\" y=\\"43.8457\\">Event Hub Processor Function</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"218\\" x=\\"617\\" y=\\"458.8359\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"204\\" x=\\"624\\" y=\\"479.3711\\">Event Hub Processor Function</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"165\\" x=\\"849\\" y=\\"23.3105\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"151\\" x=\\"856\\" y=\\"43.8457\\">IFTTT Event Processor</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"165\\" x=\\"849\\" y=\\"458.8359\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"151\\" x=\\"856\\" y=\\"479.3711\\">IFTTT Event Processor</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"130\\" x=\\"1028\\" y=\\"23.3105\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"116\\" x=\\"1035\\" y=\\"43.8457\\">Webhook Service</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"130\\" x=\\"1028\\" y=\\"458.8359\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"116\\" x=\\"1035\\" y=\\"479.3711\\">Webhook Service</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"59\\" x=\\"1172\\" y=\\"23.3105\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"45\\" x=\\"1179\\" y=\\"43.8457\\">Applet</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"59\\" x=\\"1172\\" y=\\"458.8359\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"45\\" x=\\"1179\\" y=\\"479.3711\\">Applet</text><polygon fill=\\"#A80036\\" points=\\"130,86.1094,140,90.1094,130,94.1094,134,90.1094\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"40.5\\" x2=\\"136\\" y1=\\"90.1094\\" y2=\\"90.1094\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"34\\" x=\\"47.5\\" y=\\"85.3672\\">Event</text><polygon fill=\\"#A80036\\" points=\\"264.5,115.4199,274.5,119.4199,264.5,123.4199,268.5,119.4199\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"142\\" x2=\\"270.5\\" y1=\\"119.4199\\" y2=\\"119.4199\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"61\\" x=\\"149\\" y=\\"114.6777\\">Item Data</text><polygon fill=\\"#A80036\\" points=\\"419,144.7305,429,148.7305,419,152.7305,423,148.7305\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"276.5\\" x2=\\"425\\" y1=\\"148.7305\\" y2=\\"148.7305\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"61\\" x=\\"283.5\\" y=\\"143.9883\\">Item Data</text><polygon fill=\\"#A80036\\" points=\\"551.5,174.041,561.5,178.041,551.5,182.041,555.5,178.041\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"431\\" x2=\\"557.5\\" y1=\\"178.041\\" y2=\\"178.041\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"34\\" x=\\"438\\" y=\\"173.2988\\">Event</text><polygon fill=\\"#A80036\\" points=\\"716,203.3516,726,207.3516,716,211.3516,720,207.3516\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"563.5\\" x2=\\"722\\" y1=\\"207.3516\\" y2=\\"207.3516\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"41\\" x=\\"570.5\\" y=\\"202.6094\\">Events</text><polygon fill=\\"#A80036\\" points=\\"1083,232.6621,1093,236.6621,1083,240.6621,1087,236.6621\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"728\\" x2=\\"1089\\" y1=\\"236.6621\\" y2=\\"236.6621\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"86\\" x=\\"735\\" y=\\"231.9199\\">POST Request</text><polygon fill=\\"#A80036\\" points=\\"1191.5,261.9727,1201.5,265.9727,1191.5,269.9727,1195.5,265.9727\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"1095\\" x2=\\"1197.5\\" y1=\\"265.9727\\" y2=\\"265.9727\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"45\\" x=\\"1102\\" y=\\"261.2305\\">Trigger</text><polygon fill=\\"#A80036\\" points=\\"1106,291.2832,1096,295.2832,1106,299.2832,1102,295.2832\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"1100\\" x2=\\"1202.5\\" y1=\\"295.2832\\" y2=\\"295.2832\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"41\\" x=\\"1112\\" y=\\"290.541\\">Action</text><polygon fill=\\"#A80036\\" points=\\"944.5,320.5938,934.5,324.5938,944.5,328.5938,940.5,324.5938\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"938.5\\" x2=\\"1094\\" y1=\\"324.5938\\" y2=\\"324.5938\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"86\\" x=\\"950.5\\" y=\\"319.8516\\">POST Request</text><polygon fill=\\"#A80036\\" points=\\"442,349.9043,432,353.9043,442,357.9043,438,353.9043\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"436\\" x2=\\"932.5\\" y1=\\"353.9043\\" y2=\\"353.9043\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"210\\" x=\\"448\\" y=\\"349.1621\\">Commanding Call (POST Request)</text><polygon fill=\\"#A80036\\" points=\\"287.5,379.2148,277.5,383.2148,287.5,387.2148,283.5,383.2148\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"281.5\\" x2=\\"430\\" y1=\\"383.2148\\" y2=\\"383.2148\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"64\\" x=\\"293.5\\" y=\\"378.4727\\">Command</text><polygon fill=\\"#A80036\\" points=\\"153,408.5254,143,412.5254,153,416.5254,149,412.5254\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"147\\" x2=\\"275.5\\" y1=\\"412.5254\\" y2=\\"412.5254\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"64\\" x=\\"159\\" y=\\"407.7832\\">Command</text><polygon fill=\\"#A80036\\" points=\\"51.5,437.8359,41.5,441.8359,51.5,445.8359,47.5,441.8359\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"45.5\\" x2=\\"141\\" y1=\\"441.8359\\" y2=\\"441.8359\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"34\\" x=\\"57.5\\" y=\\"437.0938\\">Event</text><!--
+@startuml
+
+box \\"Machine\\" #ffffff
+    participant Sensor
+    participant \\"OPC UA Server\\"
+    participant CloudConnector
+end box
+
+box \\"some company\\" #ffffff
+    participant \\"some company Core\\"
+end box
+
+box \\"Connector\\" #00ff8c
+    participant \\"Event Hub\\"
+    participant \\"Event Hub Processor Function\\"
+    participant \\"IFTTT Event Processor\\"
+end box
+
+box \\"IFTTT\\" #ffffff
+    participant \\"Webhook Service\\"
+    participant Applet
+end box
+
+Sensor->\\"OPC UA Server\\" : Event
+\\"OPC UA Server\\"->CloudConnector: Item Data
+CloudConnector->\\"some company Core\\" : Item Data
+\\"some company Core\\"->\\"Event Hub\\" : Event
+\\"Event Hub\\"->\\"Event Hub Processor Function\\" : Events
+\\"Event Hub Processor Function\\"->\\"Webhook Service\\" : POST Request
+\\"Webhook Service\\"->Applet : Trigger
+
+Applet->\\"Webhook Service\\": Action
+\\"Webhook Service\\"->\\"IFTTT Event Processor\\" : POST Request
+\\"IFTTT Event Processor\\"->\\"some company Core\\" : Commanding Call (POST Request)
+\\"some company Core\\"->CloudConnector : Command
+CloudConnector->\\"OPC UA Server\\" : Command
+\\"OPC UA Server\\"->Sensor : Event
+
+@enduml
+
+
+--></g></svg>",
+    },
+  ],
+  "position": Object {
+    "end": Object {
+      "column": 1,
+      "line": 43,
+      "offset": 1107,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "root",
+}
+`;
+
+exports[`svg attributes uses pluginOptions.attributes when provided 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": undefined,
+      "lang": undefined,
+      "meta": null,
+      "position": Position {
+        "end": Object {
+          "column": 4,
+          "line": 42,
+          "offset": 1068,
+        },
+        "indent": Array [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+        ],
+        "start": Object {
+          "column": 1,
+          "line": 2,
+          "offset": 1,
+        },
+      },
+      "type": "html",
+      "value": "<svg xmlns=\\"http://www.w3.org/2000/svg\\" xlink=\\"http://www.w3.org/1999/xlink\\" contentscripttype=\\"application/ecmascript\\" contentstyletype=\\"text/css\\" height=\\"509px\\" preserveAspectRatio=\\"none\\" style=\\"width: 90vw; height: auto;\\" version=\\"1.1\\" viewBox=\\"0 0 1250 509\\" width=\\"1250px\\" zoomAndPan=\\"magnify\\"><defs><filter height=\\"300%\\" id=\\"f15st99riz14js\\" width=\\"300%\\" x=\\"-1\\" y=\\"-1\\"><feGaussianBlur result=\\"blurOut\\" stdDeviation=\\"2.0\\"/><feColorMatrix in=\\"blurOut\\" result=\\"blurOut2\\" type=\\"matrix\\" values=\\"0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0\\"/><feOffset dx=\\"4.0\\" dy=\\"4.0\\" in=\\"blurOut2\\" result=\\"blurOut3\\"/><feBlend in=\\"SourceGraphic\\" in2=\\"blurOut3\\" mode=\\"normal\\"/></filter></defs><g><rect fill=\\"#FFFFFF\\" height=\\"494.3242\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\" width=\\"342\\" x=\\"4\\" y=\\"4\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" font-weight=\\"bold\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"57\\" x=\\"146.5\\" y=\\"16.5684\\">Machine</text><rect fill=\\"#FFFFFF\\" height=\\"494.3242\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\" width=\\"166\\" x=\\"348\\" y=\\"4\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" font-weight=\\"bold\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"102\\" x=\\"380\\" y=\\"16.5684\\">some company</text><rect fill=\\"#00FF8C\\" height=\\"494.3242\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\" width=\\"506\\" x=\\"516\\" y=\\"4\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" font-weight=\\"bold\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"69\\" x=\\"734.5\\" y=\\"16.5684\\">Connector</text><rect fill=\\"#FFFFFF\\" height=\\"494.3242\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\" width=\\"215\\" x=\\"1024\\" y=\\"4\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" font-weight=\\"bold\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"38\\" x=\\"1112.5\\" y=\\"16.5684\\">IFTTT</text><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"40\\" x2=\\"40\\" y1=\\"58.7988\\" y2=\\"459.8359\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"142\\" x2=\\"142\\" y1=\\"58.7988\\" y2=\\"459.8359\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"276\\" x2=\\"276\\" y1=\\"58.7988\\" y2=\\"459.8359\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"431\\" x2=\\"431\\" y1=\\"58.7988\\" y2=\\"459.8359\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"563\\" x2=\\"563\\" y1=\\"58.7988\\" y2=\\"459.8359\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"728\\" x2=\\"728\\" y1=\\"58.7988\\" y2=\\"459.8359\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"933\\" x2=\\"933\\" y1=\\"58.7988\\" y2=\\"459.8359\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"1095\\" x2=\\"1095\\" y1=\\"58.7988\\" y2=\\"459.8359\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;\\" x1=\\"1203\\" x2=\\"1203\\" y1=\\"58.7988\\" y2=\\"459.8359\\"/><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"61\\" x=\\"8\\" y=\\"23.3105\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"47\\" x=\\"15\\" y=\\"43.8457\\">Sensor</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"61\\" x=\\"8\\" y=\\"458.8359\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"47\\" x=\\"15\\" y=\\"479.3711\\">Sensor</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"114\\" x=\\"83\\" y=\\"23.3105\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"100\\" x=\\"90\\" y=\\"43.8457\\">OPC UA Server</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"114\\" x=\\"83\\" y=\\"458.8359\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"100\\" x=\\"90\\" y=\\"479.3711\\">OPC UA Server</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"127\\" x=\\"211\\" y=\\"23.3105\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"113\\" x=\\"218\\" y=\\"43.8457\\">CloudConnector</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"127\\" x=\\"211\\" y=\\"458.8359\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"113\\" x=\\"218\\" y=\\"479.3711\\">CloudConnector</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"154\\" x=\\"352\\" y=\\"23.3105\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"140\\" x=\\"359\\" y=\\"43.8457\\">some company Core</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"154\\" x=\\"352\\" y=\\"458.8359\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"140\\" x=\\"359\\" y=\\"479.3711\\">some company Core</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"83\\" x=\\"520\\" y=\\"23.3105\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"69\\" x=\\"527\\" y=\\"43.8457\\">Event Hub</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"83\\" x=\\"520\\" y=\\"458.8359\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"69\\" x=\\"527\\" y=\\"479.3711\\">Event Hub</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"218\\" x=\\"617\\" y=\\"23.3105\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"204\\" x=\\"624\\" y=\\"43.8457\\">Event Hub Processor Function</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"218\\" x=\\"617\\" y=\\"458.8359\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"204\\" x=\\"624\\" y=\\"479.3711\\">Event Hub Processor Function</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"165\\" x=\\"849\\" y=\\"23.3105\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"151\\" x=\\"856\\" y=\\"43.8457\\">IFTTT Event Processor</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"165\\" x=\\"849\\" y=\\"458.8359\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"151\\" x=\\"856\\" y=\\"479.3711\\">IFTTT Event Processor</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"130\\" x=\\"1028\\" y=\\"23.3105\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"116\\" x=\\"1035\\" y=\\"43.8457\\">Webhook Service</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"130\\" x=\\"1028\\" y=\\"458.8359\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"116\\" x=\\"1035\\" y=\\"479.3711\\">Webhook Service</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"59\\" x=\\"1172\\" y=\\"23.3105\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"45\\" x=\\"1179\\" y=\\"43.8457\\">Applet</text><rect fill=\\"#FEFECE\\" filter=\\"url(#f15st99riz14js)\\" height=\\"30.4883\\" style=\\"stroke: #A80036; stroke-width: 1.5;\\" width=\\"59\\" x=\\"1172\\" y=\\"458.8359\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"14\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"45\\" x=\\"1179\\" y=\\"479.3711\\">Applet</text><polygon fill=\\"#A80036\\" points=\\"130,86.1094,140,90.1094,130,94.1094,134,90.1094\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"40.5\\" x2=\\"136\\" y1=\\"90.1094\\" y2=\\"90.1094\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"34\\" x=\\"47.5\\" y=\\"85.3672\\">Event</text><polygon fill=\\"#A80036\\" points=\\"264.5,115.4199,274.5,119.4199,264.5,123.4199,268.5,119.4199\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"142\\" x2=\\"270.5\\" y1=\\"119.4199\\" y2=\\"119.4199\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"61\\" x=\\"149\\" y=\\"114.6777\\">Item Data</text><polygon fill=\\"#A80036\\" points=\\"419,144.7305,429,148.7305,419,152.7305,423,148.7305\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"276.5\\" x2=\\"425\\" y1=\\"148.7305\\" y2=\\"148.7305\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"61\\" x=\\"283.5\\" y=\\"143.9883\\">Item Data</text><polygon fill=\\"#A80036\\" points=\\"551.5,174.041,561.5,178.041,551.5,182.041,555.5,178.041\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"431\\" x2=\\"557.5\\" y1=\\"178.041\\" y2=\\"178.041\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"34\\" x=\\"438\\" y=\\"173.2988\\">Event</text><polygon fill=\\"#A80036\\" points=\\"716,203.3516,726,207.3516,716,211.3516,720,207.3516\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"563.5\\" x2=\\"722\\" y1=\\"207.3516\\" y2=\\"207.3516\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"41\\" x=\\"570.5\\" y=\\"202.6094\\">Events</text><polygon fill=\\"#A80036\\" points=\\"1083,232.6621,1093,236.6621,1083,240.6621,1087,236.6621\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"728\\" x2=\\"1089\\" y1=\\"236.6621\\" y2=\\"236.6621\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"86\\" x=\\"735\\" y=\\"231.9199\\">POST Request</text><polygon fill=\\"#A80036\\" points=\\"1191.5,261.9727,1201.5,265.9727,1191.5,269.9727,1195.5,265.9727\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"1095\\" x2=\\"1197.5\\" y1=\\"265.9727\\" y2=\\"265.9727\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"45\\" x=\\"1102\\" y=\\"261.2305\\">Trigger</text><polygon fill=\\"#A80036\\" points=\\"1106,291.2832,1096,295.2832,1106,299.2832,1102,295.2832\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"1100\\" x2=\\"1202.5\\" y1=\\"295.2832\\" y2=\\"295.2832\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"41\\" x=\\"1112\\" y=\\"290.541\\">Action</text><polygon fill=\\"#A80036\\" points=\\"944.5,320.5938,934.5,324.5938,944.5,328.5938,940.5,324.5938\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"938.5\\" x2=\\"1094\\" y1=\\"324.5938\\" y2=\\"324.5938\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"86\\" x=\\"950.5\\" y=\\"319.8516\\">POST Request</text><polygon fill=\\"#A80036\\" points=\\"442,349.9043,432,353.9043,442,357.9043,438,353.9043\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"436\\" x2=\\"932.5\\" y1=\\"353.9043\\" y2=\\"353.9043\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"210\\" x=\\"448\\" y=\\"349.1621\\">Commanding Call (POST Request)</text><polygon fill=\\"#A80036\\" points=\\"287.5,379.2148,277.5,383.2148,287.5,387.2148,283.5,383.2148\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"281.5\\" x2=\\"430\\" y1=\\"383.2148\\" y2=\\"383.2148\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"64\\" x=\\"293.5\\" y=\\"378.4727\\">Command</text><polygon fill=\\"#A80036\\" points=\\"153,408.5254,143,412.5254,153,416.5254,149,412.5254\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"147\\" x2=\\"275.5\\" y1=\\"412.5254\\" y2=\\"412.5254\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"64\\" x=\\"159\\" y=\\"407.7832\\">Command</text><polygon fill=\\"#A80036\\" points=\\"51.5,437.8359,41.5,441.8359,51.5,445.8359,47.5,441.8359\\" style=\\"stroke: #A80036; stroke-width: 1.0;\\"/><line style=\\"stroke: #A80036; stroke-width: 1.0;\\" x1=\\"45.5\\" x2=\\"141\\" y1=\\"441.8359\\" y2=\\"441.8359\\"/><text fill=\\"#000000\\" font-family=\\"sans-serif\\" font-size=\\"13\\" lengthAdjust=\\"spacingAndGlyphs\\" textLength=\\"34\\" x=\\"57.5\\" y=\\"437.0938\\">Event</text><!--
+@startuml
+
+box \\"Machine\\" #ffffff
+    participant Sensor
+    participant \\"OPC UA Server\\"
+    participant CloudConnector
+end box
+
+box \\"some company\\" #ffffff
+    participant \\"some company Core\\"
+end box
+
+box \\"Connector\\" #00ff8c
+    participant \\"Event Hub\\"
+    participant \\"Event Hub Processor Function\\"
+    participant \\"IFTTT Event Processor\\"
+end box
+
+box \\"IFTTT\\" #ffffff
+    participant \\"Webhook Service\\"
+    participant Applet
+end box
+
+Sensor->\\"OPC UA Server\\" : Event
+\\"OPC UA Server\\"->CloudConnector: Item Data
+CloudConnector->\\"some company Core\\" : Item Data
+\\"some company Core\\"->\\"Event Hub\\" : Event
+\\"Event Hub\\"->\\"Event Hub Processor Function\\" : Events
+\\"Event Hub Processor Function\\"->\\"Webhook Service\\" : POST Request
+\\"Webhook Service\\"->Applet : Trigger
+
+Applet->\\"Webhook Service\\": Action
+\\"Webhook Service\\"->\\"IFTTT Event Processor\\" : POST Request
+\\"IFTTT Event Processor\\"->\\"some company Core\\" : Commanding Call (POST Request)
+\\"some company Core\\"->CloudConnector : Command
+CloudConnector->\\"OPC UA Server\\" : Command
+\\"OPC UA Server\\"->Sensor : Event
+
+@enduml
+
+
+--></g></svg>",
+    },
+  ],
+  "position": Object {
+    "end": Object {
+      "column": 1,
+      "line": 43,
+      "offset": 1069,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "root",
+}
+`;

@@ -10,7 +10,7 @@ const remark = require(`remark`)
   https://github.com/facebook/jest/blob/master/packages/jest-diff/src/constants.ts
 */
 export const NO_DIFF_MESSAGE = chalk.dim(
-  "Compared values have no visual difference."
+  `Compared values have no visual difference.`
 )
 
 expect.extend({
@@ -50,7 +50,6 @@ ${calledWith}
         if (typeof expectedMessage === `object`) {
           args = expectedMessage
         }
-        const nthCall = index + 1
         const diff = this.utils.diff(reporter.mock.calls[index], args)
 
         if (diff !== NO_DIFF_MESSAGE) {
