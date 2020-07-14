@@ -17,6 +17,8 @@ This plugin bundles `plantuml-jar-mit-1.2019.9` but must have the other prerequi
 
 ## How to use ##
 
+### with gatsby-transformer-remark ###
+
 ```javascript
 // In your gatsby-config.js
 plugins: [
@@ -25,7 +27,6 @@ plugins: [
     options: {
       plugins: [
         {
-          // NOTE: As this plugin replaces the `plantnuml` code blocks with an svg
           // its order in the `gatsby-transformer-remark` plugins list is important.
           // * before `gatsby-remark-prismjs` so the code block has been transformed
           //   and `gatsby-remark-prismjs` will never see it as a code block
@@ -36,6 +37,28 @@ plugins: [
     },
   },
 ]
+```
+
+### with gatsby-plugin-mdx ###
+
+```javascript
+// In your gatsby-config.js
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        gatsbyRemarkPlugins: [
+          {
+            // NOTE: As this plugin replaces the `plantuml` code blocks with an svg
+            // its order in the `gatsby-transformer-remark` plugins list is important.
+            // * before `gatsby-remark-prismjs` so the code block has been transformed
+            //   and `gatsby-remark-prismjs` will never see it as a code block
+            // * after `gatsby-remark-code-titles` so the title block will be generated
+            resolve: `gatsby-remark-plantuml`,
+          },
+        ],
+      },
+    },
+
 ```
 
 ## Options
@@ -53,6 +76,7 @@ You can specify these options in your `gatsby-config.js` file as follows:
 plugins: [
   {
     resolve: `gatsby-transformer-remark`,
+    // or resolve: `gatsby-plugin-mdx`,
     options: {
       plugins: [
         {
