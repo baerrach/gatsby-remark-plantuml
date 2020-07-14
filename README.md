@@ -25,7 +25,7 @@ plugins: [
     options: {
       plugins: [
         {
-          // NOTE: As this plugin replaces the `platnuml` code blocks with an svg
+          // NOTE: As this plugin replaces the `plantuml` code blocks with an svg
           // its order in the `gatsby-transformer-remark` plugins list is important.
           // * before `gatsby-remark-prismjs` so the code block has been transformed
           //   and `gatsby-remark-prismjs` will never see it as a code block
