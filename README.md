@@ -8,7 +8,7 @@ Gatsby Remark plugin to transform [PlantUML][PlantUML] code blocks into SVG imag
 
 ### Prerequisites ###
 
-This plugin bundles `plantuml-jar-mit-1.2019.9` but must have the other prerequisites for a local PlantUML v1.2019.10
+This plugin bundles `plantuml-jar-mit-1.2020.15` but must have the other prerequisites for a local PlantUML v1.2020.15
 [installation][plantuml--installation]:
 
 * [Java][java]
