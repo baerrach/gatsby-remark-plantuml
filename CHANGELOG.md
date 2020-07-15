@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.7.0](https://github.com/baerrach/gatsby-remark-plantuml/compare/v0.6.0...v0.7.0) (2020-07-15)
+
+
+### Features
+
+* **attributes:** add support for custom svg attributes ([c43f601](https://github.com/baerrach/gatsby-remark-plantuml/commit/c43f601a208dd1b88862e836bf053dca0ecd223b))
+* **command-args:** add JAVA_OPTS ([123a85f](https://github.com/baerrach/gatsby-remark-plantuml/commit/123a85ff97846cf82a2b604842bb347e3d20af73))
+* **command-args:** add PLANTUML_OPTS ([26e0584](https://github.com/baerrach/gatsby-remark-plantuml/commit/26e0584792dcf7b645988133344e06e3b3cf274c))
+* **command-args:** move argument building into configuration ([7ae1034](https://github.com/baerrach/gatsby-remark-plantuml/commit/7ae1034b550de33680feba44421d6f56d5cc27eb))
+
 ## [0.6.0](https://github.com/baerrach/gatsby-remark-plantuml/compare/v0.5.0...v0.6.0) (2020-03-27)
 
 
