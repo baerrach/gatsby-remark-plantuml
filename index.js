@@ -25,6 +25,17 @@ class PlantUmlError extends Error {
 }
 
 class Configuration {
+  static DEFAULT_JAVA_OPTS = [`-Djava.awt.headless=true`]
+
+  static DEFAULT_PLANTUML_OPTS = [
+    `-charset`,
+    `UTF-8`,
+    `-Dfile.encoding=utf8`,
+    `-pipe`,
+    `-pipeNoStderr`,
+    `-tsvg`,
+  ]
+
   constructor() {
     this.hasJava = false
     this.hasGraphViz = false
@@ -58,16 +69,11 @@ class Configuration {
 
   getCommandLineArguments() {
     return [
-      `-Djava.awt.headless=true`,
+      ...Configuration.DEFAULT_JAVA_OPTS,
       ...this.JAVA_OPTS,
       `-jar`,
       configuration.plantumljar,
-      `-charset`,
-      `UTF-8`,
-      `-Dfile.encoding=utf8`,
-      `-pipe`,
-      `-pipeNoStderr`,
-      `-tsvg`,
+      ...Configuration.DEFAULT_PLANTUML_OPTS,
       ...this.PLANTUML_OPTS,
     ]
   }
