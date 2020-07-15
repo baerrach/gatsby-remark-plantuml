@@ -52,5 +52,31 @@ describe("Configuration", () => {
 
       expect(actual).toEqual(expected)
     })
+
+    it("handles PLANTUML_OPTS", () => {
+      const PLANTUML_OPTS = [`-I/path/to/file`]
+      const out = new Configuration()
+      out.init({
+        pluginOptions: {
+          PLANTUML_OPTS,
+        },
+      })
+
+      const actual = out.getCommandLineArguments()
+      const expected = [
+        `-Djava.awt.headless=true`,
+        `-jar`,
+        out.plantumljar,
+        `-charset`,
+        `UTF-8`,
+        `-Dfile.encoding=utf8`,
+        `-pipe`,
+        `-pipeNoStderr`,
+        `-tsvg`,
+        ...PLANTUML_OPTS,
+      ]
+
+      expect(actual).toEqual(expected)
+    })
   })
 })

@@ -34,6 +34,7 @@ class Configuration {
       `./lib/plantuml-jar-mit-1.2020.15/plantuml.jar`
     )
     this.JAVA_OPTS = []
+    this.PLANTUML_OPTS = []
   }
 
   init({ pluginOptions, reporter }) {
@@ -41,6 +42,9 @@ class Configuration {
     if (this.hasNotRun) {
       if (pluginOptions.JAVA_OPTS) {
         this.JAVA_OPTS = pluginOptions.JAVA_OPTS
+      }
+      if (pluginOptions.PLANTUML_OPTS) {
+        this.PLANTUML_OPTS = pluginOptions.PLANTUML_OPTS
       }
       if (pluginOptions.plantumljar) {
         this.plantumljar = path.resolve(__dirname, pluginOptions.plantumljar)
@@ -64,6 +68,7 @@ class Configuration {
       `-pipe`,
       `-pipeNoStderr`,
       `-tsvg`,
+      ...this.PLANTUML_OPTS,
     ]
   }
 
