@@ -68,6 +68,8 @@ plugins: [
 | `maxWidth` | `undefined` | The `maxWidth` value to apply to the `width` attribute of the generated svg.<br /><br />When `undefined` the svg will default to the plantuml width and height which is the entire diagram.<br /><br />Otherwise set the `width` attribute of the svg to the provided value, use any valid values include `vh` and `%`s. Additionally sets the `height` attribute of the svg to `auto` to ensure the svg sizes correctly |
 | `attributes` | `undefined` | String of custom attributes that will be added to the generated svg element. See [Custom Attributes](#custom-attributes) |
 | `plantumljar` | use embedded jar | Path to an alternative PlantUML Jar file |
+|`JAVA_OPTS` | [] | Additional options to pass to java executable.<br/><br/>Will always include `DEFAULT_JAVA_OPTS = ["-Djava.awt.headless=true"]`
+|`PLANTUML_OPTS` | [] | Additional options to pass as options to plantuml.<br/><br/>**WARNING** use at own risk. Passing an incompatible option will cause this plugin to stop working and probably with no reasonable error messages generated.<br/><br/>Will always include  `DEFAULT_PLANTUML_OPTS=["-charset", "UTF-8", "-Dfile.encoding=utf8", "-pipe", "-pipeNoStderr", "-tsvg"]`
 
 You can specify these options in your `gatsby-config.js` file as follows:
 
