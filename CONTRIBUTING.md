@@ -32,10 +32,12 @@ We use [standard-release](https://github.com/conventional-changelog/standard-ver
 While we are still in beta phase need to manually specify release version to increment `y` as the default is to increment `z` when `x === 0`.
 
 ```
-npm run release -- --release-as 0.Y.0
+HUSKY_SKIP_HOOKS=1 npm run release -- --release-as 0.Y.0
 ```
 
 This will automatically update the `CHANGELOG.md` file.
+
+**NOTE**: Currently skipping husky hooks as they are failing standard-version changelog. See https://github.com/commitizen/cz-cli/issues/631
 
 # How to publish to npm repository #
 
