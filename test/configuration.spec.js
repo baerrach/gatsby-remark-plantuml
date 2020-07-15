@@ -78,5 +78,39 @@ describe("Configuration", () => {
 
       expect(actual).toEqual(expected)
     })
+
+    it("handles JAVA_OPTS and PLANTUML_OPTS", () => {
+      const JAVA_OPTS = [
+        `-Dapple.laf.useScreenMenuBar=true`,
+        `-Dplantuml.include.path=\${OMNICRON_WIKI_WORKSPACE}/src/plantuml/include:\${OMNICRON_WIKI_WORKSPACE}/src/plantuml/:$HOME/git`,
+        `-DPLANTUML_LIMIT_SIZE=24384`,
+        `-Xmx1024M`,
+      ]
+      const PLANTUML_OPTS = [`-I/path/to/file`]
+      const out = new Configuration()
+      out.init({
+        pluginOptions: {
+          JAVA_OPTS,
+          PLANTUML_OPTS,
+        },
+      })
+
+      const actual = out.getCommandLineArguments()
+      const expected = [
+        `-Djava.awt.headless=true`,
+        ...JAVA_OPTS,
+        `-jar`,
+        out.plantumljar,
+        `-charset`,
+        `UTF-8`,
+        `-Dfile.encoding=utf8`,
+        `-pipe`,
+        `-pipeNoStderr`,
+        `-tsvg`,
+        ...PLANTUML_OPTS,
+      ]
+
+      expect(actual).toEqual(expected)
+    })
   })
 })
