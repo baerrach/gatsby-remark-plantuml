@@ -39,6 +39,13 @@ This will automatically update the `CHANGELOG.md` file.
 
 **NOTE**: Currently skipping husky hooks as they are failing standard-version changelog. See https://github.com/commitizen/cz-cli/issues/631
 
+Then push the code, as well as the newly created tag.
+
+```
+git push
+git push --tags
+```
+
 # How to publish to npm repository #
 
 Only the owner of the npm package can [publish to the npm repository](https://docs.npmjs.com/creating-and-publishing-unscoped-public-packages).

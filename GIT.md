@@ -58,22 +58,4 @@ to get a summary of the formatting rules.
 
 ## Cutting a release ##
 
-Cutting a release is done as per the [convential changelong cutting
-release](https://github.com/conventional-changelog/standard-version#cutting-releases)
-instructions.
-
-```
-npm run release
-```
-
-However, with a `0.x` release the scheme changes, see [when you're in 0.x minor
-bumps are for breaking changes, patch is for non-breaking
-changes](https://github.com/conventional-changelog/standard-version/issues/460#issuecomment-540999674).
-For that you need to [manually specify
-release-as](https://github.com/conventional-changelog/standard-version#release-as-a-target-type-imperatively-npm-version-like)
-
-For example, to release as `0.3.0`
-
-```
-npm run release -- --release-as 0.3.0
-```
+See [How to release](./CONTRIBUTING.md#how-to-release)
