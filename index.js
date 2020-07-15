@@ -33,11 +33,15 @@ class Configuration {
       __dirname,
       `./lib/plantuml-jar-mit-1.2020.15/plantuml.jar`
     )
+    this.JAVA_OPTS = []
   }
 
   init({ pluginOptions, reporter }) {
     this.reporter = reporter
     if (this.hasNotRun) {
+      if (pluginOptions.JAVA_OPTS) {
+        this.JAVA_OPTS = pluginOptions.JAVA_OPTS
+      }
       if (pluginOptions.plantumljar) {
         this.plantumljar = path.resolve(__dirname, pluginOptions.plantumljar)
       }
@@ -51,6 +55,7 @@ class Configuration {
   getCommandLineArguments() {
     return [
       `-Djava.awt.headless=true`,
+      ...this.JAVA_OPTS,
       `-jar`,
       configuration.plantumljar,
       `-charset`,
