@@ -48,6 +48,20 @@ class Configuration {
     }
   }
 
+  getCommandLineArguments() {
+    return [
+      `-Djava.awt.headless=true`,
+      `-jar`,
+      configuration.plantumljar,
+      `-charset`,
+      `UTF-8`,
+      `-Dfile.encoding=utf8`,
+      `-pipe`,
+      `-pipeNoStderr`,
+      `-tsvg`,
+    ]
+  }
+
   checkForJava() {
     return hasbin.sync(`java`)
   }
@@ -89,17 +103,8 @@ const plantuml = async (gatsbyNodeHelpers, pluginOptions = {}) => {
   const plantUmlNodes = []
 
   const runplantuml = async (diagramAsText) => {
-    const plantumlProcess = spawn(`java`, [
-      `-Djava.awt.headless=true`,
-      `-jar`,
-      configuration.plantumljar,
-      `-charset`,
-      `UTF-8`,
-      `-Dfile.encoding=utf8`,
-      `-pipe`,
-      `-pipeNoStderr`,
-      `-tsvg`,
-    ])
+    const args = configuration.getCommandLineArguments()
+    const plantumlProcess = spawn(`java`, args)
 
     const diagramAsStream = new StringStream(diagramAsText)
 
@@ -255,3 +260,4 @@ ${context}
 
 const plantumlModule = (module.exports = plantuml)
 plantumlModule.PlantUmlError = PlantUmlError
+plantumlModule.Configuration = Configuration
