@@ -100,7 +100,7 @@ const testPlugin = ({
     if (markdownAST.children && markdownAST.children.length) {
       const svg = markdownAST.children[0].value
       markdownAST.children[0].value = svg
-        .replace(/PlantUML [\s\S]*Country: [\S]*/m, ``)
+        .replace(/PlantUML [\s\S]*Country: [\S]*/, ``)
         .replace(/MD5=\[[a-f0-9]+\]/g, ``)
     }
 
