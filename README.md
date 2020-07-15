@@ -4,7 +4,11 @@ Gatsby Remark plugin to transform [PlantUML][PlantUML] code blocks into SVG imag
 
 ## Install ##
 
-`npm install --save gatsby-transformer-remark gatsby-remark-plantuml`
+```
+npm install --save  gatsby-remark-plantuml
+```
+
+**Note:** `gatsby-transformer-remark` or `gatsby-plugin-mdx` must already be installed and configured in your gatsby installation.
 
 ### Prerequisites ###
 
