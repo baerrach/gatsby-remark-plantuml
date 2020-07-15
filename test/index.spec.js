@@ -43,7 +43,7 @@ Alice <-- Bob: Another authentication Response
         options: {
           plantumljar: path.resolve(
             __dirname,
-            `../lib/plantuml-jar-mit-1.2019.9/plantuml.jar`
+            `../lib/plantuml-jar-mit-1.2020.15/plantuml.jar`
           ),
         },
       })
@@ -65,7 +65,7 @@ Alice <-- Bob: Another authentication Response
         code,
         undefined,
         options: {
-          plantumljar: `./lib/plantuml-jar-mit-1.2019.9/plantuml.jar`,
+          plantumljar: `./lib/plantuml-jar-mit-1.2020.15/plantuml.jar`,
         },
       })
     })
