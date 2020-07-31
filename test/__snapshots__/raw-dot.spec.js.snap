@@ -30,7 +30,18 @@ Object {
         },
       },
       "type": "html",
-      "value": "",
+      "value": "<svg width=\\"90pt\\" height=\\"231pt\\" viewBox=\\"0.00 0.00 89.95 230.90\\" style=\\"max-width: 100%; height: auto;\\">
+<g id=\\"graph0\\" class=\\"graph\\" transform=\\"scale(1 1) rotate(0) translate(4 226.895)\\">
+<title>G</title>
+<polygon fill=\\"white\\" stroke=\\"none\\" points=\\"-4,4 -4,-226.895 85.9475,-226.895 85.9475,4 -4,4\\"/>
+<text text-anchor=\\"middle\\" x=\\"40.9738\\" y=\\"-7.8\\" font-family=\\"Times New Roman,serif\\" font-size=\\"14.00\\">Title</text>
+
+<g id=\\"edge2\\" class=\\"edge\\"><title>B-&gt;C</title>
+<path fill=\\"none\\" stroke=\\"black\\" d=\\"M33.6742,-94.6966C36.7149,-86.8132 40.3827,-77.3042 43.7607,-68.5464\\"/>
+<polygon fill=\\"black\\" stroke=\\"black\\" points=\\"47.0693,-69.6939 47.4026,-59.1043 40.5383,-67.1748 47.0693,-69.6939\\"/>
+</g>
+</g>
+</svg>",
     },
   ],
   "position": Object {
