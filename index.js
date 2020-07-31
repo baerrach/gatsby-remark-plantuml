@@ -117,6 +117,7 @@ const configuration = new Configuration()
 const plantuml = async (gatsbyNodeHelpers, options) => {
   const defaultPluginOptions = {
     stripEmbeddedCopy: true,
+    stripXmlNamespace: true,
   }
   const pluginOptions = {
     ...defaultPluginOptions,
@@ -209,6 +210,11 @@ const plantuml = async (gatsbyNodeHelpers, options) => {
     try {
       const diagramAsSvg = await runplantuml(diagramAsText)
       const $ = cheerio.load(diagramAsSvg)
+
+      if (pluginOptions.stripXmlNamespace) {
+        $(`svg`).removeAttr(`xmlns`)
+        $(`svg`).removeAttr(`xlink`)
+      }
 
       // Set max width
       if (pluginOptions.maxWidth) {

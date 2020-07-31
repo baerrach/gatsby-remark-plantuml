@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Strip XML namespace option defaults to true 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": undefined,
+      "lang": undefined,
+      "meta": null,
+      "position": Position {
+        "end": Object {
+          "column": 4,
+          "line": 11,
+          "offset": 136,
+        },
+        "indent": Array [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+        ],
+        "start": Object {
+          "column": 1,
+          "line": 2,
+          "offset": 1,
+        },
+      },
+      "type": "html",
+      "value": "<svg contentscripttype=\\"application/ecmascript\\" contentstyletype=\\"text/css\\" height=\\"22px\\" preserveAspectRatio=\\"none\\" style=\\"max-width: 100%; height: auto;\\" version=\\"1.1\\" viewBox=\\"0 0 22 22\\" width=\\"22px\\" zoomAndPan=\\"magnify\\"><defs/><g/></svg>",
+    },
+  ],
+  "position": Object {
+    "end": Object {
+      "column": 1,
+      "line": 12,
+      "offset": 137,
+    },
+    "start": Object {
+      "column": 1,
+      "line": 1,
+      "offset": 0,
+    },
+  },
+  "type": "root",
+}
+`;
