@@ -114,7 +114,15 @@ class Configuration {
 
 const configuration = new Configuration()
 
-const plantuml = async (gatsbyNodeHelpers, pluginOptions = {}) => {
+const plantuml = async (gatsbyNodeHelpers, options) => {
+  const defaultPluginOptions = {
+    stripEmbeddedCopy: true,
+  }
+  const pluginOptions = {
+    ...defaultPluginOptions,
+    ...options,
+  }
+
   const { markdownAST, reporter } = gatsbyNodeHelpers
   const plantUmlNodes = []
 
@@ -163,7 +171,8 @@ const plantuml = async (gatsbyNodeHelpers, pluginOptions = {}) => {
       throw new PlantUmlError(message, lineNumber, generalError)
     }
 
-    const svg = stdout.replace(/<\?xml [\s\S]*\?>/m, ``)
+    let svg = stdout.replace(/<\?xml [\s\S]*\?>/m, ``)
+
     return svg
   }
 
@@ -223,6 +232,10 @@ const plantuml = async (gatsbyNodeHelpers, pluginOptions = {}) => {
       node.lang = undefined
       node.children = undefined
       node.value = $.html(`svg`)
+
+      if (pluginOptions.stripEmbeddedCopy) {
+        node.value = node.value.replace(/<!--[\s\S]*-->/m, ``)
+      }
     } catch (err) {
       let specificReason = ``
       if (err instanceof PlantUmlError) {
