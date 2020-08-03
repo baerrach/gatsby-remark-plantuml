@@ -169,3 +169,13 @@ Alice <-- Bob: Another authentication Response
 [java]: https://www.java.com/en/download/
 [plantuml--installation]: http://plantuml.com/starting
 [plantuml]: http://plantuml.com/
+
+## Known Problems ##
+
+As part of https://github.com/mdx-js/mdx/issues/1197 it is possible that this remark plugin is not "doing the right thing".
+
+Because the code block is replaced with `HTML` it appears that this is also processed by the markdown processors. This is noticeable when Markdown syntax like `**` is used within a PlantUML note, the test is marked as bold. Yet if you escape the syntax `\*\*` the backslashes now appear in the note.
+
+The correct way is to be a propery citizen in the unified AST pipeline. But all the gatsby documentation/examples replace the current node with a new node where the value is th `html` representation.
+
+A pull request with the correct way to do this is welcome.
