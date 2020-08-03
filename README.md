@@ -45,6 +45,25 @@ plugins: [
 
 ### with gatsby-plugin-mdx ###
 
+**WARNING** When writing MDX your file is JSX + Markdown. This means that you need to be aware of https://reactjs.org/docs/dom-elements.html.
+
+The way this plugin works is by transforming Markdown code fences with the language `plantuml` to HTML that contains the plantuml generated svg.
+
+**BUT** the HTML svg is not supported by JSX, you need to use the JSX version of svg.
+
+Please see:
+
+* https://www.gatsbyjs.org/docs/glossary/jsx/
+* https://github.com/mdx-js/mdx/issues/1197
+* https://stackoverflow.com/questions/23402542/embedding-svg-into-reactjs
+* https://github.com/temando/remark-graphviz/blob/master/src/index.js
+
+Ideally this plugin would work with the Syntax Trees and the pipeline instead of replacing the node's value with HTML.
+
+Pull Requests welcome.
+
+The options `stripXmlNamespace` and `stripEmbeddedCopy` are an attempt to hack around this issue and are enabled by default.
+
 ```javascript
 // In your gatsby-config.js
     {
