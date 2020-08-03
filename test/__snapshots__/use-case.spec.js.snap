@@ -81,7 +81,7 @@ Object {
         },
       },
       "type": "html",
-      "value": "<svg contentscripttype=\\"application/ecmascript\\" contentstyletype=\\"text/css\\" height=\\"362px\\" preserveAspectRatio=\\"none\\" style=\\"max-width: 100%; height: auto;\\" version=\\"1.1\\" viewBox=\\"0 0 270 362\\" width=\\"270px\\" zoomAndPan=\\"magnify\\"><defs><filter height=\\"300%\\" id=\\"fiuyh57qruca0\\" width=\\"300%\\" x=\\"-1\\" y=\\"-1\\"><feGaussianBlur result=\\"blurOut\\" stdDeviation=\\"2.0\\"/><feColorMatrix in=\\"blurOut\\" result=\\"blurOut2\\" type=\\"matrix\\" values=\\"0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0\\"/><feOffset dx=\\"4.0\\" dy=\\"4.0\\" in=\\"blurOut2\\" result=\\"blurOut3\\"/><feBlend in=\\"SourceGraphic\\" in2=\\"blurOut3\\" mode=\\"normal\\"/></filter></defs><g></g></svg>",
+      "value": "<svg contentscripttype=\\"application/ecmascript\\" contentstyletype=\\"text/css\\" height=\\"362px\\" preserveAspectRatio=\\"none\\" style=\\"max-width: 100%; height: auto;\\" version=\\"1.1\\" viewBox=\\"0 0 269 362\\" width=\\"269px\\" zoomAndPan=\\"magnify\\"><defs><filter height=\\"300%\\" id=\\"fiuyh57qruca0\\" width=\\"300%\\" x=\\"-1\\" y=\\"-1\\"><feGaussianBlur result=\\"blurOut\\" stdDeviation=\\"2.0\\"/><feColorMatrix in=\\"blurOut\\" result=\\"blurOut2\\" type=\\"matrix\\" values=\\"0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0\\"/><feOffset dx=\\"4.0\\" dy=\\"4.0\\" in=\\"blurOut2\\" result=\\"blurOut3\\"/><feBlend in=\\"SourceGraphic\\" in2=\\"blurOut3\\" mode=\\"normal\\"/></filter></defs><g></g></svg>",
     },
   ],
   "position": Object {
@@ -275,7 +275,7 @@ Object {
         },
       },
       "type": "html",
-      "value": "<svg contentscripttype=\\"application/ecmascript\\" contentstyletype=\\"text/css\\" height=\\"276px\\" preserveAspectRatio=\\"none\\" style=\\"max-width: 100%; height: auto;\\" version=\\"1.1\\" viewBox=\\"0 0 319 276\\" width=\\"319px\\" zoomAndPan=\\"magnify\\"><defs><filter height=\\"300%\\" id=\\"f17ywiozhuz786\\" width=\\"300%\\" x=\\"-1\\" y=\\"-1\\"><feGaussianBlur result=\\"blurOut\\" stdDeviation=\\"2.0\\"/><feColorMatrix in=\\"blurOut\\" result=\\"blurOut2\\" type=\\"matrix\\" values=\\"0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0\\"/><feOffset dx=\\"4.0\\" dy=\\"4.0\\" in=\\"blurOut2\\" result=\\"blurOut3\\"/><feBlend in=\\"SourceGraphic\\" in2=\\"blurOut3\\" mode=\\"normal\\"/></filter></defs><g></g></svg>",
+      "value": "<svg contentscripttype=\\"application/ecmascript\\" contentstyletype=\\"text/css\\" height=\\"260px\\" preserveAspectRatio=\\"none\\" style=\\"max-width: 100%; height: auto;\\" version=\\"1.1\\" viewBox=\\"0 0 315 260\\" width=\\"315px\\" zoomAndPan=\\"magnify\\"><defs><filter height=\\"300%\\" id=\\"f17ywiozhuz786\\" width=\\"300%\\" x=\\"-1\\" y=\\"-1\\"><feGaussianBlur result=\\"blurOut\\" stdDeviation=\\"2.0\\"/><feColorMatrix in=\\"blurOut\\" result=\\"blurOut2\\" type=\\"matrix\\" values=\\"0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0\\"/><feOffset dx=\\"4.0\\" dy=\\"4.0\\" in=\\"blurOut2\\" result=\\"blurOut3\\"/><feBlend in=\\"SourceGraphic\\" in2=\\"blurOut3\\" mode=\\"normal\\"/></filter></defs><g></g></svg>",
     },
   ],
   "position": Object {
