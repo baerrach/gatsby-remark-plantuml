@@ -176,11 +176,6 @@ By including the css `class` value as a meta value to the plantuml codeblock any
 
 **Note:** Your css stylesheets will need to define the class
 
-[graphviz]: http://plantuml.com/graphviz-dot
-[java]: https://www.java.com/en/download/
-[plantuml--installation]: http://plantuml.com/starting
-[plantuml]: http://plantuml.com/
-
 ## Known Problems ##
 
 As part of https://github.com/mdx-js/mdx/issues/1197 it is possible that this remark plugin is not "doing the right thing".
@@ -190,3 +185,9 @@ Because the code block is replaced with `HTML` it appears that this is also proc
 The correct way is to be a propery citizen in the unified AST pipeline. But all the gatsby documentation/examples replace the current node with a new node where the value is th `html` representation.
 
 A pull request with the correct way to do this is welcome.
+
+
+[graphviz]: http://plantuml.com/graphviz-dot
+[java]: https://www.java.com/en/download/
+[plantuml--installation]: http://plantuml.com/starting
+[plantuml]: http://plantuml.com/
