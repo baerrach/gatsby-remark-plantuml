@@ -144,6 +144,8 @@ Alice <-- Bob: Another authentication Response
 
 ### Custom Attributes ###
 
+You can use the code block meta values to pass custom attributes to the svg html tag.
+
 By default, the following inline style is applied to all rendered SVGs in order to make them responsive:
 
 ```css
@@ -164,6 +166,15 @@ Alice <-- Bob: Another authentication Response
 @enduml
 ```
 ````
+
+#### Specifying css class ####
+By including the css `class` value as a meta value to the plantuml codeblock any class can be attached to the generated svg tag.
+
+````
+```plantuml class="full-width"
+````
+
+**Note:** Your css stylesheets will need to define the class
 
 [graphviz]: http://plantuml.com/graphviz-dot
 [java]: https://www.java.com/en/download/
