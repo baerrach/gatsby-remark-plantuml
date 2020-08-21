@@ -154,8 +154,8 @@ height: auto;
 This can be overwritten by using the custom attributes feature:
 
 ````
-```plantuml
-@startuml style=""
+```plantuml style=""
+@startuml
 Alice -> Bob: Authentication Request
 Bob --> Alice: Authentication Response
 
